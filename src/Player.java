@@ -1,12 +1,17 @@
 public class Player {
-    String [] inventory;
-    Weapon weapon;
-    Skill [] skills;
-    Class myClass;
-    int totalHP;
-    int totalSP;
-    int currentHP;
-    int currentSP;
+    private String [] inventory;
+    private Weapon weapon;
+    private Skill [] skills;
+    private Class myClass;
+    private int totalHP;
+    private int totalSP;
+    private int currentHP;
+    private int currentSP;
+    private String name;
+
+    public Player(String name) {
+        this.name = name;
+    }
 
     public void attack() {
         System.out.println("Attacking...");
@@ -19,6 +24,10 @@ public class Player {
 
     }
     public void lastResort() {
+
+    }
+    public void init() {
+        this.totalHP = 50;
 
     }
 }

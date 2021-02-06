@@ -7,6 +7,31 @@ public class DungeonBattlerController {
 
         Scanner scanner = new Scanner(System.in);
         String playerName = scanner.next();
+
+        Player user = new Player(playerName);
+        
+
+        // User is prompted to choose a weapon
+        System.out.println("You enter the dungeon and a hallway lined with three weapons appears before you.");
+
+        System.out.println("There is a sword, a staff, and a dagger.");
+
+        System.out.println("Below the weapons reads: 'You may take only one weapon.");
+
+
+        // Create three Weapon objects
+
+
+
+        // User chooses a weapon
+
+        // Set Weapon to user
+
+        user.init();
+
+
+
+
         
 
     }
