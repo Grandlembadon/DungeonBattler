@@ -13,6 +13,7 @@ public class Player {
         this.name = name;
     }
     public void choose() {
+        System.out.println("Choosing Weapon...");
 
     }
 
