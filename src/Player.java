@@ -12,6 +12,9 @@ public class Player {
     public Player(String name) {
         this.name = name;
     }
+    public void choose() {
+
+    }
 
     public void attack() {
         System.out.println("Attacking...");

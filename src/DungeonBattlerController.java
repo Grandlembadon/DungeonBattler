@@ -9,7 +9,7 @@ public class DungeonBattlerController {
         String playerName = scanner.next();
 
         Player user = new Player(playerName);
-        
+
 
         // User is prompted to choose a weapon
         System.out.println("You enter the dungeon and a hallway lined with three weapons appears before you.");

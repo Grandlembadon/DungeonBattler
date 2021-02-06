@@ -11,6 +11,9 @@ public class Weapon {
         this.critChance = critChance;
     }
 
+
+
+
     public Weapon() {
 
     }
@@ -31,4 +34,5 @@ public class Weapon {
         System.out.println("Double Strike!");
 
     }
+
 }
