@@ -22,6 +22,7 @@ public class DungeonBattlerController {
         // Create three Weapon objects
         Weapon Sword = new Weapon();
         Weapon Staff = new Weapon();
+        Weapon Dagger = new Weapon();
 
 
 
