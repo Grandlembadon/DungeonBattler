@@ -1,14 +1,14 @@
 public class Weapon {
     int[] damageRange;
-    String damageType;
     int durability;
     int critChance;
+    String name;
 
-    public Weapon(int[] damageRange, String damageType, int durability, int critChance) {
+    public Weapon(int[] damageRange, int durability, int critChance, String name) {
         this.damageRange = damageRange;
-        this.damageType = damageType;
         this.durability = durability;
         this.critChance = critChance;
+        this.name = name;
     }
 
 
