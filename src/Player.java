@@ -12,7 +12,11 @@ public class Player {
     public Player(String name) {
         this.name = name;
     }
+
     public void choose() {
+
+    }
+    public void choose(Weapon) {
         System.out.println("Choosing Weapon...");
 
     }

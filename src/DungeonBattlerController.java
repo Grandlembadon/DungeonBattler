@@ -20,7 +20,7 @@ public class DungeonBattlerController {
 
 
         // Create three Weapon objects
-        Weapon Sword = new Weapon(int[] damageRange, int durability, int critChance, String name3);
+        Weapon Sword = new Weapon();
         Weapon Staff = new Weapon();
         Weapon Dagger = new Weapon();
 
