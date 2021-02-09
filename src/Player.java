@@ -9,6 +9,18 @@ public class Player {
     private int currentSP;
     private String name;
 
+    public Player(String[] inventory, Weapon weapon, Skill[] skills, Class myClass, int totalHP, int totalSP, int currentHP, int currentSP, String name) {
+        this.inventory = inventory;
+        this.weapon = weapon;
+        this.skills = skills;
+        this.myClass = myClass;
+        this.totalHP = totalHP;
+        this.totalSP = totalSP;
+        this.currentHP = currentHP;
+        this.currentSP = currentSP;
+        this.name = name;
+    }
+
     public Player(String name) {
         this.name = name;
     }
