@@ -26,6 +26,7 @@ public class Player {
 
     }
     public void defend() {
+        System.out.println("Defending...");
 
     }
     public void useSkill() {
