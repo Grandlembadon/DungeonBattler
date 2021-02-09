@@ -20,12 +20,8 @@ public class DungeonBattlerController {
 
 
         // Create three Weapon objects
-        Weapon Sword = new Weapon();
-        Weapon Staff = new Weapon();
-        Weapon Dagger = new Weapon();
-
-
-
+        Weapon myWeapon = new Weapon();
+        
         // User chooses a weapon
         System.out.println("Please enter your Weapon Choice.");
 
