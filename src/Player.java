@@ -13,7 +13,7 @@ public class Player {
         this.name = name;
     }
 
-    public void choose() {
+    public void choose(Weapon sword) {
 
     }
     public void choose(Weapon) {

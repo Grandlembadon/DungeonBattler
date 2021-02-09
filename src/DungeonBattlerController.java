@@ -29,7 +29,7 @@ public class DungeonBattlerController {
         // User chooses a weapon
         System.out.println("Please enter your Weapon Choice.");
 
-        user.choose();
+        user.choose(Sword);
 
         // Set Weapon to user
 
