@@ -62,16 +62,6 @@ public class Weapon {
 
     }
 
-    public void parry() {
-        System.out.println("You have Parried the enemy attack!");
-
-    }
-
-    public void extraAttack() {
-        System.out.println("Double Strike!");
-
-    }
-
     @Override
     public String toString() {
         return "Weapon{" +
