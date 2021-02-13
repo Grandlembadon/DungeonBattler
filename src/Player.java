@@ -28,7 +28,7 @@ public class Player {
     public void choose(Weapon sword) {
 
     }
-    public void choose(Weapon) {
+    public void choose() {
         System.out.println("Choosing Weapon...");
 
     }
