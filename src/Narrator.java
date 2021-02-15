@@ -19,7 +19,7 @@ public class Narrator {
             String dialogue;
 
             while ((dialogue = inputStream.readLine()) != null) {
-                String [] dialogueSection = dialogue.split("")
+
             }
 
         }
