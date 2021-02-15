@@ -20,7 +20,7 @@ public class Weapon {
 
 
 
-    public static ArrayList<Weapon> chooseWeapon() {
+    public static ArrayList<Weapon> weaponDisplay() {
 
         BufferedReader inputStream = null;
         ArrayList<Weapon> weaponList = new ArrayList<>();

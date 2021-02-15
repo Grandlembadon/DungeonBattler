@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class DungeonBattlerController {
     public void play() {
-        ArrayList<Weapon> weaponList = Weapon.chooseWeapon();
+        ArrayList<Weapon> weaponList = Weapon.weaponDisplay();
         for (Weapon w : weaponList) {
             System.out.println(w.toString());
         }
