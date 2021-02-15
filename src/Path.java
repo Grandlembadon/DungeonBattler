@@ -1,5 +1,5 @@
 public enum Path {
-    WEAPONS("src/Files/Weapons.txt");
+    WEAPONS("src/Files/Weapons.txt"),
     DIALOGUE("src/Files/Dialogue.txt");
     // Add Narrator Path
     String path;
@@ -7,4 +7,5 @@ public enum Path {
     Path(String path) {
         this.path = path;
     }
+
 }
