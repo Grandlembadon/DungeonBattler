@@ -1,6 +1,6 @@
 public enum Path {
     WEAPONS("src/Files/Weapons.txt");
-    DIALOGUE("");
+    DIALOGUE("src/Files/Dialogue.txt");
     // Add Narrator Path
     String path;
 
