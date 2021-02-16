@@ -16,10 +16,11 @@ public class Narrator {
         try {
             inputStream = new BufferedReader(new FileReader(Path.DIALOGUE.path));
 
-            String[] dialogue;
+            String dialogue;
 
-            while ((dialogue = inputStream.readLine()) != null) {
-                String [] dialogueLine = dialogue;
+            while ((dialogue = inputStream.readLine()) != null)
+            {
+                dialogue = dialogue.trim();
 
 
             }
