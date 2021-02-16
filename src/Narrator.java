@@ -3,10 +3,10 @@ import java.io.FileReader;
 import java.util.ArrayList;
 
 public class Narrator {
-    String dialogueLine;
+    String dialogue;
 
     public Narrator(String dialogueLine) {
-        this.dialogueLine = dialogueLine;
+        this.dialogue = dialogueLine;
     }
 
     public static ArrayList<String> playDialogue(){
@@ -16,9 +16,11 @@ public class Narrator {
         try {
             inputStream = new BufferedReader(new FileReader(Path.DIALOGUE.path));
 
-            String dialogue;
+            String[] dialogue;
 
             while ((dialogue = inputStream.readLine()) != null) {
+                String [] dialogueLine = dialogue;
+
 
             }
 
