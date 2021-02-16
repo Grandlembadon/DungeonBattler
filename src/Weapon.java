@@ -36,7 +36,6 @@ public class Weapon {
                 int durability = Integer.parseInt(weaponInfo[1]);
                 int critChance = Integer.parseInt(weaponInfo[2]);
                 String name = weaponInfo[3];
-
                 Weapon weapon1 = new Weapon(damage,durability,critChance,name);
                 weaponList.add(weapon1);
 
