@@ -21,7 +21,7 @@ public class Narrator {
             while ((narrator = inputStream.readLine()) != null)
             {
                 narrator = narrator.trim();
-                String dialogue
+                String dialogue = narrator;
                 if ((narrator.length() != 0))
                 {
                     dialogueList.add(narrator);
