@@ -11,7 +11,11 @@ public class Narrator {
         this.dialogue = dialogueLine;
     }
 
-    public static ArrayList<String> playDialogue(){
+    public static void narratorBegin(){
+        
+    }
+
+    public static void createDialogue(){
         BufferedReader inputStream = null;
         ArrayList<Narrator> dialogueList = new ArrayList<>();
 
@@ -39,5 +43,9 @@ public class Narrator {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public static void playDialogue(){
+
     }
 }

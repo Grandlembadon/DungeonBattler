@@ -8,15 +8,18 @@ import java.util.Scanner;
 
 public class DungeonBattlerController {
     public void play() {
-        ArrayList<Weapon> weaponList = Weapon.weaponDisplay();
-        for (Weapon w : weaponList) {
-            System.out.println(w.toString());
-        }
-        System.out.println("Choose your weapon.");
-        Scanner scanner = new Scanner(System.in);
-        int chosenWeapon = scanner.nextInt();
+        createDialogue();
 
-        System.out.println(chosenWeapon);
+
+//        ArrayList<Weapon> weaponList = Weapon.weaponDisplay();
+//        for (Weapon w : weaponList) {
+//            System.out.println(w.toString());
+//        }
+//        System.out.println("Choose your weapon.");
+//        Scanner scanner = new Scanner(System.in);
+//        int chosenWeapon = scanner.nextInt();
+//
+//        System.out.println(chosenWeapon);
         //Homework: Wrap this in a try catch, and if the answer is incorrect, have it ask again.
         //
 
