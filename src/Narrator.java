@@ -13,7 +13,7 @@ public class Narrator {
 
     public static ArrayList<String> playDialogue(){
         BufferedReader inputStream = null;
-        ArrayList<String> dialogueList = new ArrayList<>();
+        ArrayList<Narrator> dialogueList = new ArrayList<>();
 
         try {
             inputStream = new BufferedReader(new FileReader(Path.DIALOGUE.path));
@@ -28,6 +28,7 @@ public class Narrator {
                 {
                     String dialogueLine = narrator;
                     Narrator myNarrator = new Narrator(dialogueLine);
+                    dialogueList.add(myNarrator);
                 }
 
 
