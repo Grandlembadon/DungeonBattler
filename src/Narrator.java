@@ -26,6 +26,7 @@ public class Narrator {
 
                 if ((narrator.length() != 0))
                 {
+                    String dialogueLine = narrator;
                     dialogueList.add(narrator);
                 }
 
