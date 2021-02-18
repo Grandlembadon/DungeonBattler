@@ -7,8 +7,18 @@ import java.util.ArrayList;
 public class Narrator {
     String dialogue;
 
+    public String getDialogue() {
+        return dialogue;
+    }
+
+    public void setDialogue(String dialogue) {
+        this.dialogue = dialogue;
+    }
+
     public Narrator(String dialogueLine) {
         this.dialogue = dialogueLine;
+
+
     }
 
     public Narrator() {
