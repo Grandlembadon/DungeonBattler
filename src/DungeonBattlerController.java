@@ -10,7 +10,7 @@ public class DungeonBattlerController {
     public void play() {
         Narrator narrator = new Narrator();
         narrator.createDialogue();
-        
+
 
 
 
@@ -65,9 +65,8 @@ public class DungeonBattlerController {
         
 
     }
-    public static void narratorBegin(){
-        Narrator narrator = new Narrator();
-        Narrator.createDialogue();
+    public static void narratorBegin(Narrator narrator){
+        Narrator.playDialogue();
     }
         
     }
