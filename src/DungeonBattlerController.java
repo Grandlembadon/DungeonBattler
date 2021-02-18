@@ -8,7 +8,8 @@ import java.util.Scanner;
 
 public class DungeonBattlerController {
     public void play() {
-        createDialogue();
+        narratorBegin();
+
 
 
 //        ArrayList<Weapon> weaponList = Weapon.weaponDisplay();
@@ -59,6 +60,10 @@ public class DungeonBattlerController {
 
         
 
+    }
+    public static void narratorBegin(){
+        Narrator narrator = new Narrator();
+        Narrator.createDialogue();
     }
         
     }

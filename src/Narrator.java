@@ -18,10 +18,6 @@ public class Narrator {
     public static void narratorBegin(){
         Narrator narrator = new Narrator();
         Narrator.createDialogue();
-        System.out.println();
-        
-
-
     }
 
     public static void createDialogue(){
