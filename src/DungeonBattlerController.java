@@ -8,7 +8,11 @@ import java.util.Scanner;
 
 public class DungeonBattlerController {
     public void play() {
-        narratorBegin();
+        Narrator narrator = new Narrator();
+        narrator.createDialogue();
+        
+
+
 
 
 

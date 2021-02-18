@@ -16,7 +16,6 @@ public class Narrator {
     }
 
     public static void narratorBegin(){
-        Narrator narrator = new Narrator();
         Narrator.createDialogue();
     }
 
@@ -50,7 +49,8 @@ public class Narrator {
         }
     }
 
-    public static void playDialogue(ArrayList<Narrator> dialogueList){
+    public static void playDialogue(ArrayList<Narrator> x, int y){
+        System.out.println(x.get(y));
 
 
     }
