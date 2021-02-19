@@ -1,11 +1,11 @@
 public class Class {
     String classAbility;
-    String classStats;
+    int classHP;
     String className;
 
     public Class(String classAbility, String classStats, String className) {
         this.classAbility = classAbility;
-        this.classStats = classStats;
+        this.classHP = classHP;
         this.className = className;
     }
 }
