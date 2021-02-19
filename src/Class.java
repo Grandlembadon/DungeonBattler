@@ -3,7 +3,7 @@ public class Class {
     int classHP;
     String className;
 
-    public Class(String classAbility, String classStats, String className) {
+    public Class(String classAbility, int classHP, String className) {
         this.classAbility = classAbility;
         this.classHP = classHP;
         this.className = className;
