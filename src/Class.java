@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Class {
     String classAbility;
     int classHP;
@@ -8,4 +10,8 @@ public class Class {
         this.classHP = classHP;
         this.className = className;
     }
+
+    public static ArrayList<Weapon> weaponDisplay() {
+
+
 }
