@@ -11,7 +11,7 @@ public class Class {
         this.className = className;
     }
 
-    public static ArrayList<Weapon> weaponDisplay() {
+    public static ArrayList<Class> classList() {
 
 
 }
