@@ -9,22 +9,45 @@ import java.util.Scanner;
 public class DungeonBattlerController {
     public void play() {
         Narrator narrator = new Narrator();
-        narrator.createDialogue();
+        narrator.init();
+        narrator.playDialogue(0);
 
 
+        ArrayList<Weapon> weaponList = Weapon.getAll();
+        for (Weapon w : weaponList) {
+            System.out.println(w.toString());
+        }
 
-
-
-
-//        ArrayList<Weapon> weaponList = Weapon.weaponDisplay();
-//        for (Weapon w : weaponList) {
-//            System.out.println(w.toString());
-//        }
-//        System.out.println("Choose your weapon.");
-//        Scanner scanner = new Scanner(System.in);
+        System.out.println("Choose your weapon.");
+        Scanner scanner = new Scanner(System.in);
 //        int chosenWeapon = scanner.nextInt();
 //
-//        System.out.println(chosenWeapon);
+//        while (chosenWeapon > weaponList.size()){
+//            System.out.println("Please Enter Valid Choice");
+//            chosenWeapon = scanner.nextInt();
+//
+//        }
+//        System.out.println("You have chosen the " + weaponList.get(chosenWeapon).name);
+        boolean isValid = false;
+        int chosenWeapon;
+        while (!isValid){
+            try {
+                chosenWeapon = scanner.nextInt();
+                if (chosenWeapon > weaponList.size()){
+                    System.out.println("Please enter valid choice.");
+
+                } else {
+                    isValid = true;
+                }
+
+            } catch (Exception e) {
+                System.out.println("Enter a valid input.");
+                chosenWeapon = scanner.nextInt();
+
+            }
+        }
+
+
         //Homework: Wrap this in a try catch, and if the answer is incorrect, have it ask again.
         //
 
@@ -64,9 +87,6 @@ public class DungeonBattlerController {
 
         
 
-    }
-    public static void narratorBegin(Narrator narrator){
-        Narrator.playDialogue();
     }
         
     }

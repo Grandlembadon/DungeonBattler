@@ -20,7 +20,7 @@ public class Weapon {
 
 
 
-    public static ArrayList<Weapon> weaponDisplay() {
+    public static ArrayList<Weapon> getAll() {
 
         BufferedReader inputStream = null;
         ArrayList<Weapon> weaponList = new ArrayList<>();
@@ -63,11 +63,7 @@ public class Weapon {
 
     @Override
     public String toString() {
-        return "Weapon{" +
-                "damage=" + damage +
-                ", durability=" + durability +
-                ", critChance=" + critChance +
-                ", name='" + name + '\'' +
-                '}';
+        return "The " + name + " has " + damage + " damage, " + durability + " durability, " + critChance +
+                " critical chance.";
     }
 }

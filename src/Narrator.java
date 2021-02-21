@@ -5,50 +5,29 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Narrator {
-    String dialogue;
-
-    public String getDialogue() {
-        return dialogue;
-    }
-
-    public void setDialogue(String dialogue) {
-        this.dialogue = dialogue;
-    }
-
-    public Narrator(String dialogueLine) {
-        this.dialogue = dialogueLine;
-
-
-    }
+    ArrayList<String> dialogueList;
 
     public Narrator() {
 
     }
 
-    public static void narratorBegin(){
-        Narrator.createDialogue();
-    }
-
-    public static void createDialogue(){
+    public void init(){
         BufferedReader inputStream = null;
-        ArrayList<Narrator> dialogueList = new ArrayList<>();
+        this.dialogueList = new ArrayList<>();
 
         try {
             inputStream = new BufferedReader(new FileReader(Path.DIALOGUE.path));
 
-            String narrator;
+            String dialogueLine;
 
-            while ((narrator = inputStream.readLine()) != null)
+            while ((dialogueLine = inputStream.readLine()) != null)
             {
-                narrator = narrator.trim();
+                dialogueLine = dialogueLine.trim();
 
-                if ((narrator.length() != 0))
+                if ((dialogueLine.length() != 0))
                 {
-                    String dialogueLine = narrator;
-                    Narrator myNarrator = new Narrator(dialogueLine);
-                    dialogueList.add(myNarrator);
+                    dialogueList.add(dialogueLine);
                 }
-
 
             }
 
@@ -59,9 +38,9 @@ public class Narrator {
         }
     }
 
-    public static void playDialogue(ArrayList<Narrator> x, int y){
-        System.out.println(x.get(y));
-
+    public void playDialogue(int dialogueIndex){
+        String dialogueLine = this.dialogueList.get(dialogueIndex);
+        System.out.println(dialogueLine);
 
     }
 }
