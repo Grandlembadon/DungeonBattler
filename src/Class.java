@@ -1,3 +1,5 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.util.ArrayList;
 
 public class Class {
@@ -12,6 +14,17 @@ public class Class {
     }
 
     public static ArrayList<Class> classList() {
+
+        BufferedReader inputStream = null;
+        ArrayList<Weapon> weaponList = new ArrayList<>();
+
+        try {
+            inputStream = new BufferedReader(new FileReader(Path.WEAPONS.path));
+
+            String weapon;
+
+            while ((weapon = inputStream.readLine()) != null) {
+    }
 
 
 }
