@@ -1,5 +1,7 @@
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Class {
@@ -19,12 +21,18 @@ public class Class {
         ArrayList<Weapon> classList = new ArrayList<>();
 
         try {
-            inputStream = new BufferedReader(new FileReader(Path.WEAPONS.path));
+            inputStream = new BufferedReader(new FileReader(Path.CLASSES.path));
 
             String weapon;
 
             while ((weapon = inputStream.readLine()) != null) {
+            }
+
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
-
-
 }
