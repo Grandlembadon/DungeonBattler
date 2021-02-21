@@ -16,7 +16,7 @@ public class Class {
     public static ArrayList<Class> classList() {
 
         BufferedReader inputStream = null;
-        ArrayList<Weapon> weaponList = new ArrayList<>();
+        ArrayList<Weapon> classList = new ArrayList<>();
 
         try {
             inputStream = new BufferedReader(new FileReader(Path.WEAPONS.path));
