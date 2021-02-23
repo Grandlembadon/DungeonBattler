@@ -4,5 +4,6 @@
 "The entrance leads to  a long corridor, you proceed through the dimly lit passageway."
 "After an eternity of slowly shambling through the corridor, the passage seems to open up into an abandoned armory."
 "You can sense that somewhere in the darkness an evil lurks. You decide to search for a weapon."
+"After sifting through piles of bones and rusted wares, you come across a Sword, a Dagger, and a Staff."
 
 
