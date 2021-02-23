@@ -1,4 +1,5 @@
 "A legend tells of an ancient dungeon shrouded in mystery. Many seek it's riches, but few come back alive."
 "After a long and arduous journey, the entrance to the legendary dungeon stands before you."
 "The wind seems to beckon you towards the entrance of the dungeon. will you enter?"
+"The entrance leads to long corridor, you proceed through the dimly lit passageway."
 
