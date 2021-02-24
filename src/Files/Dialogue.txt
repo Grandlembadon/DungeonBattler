@@ -9,6 +9,7 @@
 "You have chosen the Staff! As you grab the heavy oaken staff, you can sense a well of mystical energy resonate within."
 "You have chosen the Sword! You pick up the blade, it 's heavy enough that you need both hands to give it a good swing."
 "You have chosen the Dagger" The small blade is nimble and easier to pick up, but the blade is sharpened to a precise point."
+"Soon after you test your newly acquired weapon, the faint sound of rattling bones can be heard from the darkness..."
 
 
 
