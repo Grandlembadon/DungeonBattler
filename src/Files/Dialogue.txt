@@ -11,6 +11,9 @@
 "You have chosen the Dagger" The small blade is nimble and easier to pick up, but the blade is sharpened to a precise point."
 "Soon after you test your newly acquired weapon, the faint sound of rattling bones can be heard from the darkness..."
 "From the darkness you see a flash of light, the keen blade of a scimitar appears wielded by a shambling skeleton."
+""Kehehehehe... I can see you are new to this dungeon. That weapon you have is mine, and I will have it back!""
+
+
 
 
 
