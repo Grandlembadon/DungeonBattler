@@ -14,6 +14,7 @@
 ""Kehehehehe... I can see you are new to this dungeon. That weapon you have is mine, and I will have it back!""
 Battle Start!
 "The Skeleton lunges forward at you with a downward strike!"
+"The Skeleton begins to glow, his empty eye sockets now two burning pits of flame."
 
 
 
