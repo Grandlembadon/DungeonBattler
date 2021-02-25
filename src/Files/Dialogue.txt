@@ -13,6 +13,8 @@
 "From the darkness you see a flash of light, the keen blade of a scimitar appears wielded by a shambling skeleton."
 ""Kehehehehe... I can see you are new to this dungeon. That weapon you have is mine, and I will have it back!""
 Battle Start!
+"The Skeleton lunges forward at you with a downward strike!"
+
 
 
 
