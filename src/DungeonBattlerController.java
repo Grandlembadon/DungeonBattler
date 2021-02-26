@@ -1,3 +1,5 @@
+import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -11,39 +13,46 @@ public class DungeonBattlerController {
         Narrator narrator = new Narrator();
         Scanner scanner = new Scanner(System.in);
         narrator.init();
-        narrator.playDialogue(0);
+
+        narrator.playDialogueSleep(0, 3000);
         narrator.playDialogue(1);
+
         Player user = new Player();
+        user.setName(scanner.next());
+        narrator.welcomePlayer(user.getName());
 
+        narrator.playDialogueSleep(2,3000);
 
+        narrator.playDialogue(3);
+        narrator.promptEnter();
 
-        ArrayList<Weapon> weaponList = Weapon.getAll();
-        for (Weapon w : weaponList) {
-            System.out.println(w.toString());
-        }
-
-        System.out.println("Choose your weapon.");
-
-
-
-        boolean isValid = false;
-        int chosenWeapon;
-        while (!isValid){
-            try {
-                chosenWeapon = scanner.nextInt();
-                if (chosenWeapon > weaponList.size()){
-                    System.out.println("Please enter valid choice.");
-
-                } else {
-                    isValid = true;
-                }
-
-            } catch (Exception e) {
-                System.out.println("Enter a valid input.");
-                chosenWeapon = scanner.nextInt();
-
-            }
-        }
+//        ArrayList<Weapon> weaponList = Weapon.getAll();
+//        for (Weapon w : weaponList) {
+//            System.out.println(w.toString());
+//        }
+//
+//        System.out.println("Choose your weapon.");
+//
+//
+//
+//        boolean isValid = false;
+//        int chosenWeapon;
+//        while (!isValid){
+//            try {
+//                chosenWeapon = scanner.nextInt();
+//                if (chosenWeapon > weaponList.size()){
+//                    System.out.println("Please enter valid choice.");
+//
+//                } else {
+//                    isValid = true;
+//                }
+//
+//            } catch (Exception e) {
+//                System.out.println("Enter a valid input.");
+//                chosenWeapon = scanner.nextInt();
+//
+//            }
+//        }
 
 
     }

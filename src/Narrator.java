@@ -3,6 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Narrator {
     ArrayList<String> dialogueList;
@@ -41,6 +42,33 @@ public class Narrator {
     public void playDialogue(int dialogueIndex){
         String dialogueLine = this.dialogueList.get(dialogueIndex);
         System.out.println(dialogueLine);
+
+    }
+    public void playDialogueSleep(int dialogueIndex, int sleepTimeMs){
+        String dialogueLine = this.dialogueList.get(dialogueIndex);
+        System.out.println(dialogueLine);
+        try {
+            Thread.sleep(sleepTimeMs);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+    }
+    public void welcomePlayer(String userName){
+        System.out.println("Welcome, " + userName + ", and may your quest prove victorious.");
+    }
+    public boolean promptEnter() {
+        Narrator narrator = new Narrator();
+        Scanner scanner = new Scanner(System.in);
+        String response = scanner.next();
+
+        if (response.equalsIgnoreCase("yes")) {
+            narrator.playDialogueSleep(4, 3000);
+            return true;
+        } else {
+            narrator.playDialogue(5);
+            return false;
+        }
 
     }
 }
