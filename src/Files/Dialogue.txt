@@ -16,7 +16,7 @@
 Battle Start!
 "The Skeleton lunges forward at you with a downward strike!"
 "The Skeleton begins to glow, his empty eye sockets now two burning pits of flame."
-
+"The Skeleton cackles as two ghostly spirits erupt from his body, and rend through your soul with a chilling touch."
 
 
 
