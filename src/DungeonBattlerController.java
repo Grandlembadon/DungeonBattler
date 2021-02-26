@@ -13,6 +13,7 @@ public class DungeonBattlerController {
         narrator.init();
         narrator.playDialogue(0);
         narrator.playDialogue(1);
+        Player user = new Player();
 
 
 
