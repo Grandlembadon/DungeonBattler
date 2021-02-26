@@ -15,6 +15,7 @@
 ""Kehehehehe... I can see you are new to this dungeon. That weapon you have is mine, and I will have it back!""
 Battle Start!
 "The Skeleton lunges forward at you with a downward strike!"
+"The Skeleton conjures a shard of ice out of thin air. It rockets towards you in an instant."
 "The Skeleton begins to glow, his empty eye sockets now two burning pits of flame."
 "The Skeleton cackles as two ghostly spirits erupt from his body, and rend through your soul with a chilling touch."
 
