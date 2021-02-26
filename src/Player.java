@@ -20,6 +20,9 @@ public class Player {
         this.currentSP = currentSP;
         this.name = name;
     }
+    public Player(){
+        
+    }
 
     public Player(String name) {
         this.name = name;

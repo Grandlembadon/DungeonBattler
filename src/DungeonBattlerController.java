@@ -9,8 +9,11 @@ import java.util.Scanner;
 public class DungeonBattlerController {
     public void play() {
         Narrator narrator = new Narrator();
+        Scanner scanner = new Scanner(System.in);
         narrator.init();
         narrator.playDialogue(0);
+        narrator.playDialogue(1);
+
 
 
         ArrayList<Weapon> weaponList = Weapon.getAll();
@@ -19,15 +22,9 @@ public class DungeonBattlerController {
         }
 
         System.out.println("Choose your weapon.");
-        Scanner scanner = new Scanner(System.in);
-//        int chosenWeapon = scanner.nextInt();
-//
-//        while (chosenWeapon > weaponList.size()){
-//            System.out.println("Please Enter Valid Choice");
-//            chosenWeapon = scanner.nextInt();
-//
-//        }
-//        System.out.println("You have chosen the " + weaponList.get(chosenWeapon).name);
+
+
+
         boolean isValid = false;
         int chosenWeapon;
         while (!isValid){
@@ -47,45 +44,6 @@ public class DungeonBattlerController {
             }
         }
 
-
-        //Homework: Wrap this in a try catch, and if the answer is incorrect, have it ask again.
-        //
-
-//        System.out.println("Welcome, brave adventurer. If you seek the riches that lie" +
-//                " within this ancient dungeon, speak thy name and enter.");
-//
-//        Scanner scanner = new Scanner(System.in);
-//        String playerName = scanner.next();
-//
-//        Player user = new Player(playerName);
-//
-//
-//        // User is prompted to choose a weapon
-//        System.out.println("You enter the dungeon and a hallway lined with three weapons appears before you.");
-//
-//        System.out.println("There is a sword, a staff, and a dagger.");
-//
-//        System.out.println("Below the weapons reads: 'You may take only one weapon.");
-//
-//
-//        // Create three Weapon objects
-//        Weapon myWeapon = new Weapon();
-//
-//        // User chooses a weapon
-//        System.out.println("Please enter your Weapon Choice.");
-//
-//        String weaponName = scanner.next();
-//
-//        user.choose(Sword);
-//
-//        // Set Weapon to user
-//
-//        user.init();
-
-
-
-
-        
 
     }
         
