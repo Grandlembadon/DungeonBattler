@@ -12,7 +12,7 @@ public class Narrator {
 
     }
 
-    public void init(){
+    public void init() {
         BufferedReader inputStream = null;
         this.dialogueList = new ArrayList<>();
 
@@ -21,12 +21,10 @@ public class Narrator {
 
             String dialogueLine;
 
-            while ((dialogueLine = inputStream.readLine()) != null)
-            {
+            while ((dialogueLine = inputStream.readLine()) != null) {
                 dialogueLine = dialogueLine.trim();
 
-                if ((dialogueLine.length() != 0))
-                {
+                if ((dialogueLine.length() != 0)) {
                     dialogueList.add(dialogueLine);
                 }
 
@@ -39,12 +37,13 @@ public class Narrator {
         }
     }
 
-    public void playDialogue(int dialogueIndex){
+    public void playDialogue(int dialogueIndex) {
         String dialogueLine = this.dialogueList.get(dialogueIndex);
         System.out.println(dialogueLine);
 
     }
-    public void playDialogueSleep(int dialogueIndex, int sleepTimeMs){
+
+    public void playDialogueSleep(int dialogueIndex, int sleepTimeMs) {
         String dialogueLine = this.dialogueList.get(dialogueIndex);
         System.out.println(dialogueLine);
         try {
@@ -54,20 +53,26 @@ public class Narrator {
         }
 
     }
-    public void welcomePlayer(String userName){
+
+    public void welcomePlayer(String userName) {
         System.out.println("Welcome, " + userName + ", and may your quest prove victorious.");
     }
-    public boolean promptEnter() {
-        Narrator narrator = new Narrator();
+
+    public void promptEnter() {
         Scanner scanner = new Scanner(System.in);
         String response = scanner.next();
 
-        if (response.equalsIgnoreCase("yes")) {
-            narrator.playDialogueSleep(4, 3000);
-            return true;
-        } else {
-            narrator.playDialogue(5);
-            return false;
+        try {
+            if (response.equalsIgnoreCase("yes")) {
+                this.playDialogue(4);
+
+            } else {
+                this.playDialogue(5);
+            }
+
+        } catch (Exception a) {
+            System.out.println("Please enter a valid input.");
+
         }
 
     }

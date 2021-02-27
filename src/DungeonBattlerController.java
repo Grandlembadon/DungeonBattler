@@ -25,7 +25,6 @@ public class DungeonBattlerController {
 
         narrator.playDialogue(3);
         narrator.promptEnter();
-
 //        ArrayList<Weapon> weaponList = Weapon.getAll();
 //        for (Weapon w : weaponList) {
 //            System.out.println(w.toString());
@@ -36,10 +35,9 @@ public class DungeonBattlerController {
 //
 //
 //        boolean isValid = false;
-//        int chosenWeapon;
 //        while (!isValid){
 //            try {
-//                chosenWeapon = scanner.nextInt();
+//                 int chosenWeapon = scanner.nextInt();
 //                if (chosenWeapon > weaponList.size()){
 //                    System.out.println("Please enter valid choice.");
 //
@@ -49,7 +47,7 @@ public class DungeonBattlerController {
 //
 //            } catch (Exception e) {
 //                System.out.println("Enter a valid input.");
-//                chosenWeapon = scanner.nextInt();
+//                
 //
 //            }
 //        }
