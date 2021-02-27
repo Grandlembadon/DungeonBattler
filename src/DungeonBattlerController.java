@@ -25,7 +25,12 @@ public class DungeonBattlerController {
 
         narrator.playDialogue(3);
         narrator.promptEnter();
-//        ArrayList<Weapon> weaponList = Weapon.getAll();
+        narrator.playDialogueSleep(6,3000);
+
+
+
+
+        //        ArrayList<Weapon> weaponList = Weapon.getAll();
 //        for (Weapon w : weaponList) {
 //            System.out.println(w.toString());
 //        }
@@ -47,7 +52,7 @@ public class DungeonBattlerController {
 //
 //            } catch (Exception e) {
 //                System.out.println("Enter a valid input.");
-//                
+//
 //
 //            }
 //        }
