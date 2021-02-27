@@ -64,7 +64,7 @@ public class Narrator {
 
         try {
             if (response.equalsIgnoreCase("yes")) {
-                this.playDialogue(4);
+                this.playDialogueSleep(4,3000);
 
             } else {
                 this.playDialogue(5);
