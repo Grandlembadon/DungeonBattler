@@ -38,10 +38,7 @@ public class DungeonBattlerController {
 //            System.out.println(w.toString());
 //        }
 //
-//        System.out.println("Choose your weapon.");
-//
-//
-//
+
 //        boolean isValid = false;
 //        while (!isValid){
 //            try {
