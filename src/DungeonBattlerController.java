@@ -27,6 +27,7 @@ public class DungeonBattlerController {
         narrator.promptEnter();
         narrator.playDialogueSleep(6,3000);
         narrator.playDialogueSleep(7,3000);
+        narrator.playDialogueSleep(8,3000);
 
 
 
