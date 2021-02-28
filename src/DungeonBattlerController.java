@@ -28,34 +28,32 @@ public class DungeonBattlerController {
         narrator.playDialogueSleep(6,3000);
         narrator.playDialogueSleep(7,3000);
         narrator.playDialogueSleep(8,3000);
+        ArrayList<Weapon> weaponList = Weapon.getAll();
+        for (Weapon w : weaponList) {
+            System.out.println(w.toString());
+        }
         narrator.playDialogueSleep(9,3000);
 
 
+        
+
+        boolean isValid = false;
+        while (!isValid){
+            try {
+                 int chosenWeapon = scanner.nextInt();
+                if (chosenWeapon > weaponList.size()){
+                    System.out.println("Please enter valid choice.");
+
+                } else {
+                    isValid = true;
+                }
+
+            } catch (Exception e) {
+                System.out.println("Enter a valid input.");
 
 
-        //        ArrayList<Weapon> weaponList = Weapon.getAll();
-//        for (Weapon w : weaponList) {
-//            System.out.println(w.toString());
-//        }
-//
-
-//        boolean isValid = false;
-//        while (!isValid){
-//            try {
-//                 int chosenWeapon = scanner.nextInt();
-//                if (chosenWeapon > weaponList.size()){
-//                    System.out.println("Please enter valid choice.");
-//
-//                } else {
-//                    isValid = true;
-//                }
-//
-//            } catch (Exception e) {
-//                System.out.println("Enter a valid input.");
-//
-//
-//            }
-//        }
+            }
+        }
 
 
     }
