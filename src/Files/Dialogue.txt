@@ -21,7 +21,7 @@ Battle Start!
 "The Skeleton cackles as two ghostly spirits erupt from his body, and rend through your soul with a chilling touch."
 "You are victorious! The dark aura leaves the skeleton's bones as they collapse into pieces on the armory floor."
 "You notice some gold pieces have dropped from the skeleton's corpse, as well as a weathered scroll."
-"Do you pick up the gold and scroll? "
+"Do you pick up the gold and scroll? (y/n)"
 
 
 
