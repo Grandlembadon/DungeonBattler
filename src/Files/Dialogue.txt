@@ -23,6 +23,7 @@ Battle Start!
 "You notice some gold pieces have dropped from the skeleton's corpse, as well as a weathered scroll."
 "Do you pick up the gold and scroll? (y/n)"
 "You pick up the loot and continue through the Armory. You spot a doorway not too far from where the skeleton appeared."
+"You make your way to the doorway, beyond it lies a set of stairs that cascade into darkness."
 
 
 
