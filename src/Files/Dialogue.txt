@@ -19,6 +19,7 @@ Battle Start!
 "The Skeleton conjures a shard of ice out of thin air. It rockets towards you in an instant."
 "The Skeleton begins to glow, his empty eye sockets now two burning pits of flame."
 "The Skeleton cackles as two ghostly spirits erupt from his body, and rend through your soul with a chilling touch."
+"You are victorious! The dark aura leaves the skeleton's bones as they collapse into pieces on the armory floor."
 
 
 
