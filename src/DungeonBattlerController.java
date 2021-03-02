@@ -54,7 +54,7 @@ public class DungeonBattlerController {
 
             }
         }
-        System.out.println(user.getWeapon());
+        
 
 
     }
