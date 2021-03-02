@@ -49,12 +49,12 @@ public class DungeonBattlerController {
                 }
 
             } catch (Exception e) {
-                System.out.println("Enter a valid input.");
+                return;
 
 
             }
         }
-        
+
 
 
     }
