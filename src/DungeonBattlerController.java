@@ -45,7 +45,7 @@ public class DungeonBattlerController {
 
                 } else {
                     isValid = true;
-                    user.setWeapon(chosenWeapon);
+                    user.setWeapon(weaponList.get(chosenWeapon));
                 }
 
             } catch (Exception e) {
@@ -54,6 +54,7 @@ public class DungeonBattlerController {
 
             }
         }
+        System.out.println(user.getWeapon());
 
 
     }

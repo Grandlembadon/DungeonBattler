@@ -25,6 +25,10 @@ public class Player {
     public void setWeapon(Weapon weapon) {
         this.weapon = weapon;
     }
+    public void setWeapon(int wepNum) {
+        this.weapon = weapon;
+
+    }
 
     public Skill[] getSkills() {
         return skills;
@@ -90,13 +94,6 @@ public class Player {
         this.name = name;
     }
 
-    public void choose(Weapon sword) {
-
-    }
-    public void choose() {
-        System.out.println("Choosing Weapon...");
-
-    }
 
     public void attack() {
         System.out.println("Attacking...");
@@ -116,5 +113,6 @@ public class Player {
         this.totalHP = 50;
 
     }
+
 }
 
