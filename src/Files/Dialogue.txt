@@ -28,6 +28,7 @@ Battle Start!
 "You remember that you picked up a scroll from that Skeleton's corpse."
 "You unfurl the ancient scroll slowly, it's so weathered it seems like it could crumble in your hands."
 "Suddenly, the scroll rises from your grasp and hovers in the air. The scroll bursts in a flash of light."
+"As you squint to see the now brightly lit stairway, you notice that you body is now shrouded in light."
 
 
 
