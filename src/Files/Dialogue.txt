@@ -25,6 +25,8 @@ Battle Start!
 "You pick up the loot and continue through the Armory. You spot a doorway not too far from where the skeleton appeared."
 "You make your way to the doorway, beyond it lies a set of stairs that cascade into darkness."
 "There's no way you can make it down there with some kind of light. Maybe you have something that can help?"
+"You remember that you picked up a scroll from that Skeleton's corpse."
+
 
 
 
