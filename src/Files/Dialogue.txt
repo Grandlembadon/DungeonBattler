@@ -26,6 +26,7 @@ Battle Start!
 "You make your way to the doorway, beyond it lies a set of stairs that cascade into darkness."
 "There's no way you can make it down there with some kind of light. Maybe you have something that can help?"
 "You remember that you picked up a scroll from that Skeleton's corpse."
+"You unfurl the ancient scroll slowly, it's so weathered it seems like it could crumble in your hands"
 
 
 
