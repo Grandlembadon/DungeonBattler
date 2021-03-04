@@ -48,6 +48,7 @@ public class DungeonBattlerController {
                 } else {
                     isValid = true;
                     user.setWeapon(weaponList.get(chosenWeapon));
+                    user.setMyClass();
                 }
             }
         }
