@@ -30,7 +30,9 @@ public class DungeonBattlerController {
         narrator.playDialogueSleep(8, 3000);
 
 
-        ArrayList<Weapon> weaponList = Weapon.getAll();
+        ArrayList<Weapon> weaponList = Weapon.createWeaponList();
+        ArrayList<Class> classList = Class.classList();
+
         for (Weapon w : weaponList) {
             System.out.println(w.toString());
         }
