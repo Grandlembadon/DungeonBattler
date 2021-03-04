@@ -14,6 +14,8 @@ public class Class {
         this.classHP = classHP;
         this.className = className;
     }
+    public Class() {
+    }
 
     public static ArrayList<Class> classList() {
 
