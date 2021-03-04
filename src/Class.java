@@ -25,9 +25,9 @@ public class Class {
         try {
             inputStream = new BufferedReader(new FileReader(Path.CLASSES.path));
 
-            String weapon;
+            String classline;
 
-            while ((weapon = inputStream.readLine()) != null) {
+            while ((classline = inputStream.readLine()) != null) {
             }
 
 
