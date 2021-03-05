@@ -21,8 +21,8 @@ public class Class {
 
             while ((classline = inputStream.readLine()) != null) {
                 String [] classInfo = classline.split(",");
-                Skill classSkill = Skill.parseInt(weaponInfo[0]);
-                int durability = Integer.parseInt(weaponInfo[1]);
+                String classSkill = classInfo[0];
+                int classHP = Integer.parseInt(classInfo[1]);
                 int critChance = Integer.parseInt(weaponInfo[2]);
 
             }
