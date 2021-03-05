@@ -28,16 +28,16 @@ public class Weapon {
             try {
             inputStream = new BufferedReader(new FileReader(Path.WEAPONS.path));
 
-            String weapon;
+            String weaponline;
 
-            while ((weapon = inputStream.readLine()) != null) {
-                String [] weaponInfo = weapon.split(",");
+            while ((weaponline = inputStream.readLine()) != null) {
+                String [] weaponInfo = weaponline.split(",");
                 int damage = Integer.parseInt(weaponInfo[0]);
                 int durability = Integer.parseInt(weaponInfo[1]);
                 int critChance = Integer.parseInt(weaponInfo[2]);
                 String name = weaponInfo[3];
-                Weapon weapon1 = new Weapon(damage,durability,critChance,name);
-                weaponList.add(weapon1);
+                Weapon weapon = new Weapon(damage,durability,critChance,name);
+                weaponList.add(weapon);
 
             }
 

@@ -5,6 +5,15 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Class {
+    String classSkill;
+    int classHP;
+    String className;
+
+    public Class(String classSkill, int classHP, String className) {
+        this.classSkill = classSkill;
+        this.classHP = classHP;
+        this.className = className;
+    }
 
     public Class() {
     }
@@ -12,7 +21,7 @@ public class Class {
     public static ArrayList<Class> classList() {
 
         BufferedReader inputStream = null;
-        ArrayList<Weapon> classList = new ArrayList<>();
+        ArrayList<Class> classList = new ArrayList<>();
 
         try {
             inputStream = new BufferedReader(new FileReader(Path.CLASSES.path));
@@ -24,6 +33,9 @@ public class Class {
                 String classSkill = classInfo[0];
                 int classHP = Integer.parseInt(classInfo[1]);
                 String className = classInfo[2];
+
+                Class myclass = new Class(classSkill,classHP,className);
+                classList.add(myclass);
 
             }
 
