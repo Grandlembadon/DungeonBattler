@@ -28,6 +28,11 @@ public class Class {
             String classline;
 
             while ((classline = inputStream.readLine()) != null) {
+                String [] classInfo = classline.split(",");
+                int damage = Integer.parseInt(weaponInfo[0]);
+                int durability = Integer.parseInt(weaponInfo[1]);
+                int critChance = Integer.parseInt(weaponInfo[2]);
+
             }
 
 
