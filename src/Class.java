@@ -5,15 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Class {
-    String classAbility;
-    int classHP;
-    String className;
 
-    public Class(String classAbility, int classHP, String className) {
-        this.classAbility = classAbility;
-        this.classHP = classHP;
-        this.className = className;
-    }
     public Class() {
     }
 
@@ -29,7 +21,7 @@ public class Class {
 
             while ((classline = inputStream.readLine()) != null) {
                 String [] classInfo = classline.split(",");
-                int damage = Integer.parseInt(weaponInfo[0]);
+                Skill classSkill = Skill.parseInt(weaponInfo[0]);
                 int durability = Integer.parseInt(weaponInfo[1]);
                 int critChance = Integer.parseInt(weaponInfo[2]);
 

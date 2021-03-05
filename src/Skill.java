@@ -1,6 +1,6 @@
 public class Skill {
     int skillCost;
-    int  skillDamage;
+    int skillDamage;
     int numberOfUses;
     String skillName;
 
