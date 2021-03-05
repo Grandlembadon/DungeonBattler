@@ -1,6 +1,6 @@
-Meteor Shower, 30, Wizard
-Mighty Rend, 70, Warrior
-Dance of Daggers, 50, Rogue
+Meteor Shower,30,Wizard
+Mighty Rend,70,Warrior
+Dance of Daggers,50,Rogue
 
 
 
