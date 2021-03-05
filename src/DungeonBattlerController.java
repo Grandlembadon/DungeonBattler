@@ -41,6 +41,7 @@ public class DungeonBattlerController {
         boolean isValid = false;
         while (!isValid){
                 int chosenWeapon = scanner.nextInt();
+                int chosenClass = chosenWeapon;
                 if (chosenWeapon > weaponList.size()){
                     System.out.println("Please enter valid choice.");
                     return;
@@ -48,7 +49,7 @@ public class DungeonBattlerController {
                 } else {
                     isValid = true;
                     user.setWeapon(weaponList.get(chosenWeapon));
-                    user.setMyClass(classList.get(chosenWeapon));
+                    user.setMyClass(classList.get(chosenClass));
                     user.getWeapon().weaponChoice();
                 }
             }
