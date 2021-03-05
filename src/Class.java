@@ -23,7 +23,7 @@ public class Class {
                 String [] classInfo = classline.split(",");
                 String classSkill = classInfo[0];
                 int classHP = Integer.parseInt(classInfo[1]);
-                int critChance = Integer.parseInt(weaponInfo[2]);
+                String className = classInfo[2];
 
             }
 
