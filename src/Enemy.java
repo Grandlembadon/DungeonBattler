@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
+public class Enemy extends Player {
 
-public class Enemy {
 }
