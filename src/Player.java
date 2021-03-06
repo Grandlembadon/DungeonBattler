@@ -95,24 +95,6 @@ public class Player {
     }
 
 
-    public void attack() {
-        System.out.println("Attacking...");
-
-    }
-    public void defend() {
-        System.out.println("Defending...");
-
-    }
-    public void useSkill() {
-
-    }
-    public void lastResort() {
-
-    }
-    public void init() {
-        this.totalHP = 50;
-
-    }
 
 }
 
