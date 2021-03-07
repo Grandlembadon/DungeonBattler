@@ -1,5 +1,5 @@
 public class Player {
-    private Item [] inventory;
+    private Item[] inventory;
     private Weapon weapon;
     private Skill skill;
     private Class myClass;
@@ -10,11 +10,11 @@ public class Player {
     private String name;
 
 
-    public String[] getInventory() {
+    public Item[] getInventory() {
         return inventory;
     }
 
-    public void setInventory(String[] inventory) {
+    public void setInventory(Item[] inventory) {
         this.inventory = inventory;
     }
 
