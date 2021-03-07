@@ -8,6 +8,9 @@ public class Item {
         this.itemName = itemName;
         this.itemQuantity = itemQuantity;
     }
+    public Item() {
+
+    }
 
     public String getItemName() {
         return itemName;

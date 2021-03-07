@@ -1,5 +1,5 @@
 public class Player {
-    private String [] inventory;
+    private Item [] inventory;
     private Weapon weapon;
     private Skill skill;
     private Class myClass;
