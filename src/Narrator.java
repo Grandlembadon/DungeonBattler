@@ -77,8 +77,8 @@ public class Narrator {
 
 
     }
-    public void weaponChoice(Weapon weapon) {
-        System.out.println("You have chosen the " + weapon.name );
+    public void weaponChoice(ArrayList<Weapon> weaponlist, Weapon weapon) {
+        if (weaponlist.get() = 0)
 
     }
 }

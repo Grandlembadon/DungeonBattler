@@ -57,10 +57,6 @@ public class Weapon {
     public void strike() {
 
     }
-    public void weaponChoice() {
-        System.out.println("You have chosen the " + this.name );
-
-    }
 
     @Override
     public String toString() {
