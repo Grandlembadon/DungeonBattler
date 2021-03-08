@@ -78,7 +78,7 @@ public class Narrator {
 
     }
     public void weaponChoice(ArrayList<Weapon> weaponlist) {
-        if (user.getWeapon().name = )
+        if (weaponlist.= )
 
     }
 }
