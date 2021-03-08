@@ -77,8 +77,8 @@ public class Narrator {
 
 
     }
-    public void weaponChoice(ArrayList<Weapon> weaponlist) {
-        if (weaponlist.= )
+    public void weaponChoice(ArrayList<Weapon> weaponlist, Player user) {
+        if (user.getWeapon() = weaponlist.get(0))
 
     }
 }
