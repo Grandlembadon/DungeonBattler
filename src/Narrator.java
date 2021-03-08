@@ -81,7 +81,7 @@ public class Narrator {
         if (user.getWeapon() == weaponlist.get(0)){
             this.playDialogueSleep(10,3000);
 
-        } else 
+        } else if 
 
     }
 }
