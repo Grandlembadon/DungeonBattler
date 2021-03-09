@@ -67,7 +67,10 @@ public class Narrator {
                 this.playDialogueSleep(4,3000);
 
             } else {
-                this.playDialogue(5);
+                this.playDialogueSleep(5,3000);
+                System.out.println("GAME OVER.");
+                break;
+
             }
 
         } catch (Exception a) {

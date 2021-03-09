@@ -14,51 +14,57 @@ public class DungeonBattlerController {
         Scanner scanner = new Scanner(System.in);
         narrator.init();
 
-        narrator.playDialogueSleep(0, 3000);
-        narrator.playDialogue(1);
+        boolean GameOver = false;
 
-        Player user = new Player();
-        user.setName(scanner.next());
-        narrator.welcomePlayer(user.getName());
+        while (GameOver) {
 
-        narrator.playDialogueSleep(2, 3000);
+            narrator.playDialogueSleep(0, 3000);
+            narrator.playDialogue(1);
 
-        narrator.playDialogue(3);
-        narrator.promptEnter();
-        narrator.playDialogueSleep(6, 3000);
-        narrator.playDialogueSleep(7, 3000);
-        narrator.playDialogueSleep(8, 3000);
+            Player user = new Player();
+            user.setName(scanner.next());
+            narrator.welcomePlayer(user.getName());
+
+            narrator.playDialogueSleep(2, 3000);
+
+            narrator.playDialogue(3);
+            narrator.promptEnter();
+            narrator.playDialogueSleep(6, 3000);
+            narrator.playDialogueSleep(7, 3000);
+            narrator.playDialogueSleep(8, 3000);
 
 
-        ArrayList<Weapon> weaponList = Weapon.createWeaponList();
-        ArrayList<Class> classList = Class.classList();
+            ArrayList<Weapon> weaponList = Weapon.createWeaponList();
+            ArrayList<Class> classList = Class.classList();
 
-        for (Weapon w : weaponList) {
-            System.out.println(w.toString());
-        }
-        narrator.playDialogueSleep(9, 3000);
-
-        boolean isValid = false;
-
-        while (!isValid) {
-            int chosenWeapon = scanner.nextInt();
-            int chosenClass = chosenWeapon;
-            if (chosenWeapon > weaponList.size()) {
-                System.out.println("Please enter valid choice.");
-                return;
-
-            } else {
-                isValid = true;
-                user.setWeapon(weaponList.get(chosenWeapon));
-                user.setMyClass(classList.get(chosenClass));
-                narrator.weaponChoice(weaponList, user);
+            for (Weapon w : weaponList) {
+                System.out.println(w.toString());
             }
+            narrator.playDialogueSleep(9, 3000);
+
+            boolean isValid = false;
+
+            while (!isValid) {
+                int chosenWeapon = scanner.nextInt();
+                int chosenClass = chosenWeapon;
+                if (chosenWeapon > weaponList.size()) {
+                    System.out.println("Please enter valid choice.");
+                    return;
+
+                } else {
+                    isValid = true;
+                    user.setWeapon(weaponList.get(chosenWeapon));
+                    user.setMyClass(classList.get(chosenClass));
+                    narrator.weaponChoice(weaponList, user);
+                }
+            }
+            narrator.playDialogueSleep(13, 3000);
+            narrator.playDialogueSleep(14, 3000);
+            narrator.playDialogueSleep(15, 2500);
+            narrator.playDialogueSleep(16, 3000);
+
+
         }
-        narrator.playDialogueSleep(13,3000);
-        narrator.playDialogue(14);
-        narrator.playDialogueSleep(15,3000);
-
-
     }
 }
 
