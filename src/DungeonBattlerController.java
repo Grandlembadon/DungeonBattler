@@ -54,6 +54,7 @@ public class DungeonBattlerController {
                 narrator.weaponChoice(weaponList, user);
             }
         }
+        narrator.playDialogueSleep();
 
 
     }
