@@ -13,7 +13,7 @@ You have chosen the Sword! You pick up the blade, it's heavy enough that you nee
 You have chosen the Dagger" The small blade is nimble and easier to pick up, but the blade is sharpened to a precise point.
 Soon after you test your newly acquired weapon, the faint sound of rattling bones can be heard from the darkness...
 From the darkness you see a flash of light, the keen blade of a scimitar appears wielded by a shambling skeleton.
-Kehehehehe... I can see you are new to this dungeon. That weapon you have is mine, and I will have it back!"
+"Kehehehehe... I can see you are new to this dungeon. That weapon you have is mine, and I will have it back!"
 Battle Start!
 The Skeleton lunges forward at you with a downward strike!
 The Skeleton conjures a shard of ice out of thin air. It rockets towards you in an instant.
