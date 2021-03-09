@@ -58,18 +58,19 @@ public class Narrator {
         System.out.println("Welcome, " + userName + ", and may your quest prove victorious.");
     }
 
-    public void promptEnter() {
+    public boolean promptEnter() {
         Scanner scanner = new Scanner(System.in);
         String response = scanner.next();
 
         try {
             if (response.equalsIgnoreCase("yes")) {
                 this.playDialogueSleep(4,3000);
+                return true;
 
             } else {
                 this.playDialogueSleep(5,3000);
                 System.out.println("GAME OVER.");
-                break;
+                return false;
 
             }
 
@@ -79,6 +80,7 @@ public class Narrator {
         }
 
 
+        return false;
     }
     public void weaponChoice(ArrayList<Weapon> weaponlist, Player user) {
         if (user.getWeapon() == weaponlist.get(0)){
