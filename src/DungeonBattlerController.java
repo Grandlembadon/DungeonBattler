@@ -16,7 +16,7 @@ public class DungeonBattlerController {
 
         boolean GameOver = false;
 
-        while (GameOver) {
+        while (!GameOver) {
 
             narrator.playDialogueSleep(0, 3000);
             narrator.playDialogue(1);
@@ -62,6 +62,8 @@ public class DungeonBattlerController {
             narrator.playDialogueSleep(14, 3000);
             narrator.playDialogueSleep(15, 2500);
             narrator.playDialogueSleep(16, 3000);
+
+            GameOver = false;
 
 
         }
