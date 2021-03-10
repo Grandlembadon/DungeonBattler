@@ -5,6 +5,6 @@ public class Enemy extends Player {
         this.narrator = narrator;
     }
     public Enemy() {
-        
+
     }
 }
