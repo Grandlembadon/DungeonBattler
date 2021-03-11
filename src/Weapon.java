@@ -11,7 +11,7 @@ public class Weapon {
     int critChance;
     String name;
 
-    public Weapon(int damage, int durability, int critChance, String name) {
+    public Weapon(int damage, int critDamage, int durability, int critChance, String name) {
         this.damage = damage;
         this.durability = durability;
         this.critChance = critChance;
@@ -34,9 +34,10 @@ public class Weapon {
             while ((weaponline = inputStream.readLine()) != null) {
                 String [] weaponInfo = weaponline.split(",");
                 int damage = Integer.parseInt(weaponInfo[0]);
-                int durability = Integer.parseInt(weaponInfo[1]);
-                int critChance = Integer.parseInt(weaponInfo[2]);
-                String name = weaponInfo[3];
+                int critDamage = Integer.parseInt(weaponInfo[1]);
+                int durability = Integer.parseInt(weaponInfo[2]);
+                int critChance = Integer.parseInt(weaponInfo[3]);
+                String name = weaponInfo[4];
                 Weapon weapon = new Weapon(damage,durability,critChance,name);
                 weaponList.add(weapon);
 
