@@ -7,13 +7,12 @@ import java.util.ArrayList;
 public class Weapon {
     int damage; //To DO: Create an int Array for damage range
     int critDamage;
-    int durability;
     int critChance;
     String name;
 
-    public Weapon(int damage, int critDamage, int durability, int critChance, String name) {
+    public Weapon(int damage, int critDamage, int critChance, String name) {
         this.damage = damage;
-        this.durability = durability;
+        this.critDamage = critDamage;
         this.critChance = critChance;
         this.name = name;
     }
@@ -35,10 +34,9 @@ public class Weapon {
                 String [] weaponInfo = weaponline.split(",");
                 int damage = Integer.parseInt(weaponInfo[0]);
                 int critDamage = Integer.parseInt(weaponInfo[1]);
-                int durability = Integer.parseInt(weaponInfo[2]);
-                int critChance = Integer.parseInt(weaponInfo[3]);
-                String name = weaponInfo[4];
-                Weapon weapon = new Weapon(damage,durability,critChance,name);
+                int critChance = Integer.parseInt(weaponInfo[2]);
+                String name = weaponInfo[3];
+                Weapon weapon = new Weapon(damage,critDamage,critChance,name);
                 weaponList.add(weapon);
 
             }
@@ -62,7 +60,7 @@ public class Weapon {
 
     @Override
     public String toString() {
-        return "The " + name + " has " + damage + " damage, " + durability + " durability, " + critChance +
-                " critical chance.";
+        return "The " + name + " has " + damage + " damage, " + critChance +
+                " and critical chance.";
     }
 }
