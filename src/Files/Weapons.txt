@@ -1,4 +1,4 @@
-3,5,2,Staff
-8,3,5,Sword
-4,2,8,Dagger
-15,1,2 Bone Axe
+3,5,5,3,Staff
+8,15,3,5,Sword
+4,9,2,8,Dagger
+15,18,1,2,Bone Axe

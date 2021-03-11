@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 public class Weapon {
     int damage; //To DO: Create an int Array for damage range
+    int critDamage;
     int durability;
     int critChance;
     String name;
