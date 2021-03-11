@@ -1,7 +1,8 @@
 public class Skill {
+    String skillName;
     int skillCost;
     int skillDamage;
-    String skillName;
+
 
     public Skill() {
 
