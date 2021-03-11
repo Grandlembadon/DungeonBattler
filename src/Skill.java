@@ -1,7 +1,6 @@
 public class Skill {
     int skillCost;
     int skillDamage;
-    int numberOfUses;
     String skillName;
 
     public Skill() {
@@ -14,14 +13,6 @@ public class Skill {
 
     public void setSkillCost(int skillCost) {
         this.skillCost = skillCost;
-    }
-
-    public int getNumberOfUses() {
-        return numberOfUses;
-    }
-
-    public void setNumberOfUses(int numberOfUses) {
-        this.numberOfUses = numberOfUses;
     }
 
     public String getSkillName() {
