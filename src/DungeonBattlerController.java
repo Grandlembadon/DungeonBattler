@@ -14,9 +14,9 @@ public class DungeonBattlerController {
         Scanner scanner = new Scanner(System.in);
         narrator.init();
 
-        boolean GameOver = false;
+        boolean GameContinue = true;
 
-        while (!GameOver) {
+        while (GameContinue) {
 
             narrator.playDialogueSleep(0, 3000);
             narrator.playDialogue(1);
@@ -63,7 +63,7 @@ public class DungeonBattlerController {
             narrator.playDialogueSleep(15, 2500);
             narrator.playDialogueSleep(16, 3000);
 
-            GameOver = false;
+            GameContinue= false;
 
 
         }
