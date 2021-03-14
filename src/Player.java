@@ -9,6 +9,9 @@ public class Player {
     private int currentSP;
     private String name;
 
+    public Player(String name) {
+        this.name = name;
+    }
 
     public Item[] getInventory() {
         return inventory;
@@ -90,9 +93,6 @@ public class Player {
 
     }
 
-    public Player(String name) {
-        this.name = name;
-    }
 
 
 

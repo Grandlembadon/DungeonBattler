@@ -15,6 +15,9 @@ public class Skill {
     }
 
     public Skill(String skillName, int skillCost, int skillDamage) {
+        this.skillName = skillName;
+        this.skillCost = skillCost;
+        this.skillDamage = skillDamage;
     }
 
     public static ArrayList<Skill> createSkillList() {

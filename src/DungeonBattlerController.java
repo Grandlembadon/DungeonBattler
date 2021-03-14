@@ -65,7 +65,10 @@ public class DungeonBattlerController {
 
             boolean battleOver = true;
 
+            Enemy SkeletonSoldier = new Enemy("SkeletonSoldier");
+
             while (!battleOver){
+
 
             }
 
