@@ -13,24 +13,24 @@ public class Skill {
     public Skill() {
 
     }
-    public static ArrayList<Skill> createWeaponList() {
+    public static ArrayList<Skill> createSkillList() {
 
         BufferedReader inputStream = null;
-        ArrayList<Weapon> weaponList = new ArrayList<>();
+        ArrayList<Skill> SkillList = new ArrayList<>();
 
         try {
-            inputStream = new BufferedReader(new FileReader(Path.WEAPONS.path));
+            inputStream = new BufferedReader(new FileReader(Path.SKILLS.path));
 
-            String weaponline;
+            String skillLine;
 
-            while ((weaponline = inputStream.readLine()) != null) {
-                String [] weaponInfo = weaponline.split(",");
+            while ((skillLine = inputStream.readLine()) != null) {
+                String [] skillInfo = skillLine.split(",");
                 int damage = Integer.parseInt(weaponInfo[0]);
                 int critDamage = Integer.parseInt(weaponInfo[1]);
                 int critChance = Integer.parseInt(weaponInfo[2]);
                 String name = weaponInfo[3];
                 Weapon weapon = new Weapon(damage,critDamage,critChance,name);
-                weaponList.add(weapon);
+                skillList.add(weapon);
 
             }
 
@@ -43,7 +43,7 @@ public class Skill {
         }
 
 
-        return weaponList;
+        return skillList;
 
     }
 
