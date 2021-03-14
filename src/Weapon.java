@@ -18,8 +18,6 @@ public class Weapon {
     }
 
 
-
-
     public static ArrayList<Weapon> createWeaponList() {
 
         BufferedReader inputStream = null;

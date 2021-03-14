@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Enemy extends Player {
     Narrator narrator;
-    ArrayList<Skill> skillArraylist;
+    ArrayList<Skill> enemySkills;
 
     public Enemy(Narrator narrator) {
         this.narrator = narrator;

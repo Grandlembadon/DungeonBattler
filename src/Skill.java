@@ -13,10 +13,14 @@ public class Skill {
     public Skill() {
 
     }
+
+    public Skill(String skillName, int skillCost, int skillDamage) {
+    }
+
     public static ArrayList<Skill> createSkillList() {
 
         BufferedReader inputStream = null;
-        ArrayList<Skill> SkillList = new ArrayList<>();
+        ArrayList<Skill> skillList = new ArrayList<>();
 
         try {
             inputStream = new BufferedReader(new FileReader(Path.SKILLS.path));
@@ -25,12 +29,11 @@ public class Skill {
 
             while ((skillLine = inputStream.readLine()) != null) {
                 String [] skillInfo = skillLine.split(",");
-                int damage = Integer.parseInt(weaponInfo[0]);
-                int critDamage = Integer.parseInt(weaponInfo[1]);
-                int critChance = Integer.parseInt(weaponInfo[2]);
-                String name = weaponInfo[3];
-                Weapon weapon = new Weapon(damage,critDamage,critChance,name);
-                skillList.add(weapon);
+                String skillName = skillInfo[0];
+                int skillCost = Integer.parseInt(skillInfo[1]);
+                int skillDamage = Integer.parseInt(skillInfo[2]);
+                Skill skill = new Skill(skillName,skillCost,skillDamage);
+                skillList.add(skill);
 
             }
 
