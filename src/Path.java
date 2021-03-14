@@ -1,8 +1,8 @@
 public enum Path {
     WEAPONS("src/Files/Weapons.txt"),
     DIALOGUE("src/Files/Dialogue.txt"),
-    CLASSES("src/Files/ClassInfo.txt");
-    // Add Narrator Path
+    CLASSES("src/Files/ClassInfo.txt"),
+    SKILLS("src/Files/SKillLIst.txt");
     String path;
 
     Path(String path) {
