@@ -68,6 +68,7 @@ public class DungeonBattlerController {
             Enemy SkeletonSoldier = new Enemy("SkeletonSoldier");
 
             while (!battleOver){
+                narrator.playDialogueSleep(17,3000);
 
 
             }
