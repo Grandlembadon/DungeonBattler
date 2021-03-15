@@ -65,7 +65,7 @@ public class DungeonBattlerController {
 
             boolean battleOver = true;
 
-            Enemy SkeletonSoldier = new Enemy("SkeletonSoldier");
+            Enemy SkeletonSoldier = new Enemy("SkeletonSoldier",weaponList.get(3));
 
             while (!battleOver){
                 narrator.playDialogueSleep(17,3000);
