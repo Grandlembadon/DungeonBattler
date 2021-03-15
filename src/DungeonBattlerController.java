@@ -67,7 +67,7 @@ public class DungeonBattlerController {
 
             Enemy SkeletonSoldier = new Enemy("SkeletonSoldier",weaponList.get(3));
 
-            while (!battleOver){
+            
                 narrator.playDialogueSleep(17,3000);
                 SkeletonSoldier.getWeapon().strike(user);
                 System.out.println(user.getCurrentHP());
@@ -82,7 +82,7 @@ public class DungeonBattlerController {
 
         }
     }
-}
+
 
 
 
