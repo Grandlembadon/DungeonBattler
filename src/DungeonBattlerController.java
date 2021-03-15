@@ -70,6 +70,7 @@ public class DungeonBattlerController {
             while (!battleOver){
                 narrator.playDialogueSleep(17,3000);
                 SkeletonSoldier.getWeapon().strike(user);
+                System.out.println(user.getCurrentHP());
 
 
             }
