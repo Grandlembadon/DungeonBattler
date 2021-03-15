@@ -52,7 +52,7 @@ public class Weapon {
 
     }
 
-    public void strike() {
+    public void strike(Player user,) {
 
     }
 
