@@ -31,7 +31,7 @@ Suddenly, the scroll rises from your grasp and hovers in the air. The scroll bur
 As you squint to see the now brightly lit stairway, you notice that you body is now shrouded in light.
 With your newly acquired luminescence, the stairway is no match. You descend the stairway.
 The stairway leads to a Great Hall, you see various long tables littered with the bones of those who dwelled here long ago.
-The room may have some supplies for your adventure. Will you ransack the room?
+The room may have some supplies for your adventure. Will you ransack the room? (yes/no)
 
 
 
