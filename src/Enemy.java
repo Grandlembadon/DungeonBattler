@@ -18,4 +18,8 @@ public class Enemy extends Player {
         this.enemyWeapon = enemyWeapon;
 
     }
+
+    public Weapon getEnemyWeapon() {
+        return enemyWeapon;
+    }
 }
