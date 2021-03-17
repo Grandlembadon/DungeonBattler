@@ -19,7 +19,15 @@ public class Enemy extends Player {
 
     }
 
+
     public Weapon getEnemyWeapon() {
         return enemyWeapon;
+    }
+
+    public void enemyStrike(Player user, Enemy enemy) {
+        int newHP = (user.getCurrentHP() - enemy.getEnemyWeapon().damage);
+        user.setCurrentHP(newHP);
+
+
     }
 }
