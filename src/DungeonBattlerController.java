@@ -56,6 +56,7 @@ public class DungeonBattlerController {
                     user.setWeapon(weaponList.get(chosenWeapon));
                     user.setMyClass(classList.get(chosenClass));
                     user.setTotalHP(user.getMyClass().classHP);
+                    user.setCurrentHP(user.getMyClass().classHP);
                     narrator.weaponChoice(weaponList, user);
                 }
             }
