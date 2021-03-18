@@ -52,12 +52,6 @@ public class Weapon {
 
     }
 
-    public void strike(Player user, Enemy enemy) {
-        int newHP = (user.getCurrentHP() - enemy.getWeapon().damage);
-        user.setCurrentHP(newHP);
-
-
-    }
 
     @Override
     public String toString() {

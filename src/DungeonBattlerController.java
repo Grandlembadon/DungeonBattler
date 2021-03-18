@@ -55,6 +55,8 @@ public class DungeonBattlerController {
                     isValid = true;
                     user.setWeapon(weaponList.get(chosenWeapon));
                     user.setMyClass(classList.get(chosenClass));
+                    user.setTotalHP(user.getMyClass().classHP);
+                    user.setCurrentHP(user.getMyClass().classHP);
                     narrator.weaponChoice(weaponList, user);
                 }
             }
@@ -69,7 +71,8 @@ public class DungeonBattlerController {
 
 
                 narrator.playDialogueSleep(17,3000);
-                SkeletonSoldier.getWeapon().strike(user);
+                System.out.println(user.getCurrentHP());
+                SkeletonSoldier.enemyStrike(user, SkeletonSoldier);
                 System.out.println(user.getCurrentHP());
 
 
