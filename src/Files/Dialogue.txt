@@ -35,7 +35,8 @@ The room may have some supplies for your adventure. Will you ransack the room? (
 After searching the tables and the storage containers of the room, you come across 2 health potions, some gold, and A scroll that seems different than the one before.
 Now that the looting is taken care of, something in the far end of the room catches your eye. There is a large throne. A dark silhouette sits in the throne.
 "Fooooolish adventurer... What kind of dinner guest loots their host before proper introductions?"
-The voice booms from th
+The voice booms from the throne, as a cold blue light radiates form the shadowy figure, causing all the lanterns to light instantly.
+
 
 
 
