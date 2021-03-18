@@ -37,6 +37,8 @@ Now that the looting is taken care of, something in the far end of the room catc
 "Fooooolish adventurer... What kind of dinner guest loots their host before proper introductions?"
 The voice booms from the throne as a cold blue light radiates form the shadowy figure. All the lanterns and candles nearby flare up with the intense light.
 The shadowy silhouette is now a radiant spectre. You can hear shrieking voices inside your head, wailing in fear of your impending demise.
+"I am lord of this hall. You intrude on the final feast of me and my people, now you will join us in the void of time. Brace yourself."
+
 
 
 
