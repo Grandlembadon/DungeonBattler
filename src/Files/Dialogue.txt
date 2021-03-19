@@ -19,6 +19,7 @@ The Skeleton lunges forward at you with a downward strike!
 The Skeleton conjures a shard of ice out of thin air. It rockets towards you in an instant.
 The Skeleton begins to glow, his empty eye sockets now two burning pits of flame.
 The Skeleton cackles as two ghostly spirits erupt from his body, and rend through your soul with a chilling touch.
+You focus your spirit on the energy pulsing from the staff. A magic bolt of light erupts and strikes the skeleton!
 You are victorious! The dark aura leaves the skeleton's bones as they collapse into pieces on the armory floor.
 You notice some gold pieces have dropped from the skeleton's corpse, as well as a weathered scroll.
 Do you pick up the gold and scroll? (y/n)
@@ -41,7 +42,10 @@ The shadowy silhouette is now a radiant spectre. You can hear shrieking voices i
 "Rise, my brothers. Take this foolish hall plunderer's flesh from his bones."
 The radiant spectre calls upon the souls of the hall, and fills two rusted suits of armor with a pale blue light.
 Battle Start!
-Now that the you've fought in a real battle before, your battle instincts are sharpening. 
+Now that you've fought in a real battle before, your battle instincts are sharpening.
+You will now have a chance to strike first at the start of battle.
+
+
 
 
 
