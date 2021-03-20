@@ -24,6 +24,8 @@ You charge forth and swing with your mighty sword!
 Like a flash of lightning, you dart forth and strike twice with your dagger.
 Your oaken staff rises into the air and erupts in a purple flame. From the wide arching tip a portal appears.
 The portal conjures forth an assault of purple asteroids, searing the skeleton with molten flame.
+You enter a meditative state with your blade poised in a defensive pose. With a sharp breath you conjure the depths of your battle spirit.
+Your eyes open, step forward in a flash of light, and bring down your blade with a hero's fury.
 You are victorious! The dark aura leaves the skeleton's bones as they collapse into pieces on the armory floor.
 You notice some gold pieces have dropped from the skeleton's corpse, as well as a weathered scroll.
 Do you pick up the gold and scroll? (y/n)
