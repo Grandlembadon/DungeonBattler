@@ -21,6 +21,7 @@ The Skeleton begins to glow, his empty eye sockets now two burning pits of flame
 The Skeleton cackles as two ghostly spirits erupt from his body, and rend through your soul with a chilling touch.
 You may be new to this place but you have all you need to beat this foe. In battle, each side takes a turn to make an action.
 For now, you are able to perform the following actions: STRIKE, DEFEND, ITEM, and SKILL.
+The skeleton struck the first blow in this fight, try using STRIKE to do your selected weapon's basic attack.
 You focus your spirit on the energy pulsing from the staff. A magic bolt of light erupts and strikes the skeleton!
 You charge forth and swing with your mighty sword!
 Like a flash of lightning, you dart forth and strike twice with your dagger.

@@ -73,7 +73,7 @@ public class DungeonBattlerController {
                 narrator.playDialogueSleep(17,3000);
                 System.out.println(user.getCurrentHP());
                 SkeletonSoldier.enemyStrike(user, SkeletonSoldier);
-                System.out.println(user.getCurrentHP());
+
 
 
             }
