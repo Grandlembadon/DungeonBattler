@@ -19,15 +19,16 @@ The Skeleton lunges forward at you with a downward strike!
 The Skeleton conjures a shard of ice out of thin air. It rockets towards you in an instant.
 The Skeleton begins to glow, his empty eye sockets now two burning pits of flame.
 The Skeleton cackles as two ghostly spirits erupt from his body, and rend through your soul with a chilling touch.
+You may be new to this place but you have all you need to beat this foe. In battle, each side takes a turn to make an action.
 You focus your spirit on the energy pulsing from the staff. A magic bolt of light erupts and strikes the skeleton!
 You charge forth and swing with your mighty sword!
 Like a flash of lightning, you dart forth and strike twice with your dagger.
 Your oaken staff rises into the air and erupts in a purple flame. From the wide arching tip a portal appears.
 The portal conjures forth an assault of purple asteroids, searing the skeleton with molten flame.
 You enter a meditative state with your blade poised in a defensive pose. With a sharp breath you conjure the depths of your battle spirit.
-Your eyes open, step forward in a flash of light, and bring down your blade with a hero's fury.
+Your eyes open, step forward in a flash of light, and bring down your blade with heroic fury.
 A devious smirk crawls upon your face, the smirk of one who knows they have bested their opponent.
-Simultaneously you drop a smoke bomb and leap towards the skeleton. Your knife shifts rapidly in the air, making three swift cuts.  
+Simultaneously you drop a smoke bomb and leap towards the skeleton. Your knife shifts rapidly in the air, making three swift cuts.
 You are victorious! The dark aura leaves the skeleton's bones as they collapse into pieces on the armory floor.
 You notice some gold pieces have dropped from the skeleton's corpse, as well as a weathered scroll.
 Do you pick up the gold and scroll? (y/n)
