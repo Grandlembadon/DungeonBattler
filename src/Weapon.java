@@ -53,7 +53,7 @@ public class Weapon {
     }
 
     public void strike(Player user, Enemy enemy) {
-        int newHP = (user.getCurrentHP() - enemy.getEnemyWeapon().damage);
+        int newHP = (enemy.getCurrentHP() - user.getWeapon().damage);
         user.setCurrentHP(newHP);
 
 
