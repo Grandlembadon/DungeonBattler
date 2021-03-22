@@ -60,7 +60,10 @@ public class Weapon {
             narrator.playDialogueSleep(24,3000);
 
         } else if (this.name.equalsIgnoreCase("Sword")){
-            
+            narrator.playDialogueSleep(25,3000);
+
+        } else if (this.name.equalsIgnoreCase("Dagger")){
+            narrator.playDialogueSleep(26,3000);
         }
 
 
