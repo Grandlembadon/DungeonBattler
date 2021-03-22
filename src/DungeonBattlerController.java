@@ -76,8 +76,10 @@ public class DungeonBattlerController {
                 narrator.playDialogueSleep(21,3000);
                 narrator.playDialogueSleep(22,3000);
                 narrator.playDialogueSleep(23,3000);
-                if (scanner.next().equalsIgnoreCase("strike"){
-                    user.getWeapon().
+                if (scanner.next() == "strike") {
+                user.getWeapon().strike(user, SkeletonSoldier);
+            }else{
+
 
             }
 
