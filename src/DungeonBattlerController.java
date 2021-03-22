@@ -80,7 +80,7 @@ public class DungeonBattlerController {
                 while(!validCommand) {
                     String response = scanner.next();
                     if (response.equalsIgnoreCase("strike")) {
-                        user.getWeapon().strike(user, SkeletonSoldier);
+                        user.getWeapon().strike(user, SkeletonSoldier, narrator);
                         validCommand = true;
                     } else {
                         System.out.println("Please enter [Strike]");

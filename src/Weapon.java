@@ -54,7 +54,6 @@ public class Weapon {
 
     public void strike(Player user, Enemy enemy,Narrator narrator) {
         int newHP = (enemy.getCurrentHP() - user.getWeapon().damage);
-        narrator.init();
         enemy.setCurrentHP(newHP);
         if (this.name.equalsIgnoreCase("Staff")){
             narrator.playDialogueSleep(24,3000);
