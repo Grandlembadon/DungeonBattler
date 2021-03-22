@@ -67,6 +67,7 @@ public class DungeonBattlerController {
 
 
             boolean battleOver = true;
+            boolean validCommand = false;
 
             Enemy SkeletonSoldier = new Enemy("SkeletonSoldier",weaponList.get(3));
 
@@ -76,9 +77,12 @@ public class DungeonBattlerController {
                 narrator.playDialogueSleep(21,3000);
                 narrator.playDialogueSleep(22,3000);
                 narrator.playDialogueSleep(23,3000);
-                if (scanner.next() == "strike") {
-                user.getWeapon().strike(user, SkeletonSoldier);
+                while(!validCommand) {
+                    String response = scanner.next();
+                if(response.equalsIgnoreCase("strike")){
+                    
             }else{
+                user.getWeapon().strike(user, SkeletonSoldier);
 
 
             }
