@@ -29,7 +29,7 @@ Excellent! A fine first strike. Each of the Command Actions takes up your turn i
 This time, it looks like the skeleton casted a spell using one of his skills. It did a bit more damage than his normal attack.
 Just like the skeleton, you have a skill to use. When you picked up your weapon, you also inherited some of the power of the dungeoneer before you.
 We'll try using your Class Skill on our next turn, but first let's heal some of the damage the skeleton did. Every dungeoneer has the First Aid ability.
-You can use the SKILL command to cast First Aid. (Enter Skill
+You can use the SKILL command to cast First Aid. (Enter "Cast First Aid")
 Your oaken staff rises into the air and erupts in a purple flame. From the wide arching tip a portal appears.
 The portal conjures forth an assault of purple asteroids, searing the skeleton with molten flame.
 You enter a meditative state with your blade poised in a defensive pose. With a sharp breath you conjure the depths of your battle spirit.
