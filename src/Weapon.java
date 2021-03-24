@@ -61,11 +61,12 @@ public class Weapon {
 
         } else if (this.name.equalsIgnoreCase("Sword")){
             narrator.playDialogueSleep(25,3000);
-            System.out.println("The enemy is hit for " + user.getWeapon().damage + "damage!")
+            System.out.println("The enemy is hit for " + user.getWeapon().damage + "damage!");
 
         } else if (this.name.equalsIgnoreCase("Dagger")){
             narrator.playDialogueSleep(26,3000);
-            
+            System.out.println("The enemy is hit for " + user.getWeapon().damage + "damage!");
+
         }
 
 
