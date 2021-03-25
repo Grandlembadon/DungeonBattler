@@ -93,6 +93,8 @@ public class DungeonBattlerController {
                 narrator.playDialogueSleep(18,3000);
                 // add Skeleton skill command here
                 narrator.playDialogueSleep(28,3000);
+                narrator.playDialogueSleep(29,3000);
+                
 
                 GameOver = true;
 
