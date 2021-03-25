@@ -53,8 +53,8 @@ public class Skill {
 
     }
 
-    public void castSkill() {
-        
+    public void castSkill(Player user,Enemy enemy) {
+
     }
 
     public int getSkillCost() {
