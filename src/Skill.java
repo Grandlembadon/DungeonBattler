@@ -53,11 +53,11 @@ public class Skill {
 
     }
 
-    public void castSkill(Player user,Enemy enemy) { {
-            int newHP = (enemy.getCurrentHP() - user.getWeapon().damage);
+    public void castSkill(Player user,Enemy enemy) {
+            int newHP = (enemy.getCurrentHP() - user.getSkill().skillDamage);
             enemy.setCurrentHP(newHP);
 
-    }
+        }
 
     public int getSkillCost() {
         return skillCost;
