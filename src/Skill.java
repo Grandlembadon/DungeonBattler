@@ -53,6 +53,10 @@ public class Skill {
 
     }
 
+    public void castSkill() {
+        
+    }
+
     public int getSkillCost() {
         return skillCost;
     }
