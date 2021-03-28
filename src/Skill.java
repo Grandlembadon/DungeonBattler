@@ -55,6 +55,8 @@ public class Skill {
     public void castSkill(Player user,Enemy enemy) {
             int newHP = (enemy.getCurrentHP() - user.getSkill().skillDamage);
             enemy.setCurrentHP(newHP);
+        System.out.println(enemy.getEnemyName() + " has taken " + user.getSkill().skillDamage + " damage!" );
+
 
         }
 
