@@ -9,7 +9,6 @@ public class Skill {
     private int skillCost;
     private int skillDamage;
 
-
     public Skill() {
 
     }
@@ -73,6 +72,14 @@ public class Skill {
 
     public void setSkillName(String skillName) {
         this.skillName = skillName;
+    }
+
+    public int getSkillDamage() {
+        return skillDamage;
+    }
+
+    public void setSkillDamage(int skillDamage) {
+        this.skillDamage = skillDamage;
     }
 }
 
