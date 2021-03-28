@@ -73,7 +73,9 @@ public class Enemy extends Player {
             narrator.playDialogueSleep(18,3000);
         }else if(enemy.enemyName.equalsIgnoreCase("TheOldShadowKing")){
             //add Shadow King dialogue
-        }else if(enemy.enemyName.equalsIgnoreCase())
+        }else if(enemy.enemyName.equalsIgnoreCase("VeteranDungeoneer")){
+            //add Veteran dialogue
+        }
 
     }
 }

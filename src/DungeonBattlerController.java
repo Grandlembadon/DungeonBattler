@@ -36,6 +36,7 @@ public class DungeonBattlerController {
 
             ArrayList<Weapon> weaponList = Weapon.createWeaponList();
             ArrayList<Class> classList = Class.classList();
+            ArrayList<Skill> skillList = Skill.createSkillList();
 
             for (Weapon w : weaponList) {
                 System.out.println(w.toString());
@@ -68,6 +69,7 @@ public class DungeonBattlerController {
 
             boolean battleOver = true;
             boolean validCommand = false;
+
 
             Enemy SkeletonSoldier = new Enemy("SkeletonSoldier",weaponList.get(3));
 
