@@ -20,12 +20,6 @@ public class Enemy extends Player {
         this.enemyWeapon = enemyWeapon;
 
     }
-    public Enemy(String enemyName, Weapon enemyWeapon, ArrayList<Skill> enemySkills){
-        this.enemyName = enemyName;
-        this.enemyWeapon = enemyWeapon;
-        this.enemySkills = enemySkills;
-    }
-
 
     public Weapon getEnemyWeapon() {
         return enemyWeapon;
