@@ -60,6 +60,7 @@ The radiant spectre calls upon the souls of the hall, and fills two rusted suits
 Battle Start!
 Now that you've fought in a real battle before, your battle instincts are sharpening.
 You will now have a chance to strike first at the start of battle.
+When a battle starts from now on, your "Instincts" stat will be put up against the enemy's. It will randomly generate based on each character.
 
 
 
