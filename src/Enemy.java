@@ -70,8 +70,10 @@ public class Enemy extends Player {
         int newHP = (user.getCurrentHP() - enemy.getEnemySkills().get(0).getSkillDamage());
         user.setCurrentHP(newHP);
         if (enemy.enemyName.equalsIgnoreCase("SkeletonSoldier")){
-            narrator.playDialogueSleep();
-        }
+            narrator.playDialogueSleep(18,3000);
+        }else if(enemy.enemyName.equalsIgnoreCase("TheOldShadowKing")){
+            //add Shadow King dialogue
+        }else if(enemy.enemyName.equalsIgnoreCase())
 
     }
 }
