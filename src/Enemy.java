@@ -1,6 +1,56 @@
 import java.util.ArrayList;
 
 public class Enemy extends Player {
+    private String enemyName;
+    private int enemyHealth;
+    Narrator narrator;
+    ArrayList<Skill> enemySkills;
+    private Weapon enemyWeapon;
+
+    public Enemy(Narrator narrator) {
+        this.narrator = narrator;
+    }
+
+    public Enemy() {
+
+    }
+
+    public Enemy(String enemyName, Weapon enemyWeapon) {
+        this.enemyName = enemyName;
+        this.enemyWeapon = enemyWeapon;
+
+    }
+    public Enemy(String enemyName, Weapon enemyWeapon, ArrayList<Skill> enemySkills){
+        this.enemyName = enemyName;
+        this.enemyWeapon = enemyWeapon;
+        this.enemySkills = enemySkills;
+    }
+
+
+    public Weapon getEnemyWeapon() {
+        return enemyWeapon;
+    }
+
+    public void enemyStrike(Player user, Enemy enemy) {
+        int newHP = (user.getCurrentHP() - enemy.getEnemyWeapon().damage);
+        user.setCurrentHP(newHP);
+
+
+    }
+
+    public void castEnemySkill1(Player user, Enemy enemy, Narrator narrator) {
+        int newHP = (user.getCurrentHP() - enemy.getEnemySkills().get(0).getSkillDamage());
+        user.setCurrentHP(newHP);
+        if (enemy.enemyName.equalsIgnoreCase("SkeletonSoldier")) {
+            narrator.playDialogueSleep(18, 3000);
+        } else if (enemy.enemyName.equalsIgnoreCase("TheOldShadowKing")) {
+            //add Shadow King dialogue
+        } else if (enemy.enemyName.equalsIgnoreCase("VeteranDungeoneer")) {
+            //add Veteran dialogue
+        }
+
+    }
+
     public String getEnemyName() {
         return enemyName;
     }
@@ -35,47 +85,5 @@ public class Enemy extends Player {
 
     public void setEnemyWeapon(Weapon enemyWeapon) {
         this.enemyWeapon = enemyWeapon;
-    }
-
-    private String enemyName;
-    private int enemyHealth;
-    Narrator narrator;
-    ArrayList<Skill> enemySkills;
-    private Weapon enemyWeapon;
-
-    public Enemy(Narrator narrator) {
-        this.narrator = narrator;
-    }
-    public Enemy() {
-
-    }
-    public Enemy(String enemyName, Weapon enemyWeapon){
-        this.enemyName = enemyName;
-        this.enemyWeapon = enemyWeapon;
-
-    }
-
-
-    public Weapon getEnemyWeapon() {
-        return enemyWeapon;
-    }
-
-    public void enemyStrike(Player user, Enemy enemy) {
-        int newHP = (user.getCurrentHP() - enemy.getEnemyWeapon().damage);
-        user.setCurrentHP(newHP);
-
-
-    }
-    public void castEnemySkill1(Player user,Enemy enemy,Narrator narrator) {
-        int newHP = (user.getCurrentHP() - enemy.getEnemySkills().get(0).getSkillDamage());
-        user.setCurrentHP(newHP);
-        if (enemy.enemyName.equalsIgnoreCase("SkeletonSoldier")){
-            narrator.playDialogueSleep(18,3000);
-        }else if(enemy.enemyName.equalsIgnoreCase("TheOldShadowKing")){
-            //add Shadow King dialogue
-        }else if(enemy.enemyName.equalsIgnoreCase("VeteranDungeoneer")){
-            //add Veteran dialogue
-        }
-
     }
 }
