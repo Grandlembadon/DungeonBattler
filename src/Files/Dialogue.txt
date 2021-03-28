@@ -62,7 +62,8 @@ Now that you've fought in a real battle before, your battle instincts are sharpe
 You will now have a chance to strike first at the start of battle.
 When a battle starts from now on, your "Battle Spirit" stat will be put up against the enemy's. It will randomly generate based on each character.
 You approach the Spectre and call upon your battle spirit to challenge his might.
-After a clashing of spirits, you have won! You get to go first! 
+After a clashing of spirits, you have won! You get to go first!
+The Spectre's battle spirit was too powerful for you, and they will go first.
 
 
 
