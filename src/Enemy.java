@@ -66,9 +66,12 @@ public class Enemy extends Player {
 
 
     }
-    public void castEnemySkill1(Player user,Enemy enemy) {
+    public void castEnemySkill1(Player user,Enemy enemy,Narrator narrator) {
         int newHP = (user.getCurrentHP() - enemy.getEnemySkills().get(0).getSkillDamage());
-        enemy.setCurrentHP(newHP);
+        user.setCurrentHP(newHP);
+        if (enemy.enemyName.equalsIgnoreCase("SkeletonSoldier")){
+            narrator.playDialogueSleep();
+        }
 
     }
 }
