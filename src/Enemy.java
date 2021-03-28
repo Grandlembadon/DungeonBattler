@@ -1,6 +1,42 @@
 import java.util.ArrayList;
 
 public class Enemy extends Player {
+    public String getEnemyName() {
+        return enemyName;
+    }
+
+    public void setEnemyName(String enemyName) {
+        this.enemyName = enemyName;
+    }
+
+    public int getEnemyHealth() {
+        return enemyHealth;
+    }
+
+    public void setEnemyHealth(int enemyHealth) {
+        this.enemyHealth = enemyHealth;
+    }
+
+    public Narrator getNarrator() {
+        return narrator;
+    }
+
+    public void setNarrator(Narrator narrator) {
+        this.narrator = narrator;
+    }
+
+    public ArrayList<Skill> getEnemySkills() {
+        return enemySkills;
+    }
+
+    public void setEnemySkills(ArrayList<Skill> enemySkills) {
+        this.enemySkills = enemySkills;
+    }
+
+    public void setEnemyWeapon(Weapon enemyWeapon) {
+        this.enemyWeapon = enemyWeapon;
+    }
+
     private String enemyName;
     private int enemyHealth;
     Narrator narrator;
@@ -31,7 +67,7 @@ public class Enemy extends Player {
 
     }
     public void castEnemySkill(Player user,Enemy enemy) {
-        int newHP = (enemy.getCurrentHP() - user.getSkill().skillDamage);
+        int newHP = (user.getCurrentHP() - enemy.getEnemySkill().skillDamage);
         enemy.setCurrentHP(newHP);
 
     }
