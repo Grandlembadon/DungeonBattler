@@ -73,7 +73,7 @@ public class DungeonBattlerController {
 
             Enemy SkeletonSoldier = new Enemy("SkeletonSoldier",weaponList.get(3));
             SkeletonSoldier.getEnemySkills().add(skillList.get(4));
-            SkeletonSoldier
+            SkeletonSoldier.getEnemySkills().add(skillList.get(5));
 
 
                 narrator.playDialogueSleep(17,3000);
@@ -95,7 +95,7 @@ public class DungeonBattlerController {
                 }
                 narrator.playDialogueSleep(27,3000);
                 narrator.playDialogueSleep(18,3000);
-                // add Skeleton skill command here
+                SkeletonSoldier.castEnemySkill1(user,SkeletonSoldier,narrator);
                 narrator.playDialogueSleep(28,3000);
                 narrator.playDialogueSleep(29,3000);
                 narrator.playDialogueSleep(30,3000);
