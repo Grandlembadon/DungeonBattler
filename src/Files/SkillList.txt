@@ -2,4 +2,5 @@ Meteor Shower,1,5
 Mighty Rend,1,20
 Dance of Daggers,1,4
 Chilling Shard,1,8
+First Aid,1,10
 Spears of the Dammed,1,10
