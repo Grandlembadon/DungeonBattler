@@ -64,6 +64,8 @@ When a battle starts from now on, your "Battle Spirit" stat will be put up again
 You approach the Spectre and call upon your battle spirit to challenge his might.
 After a clashing of spirits, you have won! You get to go first!
 The Spectre's battle spirit was too powerful for you, and they will go first.
+The Spectre mumbles a mystic incantation that causes the two ghostly lackeys to glow with a blue aura.
+
 
 
 
