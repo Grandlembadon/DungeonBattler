@@ -45,6 +45,11 @@ public class Enemy extends Player {
         }
 
     }
+    public void setSkeletonSkills(ArrayList<Skill> skillList){
+            this.getEnemySkills().add(skillList.get(3));
+            this.getEnemySkills().add(skillList.get(4));
+
+    }
 
     public String getEnemyName() {
         return enemyName;
