@@ -1,1 +1,4 @@
-Scroll of Illumination,
+Scroll of Illumination
+Healing Potion
+Gold Piece
+Ancient Gemstone
