@@ -1,12 +1,9 @@
 public class Item {
-    boolean isUsed;
     String itemName;
-    int itemQuantity;
 
-    public Item(boolean isUsed, String itemName, int itemQuantity) {
-        this.isUsed = isUsed;
+
+    public Item(String itemName, int itemQuantity) {
         this.itemName = itemName;
-        this.itemQuantity = itemQuantity;
     }
     public Item() {
 
@@ -21,7 +18,7 @@ public class Item {
     }
 
     public void useItem(){
-        System.out.println("Selling Item...");
+
 
     }
     public void discardItem(){
