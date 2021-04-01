@@ -15,9 +15,10 @@ public class Enemy extends Player {
 
     }
 
-    public Enemy(String enemyName, Weapon enemyWeapon) {
+    public Enemy(String enemyName, Weapon enemyWeapon, ArrayList<Skill> enemySkills) {
         this.enemyName = enemyName;
         this.enemyWeapon = enemyWeapon;
+        this.enemySkills = enemySkills;
 
     }
 
