@@ -31,9 +31,10 @@ Just like the skeleton, you have a skill to use. When you picked up your weapon,
 We'll try using your Class Skill on our next turn, but first let's heal some of the damage the skeleton did. Every dungeoneer has the First Aid ability.
 You can use the SKILL command to cast First Aid. (Enter "Cast First Aid")
 Excellent! Remember, if your HP reaches zero, your journey ends here and your bones will rest here for eternity.
+Now we will show this skeleton your true power. This time, you will cast your main damaging skill.
 Your oaken staff rises into the air and erupts in a purple flame. From the wide arching tip a portal appears.
 The portal conjures forth an assault of purple asteroids, searing the skeleton with molten flame.
-You enter a meditative state with your blade poised in a defensive pose. With a sharp breath you conjure the depths of your battle spirit.
+You enter a meditative state with your blade poised in a defensive stance. With a sharp breath you conjure the depths of your battle spirit.
 Your eyes open, step forward in a flash of light, and bring down your blade with heroic fury.
 A devious smirk crawls upon your face, the smirk of one who knows they have bested their opponent.
 Simultaneously you drop a smoke bomb and leap towards the skeleton. Your knife shifts rapidly in the air, making three swift cuts.
