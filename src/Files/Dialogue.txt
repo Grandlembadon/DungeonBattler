@@ -32,6 +32,7 @@ We'll try using your Class Skill on our next turn, but first let's heal some of 
 You can use the SKILL command to cast First Aid. (Enter "Cast First Aid")
 Excellent! Remember, if your HP reaches zero, your journey ends here and your bones will rest here for eternity.
 Now we will show this skeleton your true power. This time, you will cast your main damaging skill.
+Each weapon will give you a different first skill. Why not see what you can do? (Enter "Cast Class Skill")
 Your oaken staff rises into the air and erupts in a purple flame. From the wide arching tip a portal appears.
 The portal conjures forth an assault of purple asteroids, searing the skeleton with molten flame.
 You enter a meditative state with your blade poised in a defensive stance. With a sharp breath you conjure the depths of your battle spirit.
