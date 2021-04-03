@@ -72,7 +72,8 @@ public class DungeonBattlerController {
 
 
             Enemy SkeletonSoldier = new Enemy("SkeletonSoldier",weaponList.get(3));
-            SkeletonSoldier.getEnemySkills().add(skillList.get(0));
+            SkeletonSoldier.getEnemySkills().add(skillList.get(3));
+            SkeletonSoldier.getEnemySkills()
 
 
                 narrator.playDialogueSleep(17,3000);
