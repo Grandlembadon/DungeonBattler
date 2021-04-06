@@ -61,6 +61,7 @@ public class DungeonBattlerController {
                     user.setCurrentHP(user.getMyClass().classHP);
                     narrator.weaponChoice(weaponList, user);
                     user.setPlayerSkills(playerSkills);
+                    user.getPlayerSkills().add(skillList.get(5));
                 }
             }
             narrator.playDialogueSleep(13, 3000);
@@ -74,6 +75,7 @@ public class DungeonBattlerController {
 
 
             Enemy SkeletonSoldier = new Enemy("SkeletonSoldier",weaponList.get(3));
+            
             SkeletonSoldier.getEnemySkills().add(skillList.get(3));
             SkeletonSoldier.getEnemySkills().add(skillList.get(4));
 
