@@ -102,7 +102,7 @@ public class DungeonBattlerController {
                 narrator.playDialogueSleep(32,3000);
                  while(!validCommand) {
                      String response = scanner.next();
-                     if (response.equalsIgnoreCase("strike")) {
+                     if (response.equalsIgnoreCase("Cast First Aid")) {
                          user.getWeapon().strike(user, SkeletonSoldier, narrator);
                             validCommand = true;
                         } else {
