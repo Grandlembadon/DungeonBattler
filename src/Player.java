@@ -1,7 +1,7 @@
 public class Player {
     private Item[] inventory;
     private Weapon weapon;
-    private Skill skill;
+    private Skill [] playerSkills;
     private Class myClass;
     private int totalHP;
     private int totalSP;
@@ -32,15 +32,7 @@ public class Player {
         this.weapon = weapon;
 
     }
-
-    public Skill getSkill() {
-        return skill;
-    }
-
-    public void setSkills(Skill[] skills) {
-        this.skill = skill;
-    }
-
+    
     public Class getMyClass() {
         return myClass;
     }
