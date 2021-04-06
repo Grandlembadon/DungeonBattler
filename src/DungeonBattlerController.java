@@ -59,7 +59,7 @@ public class DungeonBattlerController {
                     user.setTotalHP(user.getMyClass().classHP);
                     user.setCurrentHP(user.getMyClass().classHP);
                     narrator.weaponChoice(weaponList, user);
-                    user.getskil
+                    user.get
                 }
             }
             narrator.playDialogueSleep(13, 3000);

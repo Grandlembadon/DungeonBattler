@@ -35,11 +35,11 @@ public class Player {
 
     }
 
-    public Skill[] getPlayerSkills() {
+    public ArrayList<Skill> getPlayerSkills() {
         return playerSkills;
     }
 
-    public void setPlayerSkills(Skill[] playerSkills) {
+    public void setPlayerSkills(ArrayList<Skill> playerSkills) {
         this.playerSkills = playerSkills;
     }
 
