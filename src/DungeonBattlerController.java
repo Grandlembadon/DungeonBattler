@@ -37,6 +37,7 @@ public class DungeonBattlerController {
             ArrayList<Weapon> weaponList = Weapon.createWeaponList();
             ArrayList<Class> classList = Class.classList();
             ArrayList<Skill> skillList = Skill.createSkillList();
+            ArrayList<Skill> playerSkills = new ArrayList();
 
             for (Weapon w : weaponList) {
                 System.out.println(w.toString());
@@ -59,7 +60,7 @@ public class DungeonBattlerController {
                     user.setTotalHP(user.getMyClass().classHP);
                     user.setCurrentHP(user.getMyClass().classHP);
                     narrator.weaponChoice(weaponList, user);
-                    user.getPlayerSkills().add(skillList.get(5));
+                    
                 }
             }
             narrator.playDialogueSleep(13, 3000);
