@@ -1,7 +1,9 @@
+import java.util.ArrayList;
+
 public class Player {
     private Item[] inventory;
     private Weapon weapon;
-    private Skill [] playerSkills;
+    private ArrayList<Skill> playerSkills;
     private Class myClass;
     private int totalHP;
     private int totalSP;
