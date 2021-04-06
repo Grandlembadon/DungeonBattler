@@ -100,6 +100,18 @@ public class DungeonBattlerController {
                 narrator.playDialogueSleep(30,3000);
                 narrator.playDialogueSleep(31,3000);
                 narrator.playDialogueSleep(32,3000);
+                 while(!validCommand) {
+                     String response = scanner.next();
+                     if (response.equalsIgnoreCase("strike")) {
+                         user.getWeapon().strike(user, SkeletonSoldier, narrator);
+                            validCommand = true;
+                        } else {
+                            System.out.println("Please enter [Strike]");
+                            return;
+
+
+                }
+            }
 
                 GameOver = true;
 
