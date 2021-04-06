@@ -32,7 +32,15 @@ public class Player {
         this.weapon = weapon;
 
     }
-    
+
+    public Skill[] getPlayerSkills() {
+        return playerSkills;
+    }
+
+    public void setPlayerSkills(Skill[] playerSkills) {
+        this.playerSkills = playerSkills;
+    }
+
     public Class getMyClass() {
         return myClass;
     }
