@@ -62,14 +62,14 @@ public class DungeonBattlerController {
                     narrator.weaponChoice(weaponList, user);
                     user.setPlayerSkills(playerSkills);
                     user.getPlayerSkills().add(skillList.get(5));
-                    if (user.getMyClass().classSkillName == skillList.get(0).getSkillName()){
+                    if (user.getMyClass().classSkillName == skillList.get(0).getSkillName()) {
                         user.getPlayerSkills().add(skillList.get(0));
 
-                    }else if(user.getMyClass().classSkillName ==
-                            skillList.get(1).getSkillName()){
+                    } else if (user.getMyClass().classSkillName ==
+                            skillList.get(1).getSkillName()) {
                         user.getPlayerSkills().add(skillList.get(1));
-                    }else if(user.getMyClass().classSkillName ==
-                            skillList.get(2).getSkillName()){
+                    } else if (user.getMyClass().classSkillName ==
+                            skillList.get(2).getSkillName()) {
                         user.getPlayerSkills().add(skillList.get(2));
                     }
                 }
@@ -84,65 +84,62 @@ public class DungeonBattlerController {
             boolean validCommand = false;
 
 
-            Enemy SkeletonSoldier = new Enemy("SkeletonSoldier",weaponList.get(3));
-            ArrayList <Skill> EnemySkills = new ArrayList();
+            Enemy SkeletonSoldier = new Enemy("SkeletonSoldier", weaponList.get(3));
+            ArrayList<Skill> EnemySkills = new ArrayList();
             SkeletonSoldier.setEnemySkills(EnemySkills);
             SkeletonSoldier.getEnemySkills().add(skillList.get(3));
             SkeletonSoldier.getEnemySkills().add(skillList.get(4));
 
 
-                narrator.playDialogueSleep(17,3000);
-                SkeletonSoldier.enemyStrike(user, SkeletonSoldier);
-                narrator.playDialogueSleep(21,3000);
-                narrator.playDialogueSleep(22,3000);
-                narrator.playDialogueSleep(23,3000);
-                while(!validCommand) {
-                    String response = scanner.next();
-                    if (response.equalsIgnoreCase("strike")) {
-                        user.getWeapon().strike(user, SkeletonSoldier, narrator);
-                        validCommand = true;
-                    } else {
-                        System.out.println("Please enter [Strike]");
-                        return;
-
-
-                    }
-                }
-                narrator.playDialogueSleep(27,3000);
-                SkeletonSoldier.castEnemySkill1(user,SkeletonSoldier,narrator);
-                narrator.playDialogueSleep(28,3000);
-                narrator.playDialogueSleep(29,3000);
-                narrator.playDialogueSleep(30,3000);
-                narrator.playDialogueSleep(31,3000);
-                narrator.playDialogueSleep(32,3000);
-                 while(!validCommand) {
-                     String response = scanner.next();
-                     if (response.equalsIgnoreCase("Cast First Aid")) {
-                         user.castFirstAid();
-                            validCommand = true;
-                        } else {
-                            System.out.println("Please enter [Cast First Aid]");
-                            return;
+            narrator.playDialogueSleep(17, 3000);
+            SkeletonSoldier.enemyStrike(user, SkeletonSoldier);
+            narrator.playDialogueSleep(21, 3000);
+            narrator.playDialogueSleep(22, 3000);
+            narrator.playDialogueSleep(23, 3000);
+            while (!validCommand) {
+                String response = scanner.next();
+                if (response.equalsIgnoreCase("strike")) {
+                    user.getWeapon().strike(user, SkeletonSoldier, narrator);
+                    validCommand = true;
+                } else {
+                    System.out.println("Please enter [Strike]");
+                    return;
 
 
                 }
             }
-                 narrator.playDialogueSleep(33,3000);
-                 narrator.playDialogueSleep(34,3000);
+            narrator.playDialogueSleep(27, 3000);
+            SkeletonSoldier.castEnemySkill1(user, SkeletonSoldier, narrator);
+            narrator.playDialogueSleep(28, 3000);
+            narrator.playDialogueSleep(29, 3000);
+            narrator.playDialogueSleep(30, 3000);
+            narrator.playDialogueSleep(31, 3000);
+            narrator.playDialogueSleep(32, 3000);
+            while (!validCommand) {
+                String response = scanner.next();
+                if (response.equalsIgnoreCase("Cast First Aid")) {
+                    user.castFirstAid();
+                    validCommand = true;
+                } else {
+                    System.out.println("Please enter [Cast First Aid]");
+                    return;
 
-                GameOver = true;
 
-
-
+                }
             }
+            SkeletonSoldier.enemyStrike(user, SkeletonSoldier);
+            narrator.playDialogueSleep(33, 3000);
 
-         
+            narrator.playDialogueSleep(34, 3000);
 
-
+            GameOver = true;
 
 
         }
+
+
     }
+}
 
 
 
