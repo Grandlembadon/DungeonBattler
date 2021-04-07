@@ -70,6 +70,8 @@ public class DungeonBattlerController {
                         user.getPlayerSkills().add(skillList.get(1));
                     }else if(user.getMyClass().classSkillName ==
                             skillList.get(2).getSkillName()){
+                        user.getPlayerSkills().add(skillList.get(2));
+                    }
                 }
             }
             narrator.playDialogueSleep(13, 3000);
