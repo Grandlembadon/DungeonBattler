@@ -128,6 +128,7 @@ public class DungeonBattlerController {
                 }
             }
                  narrator.playDialogueSleep(33,3000);
+                 narrator.playDialogueSleep(34,3000);
 
                 GameOver = true;
 
