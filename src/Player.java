@@ -98,12 +98,19 @@ public class Player {
 
     }
 
+
     public Narrator getNarrator() {
         return narrator;
     }
 
     public void setNarrator(Narrator narrator) {
         this.narrator = narrator;
+    }
+    public void castFirstAid(Player user){
+        int newHP = (user.getCurrentHP() + user.getPlayerSkills().get(0).skillDamage);
+        user.setCurrentHP(newHP);
+        user.getNarrator().playBattleTextSleep("You were healed for " + newHP + " health points!",3000);
+
     }
 }
 
