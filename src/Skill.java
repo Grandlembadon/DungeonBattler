@@ -62,7 +62,7 @@ public class Skill {
     public void castFirstAid(Player user){
         int newHP = (user.getCurrentHP() + user.getPlayerSkills().get(0).skillDamage);
         user.setCurrentHP(newHP);
-        user.getNarrator().playDialogueSleep();
+        user.getNarrator().playBattleTextSleep("You were healed for " + newHP + " health points!",3000)
 
     }
 
