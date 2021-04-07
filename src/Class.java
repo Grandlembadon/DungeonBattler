@@ -5,11 +5,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Class {
-    String classSkill;
+    Skill classSkill;
     int classHP;
     String className;
 
-    public Class(String classSkill, int classHP, String className) {
+    public Class(Skill classSkill, int classHP, String className) {
         this.classSkill = classSkill;
         this.classHP = classHP;
         this.className = className;
