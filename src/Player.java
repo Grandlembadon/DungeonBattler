@@ -10,6 +10,7 @@ public class Player {
     private int currentHP;
     private int currentSP;
     private String name;
+    private Narrator narrator;
 
     public Player(String name) {
         this.name = name;

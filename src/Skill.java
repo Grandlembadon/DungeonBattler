@@ -53,12 +53,17 @@ public class Skill {
     }
 
     public void castAttackSkill(Player user,Enemy enemy) {
-//            int newHP = (enemy.getCurrentHP() - user.getSkill().skillDamage);
-//            enemy.setCurrentHP(newHP);
+//          int newHP = (enemy.getCurrentHP() - user.getSkill().skillDamage);
+//          enemy.setCurrentHP(newHP);
 //        System.out.println(enemy.getEnemyName() + " has taken " + user.getSkill().skillDamage + " damage!" );
 
 
-        }
+    }
+    public void castFirstAid(Player user){
+        int newHP = (user.getCurrentHP() + user.getPlayerSkills().get(0).skillDamage);
+        user.setCurrentHP(newHP);
+
+    }
 
     public int getSkillCost() {
         return skillCost;
