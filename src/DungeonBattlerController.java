@@ -62,6 +62,9 @@ public class DungeonBattlerController {
                     narrator.weaponChoice(weaponList, user);
                     user.setPlayerSkills(playerSkills);
                     user.getPlayerSkills().add(skillList.get(5));
+                    if (user.getMyClass().classSkillName == skillList.get(0).getSkillName()){
+                        user.getPlayerSkills().add(skillList.get(0));
+                    }else if()
                 }
             }
             narrator.playDialogueSleep(13, 3000);
