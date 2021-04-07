@@ -31,6 +31,7 @@ public class Player {
     public void setWeapon(Weapon weapon) {
         this.weapon = weapon;
     }
+
     public void setWeapon(int wepNum) {
         this.weapon = weapon;
 
@@ -92,9 +93,17 @@ public class Player {
         this.name = name;
     }
 
-    public Player(){
+    public Player() {
+
 
     }
 
+    public Narrator getNarrator() {
+        return narrator;
+    }
+
+    public void setNarrator(Narrator narrator) {
+        this.narrator = narrator;
+    }
 }
 
