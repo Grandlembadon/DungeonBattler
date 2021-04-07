@@ -118,7 +118,7 @@ public class DungeonBattlerController {
                  while(!validCommand) {
                      String response = scanner.next();
                      if (response.equalsIgnoreCase("Cast First Aid")) {
-                         user.castFirstAid(user);
+                         user.castFirstAid();
                             validCommand = true;
                         } else {
                             System.out.println("Please enter [Cast First Aid]");
@@ -127,6 +127,7 @@ public class DungeonBattlerController {
 
                 }
             }
+                 narrator.playDialogueSleep();
 
                 GameOver = true;
 
