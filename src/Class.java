@@ -5,12 +5,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Class {
-    Skill classSkill;
+    String classSkillName;
     int classHP;
     String className;
 
-    public Class(Skill classSkill, int classHP, String className) {
-        this.classSkill = classSkill;
+    public Class(String classSkillName, int classHP, String className) {
+        this.classSkillName = classSkillName;
         this.classHP = classHP;
         this.className = className;
     }
@@ -30,11 +30,11 @@ public class Class {
 
             while ((classline = inputStream.readLine()) != null) {
                 String [] classInfo = classline.split(",");
-                String classSkill = classInfo[0];
+                String classSkillName = classInfo[0];
                 int classHP = Integer.parseInt(classInfo[1]);
                 String className = classInfo[2];
 
-                Class myclass = new Class(classSkill,classHP,className);
+                Class myclass = new Class(classSkillName,classHP,className);
                 classList.add(myclass);
 
             }
