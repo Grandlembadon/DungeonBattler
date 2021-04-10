@@ -113,6 +113,7 @@ public class Player {
 
     }
     public void castSkill1(Enemy enemy){
+        if (this.getPlayerSkills().get(1) ==  )
         int newHP = (enemy.getCurrentHP() - this.getPlayerSkills().get(1).getSkillDamage());
         enemy.setCurrentHP(newHP);
         this.getNarrator().playBattleTextSleep(enemy.getEnemyName() + " was damaged for " + newHP + " health points!",3000);
