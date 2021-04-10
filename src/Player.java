@@ -114,8 +114,8 @@ public class Player {
     }
     public void castSkill1(Enemy enemy){
         int newHP = (enemy.getCurrentHP() - this.getPlayerSkills().get(1).getSkillDamage());
-        this.setCurrentHP(newHP);
-        this.getNarrator().playBattleTextSleep("You were healed for " + newHP + " health points!",3000);
+        enemy.setCurrentHP(newHP);
+        this.getNarrator().playBattleTextSleep(enemy.getEnemyName() + " was damaged for " + newHP + " health points!",3000);
 
 
     }
