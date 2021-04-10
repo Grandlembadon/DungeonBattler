@@ -137,7 +137,7 @@ public class DungeonBattlerController {
                     user.castFirstAid();
                     validCommand = true;
                 } else {
-                    System.out.println("Please enter [Cast First Aid]");
+                    System.out.println("Please enter [Cast Clast Skill 1]");
                     return;
 
 
