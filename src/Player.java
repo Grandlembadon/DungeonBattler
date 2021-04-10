@@ -112,5 +112,8 @@ public class Player {
         this.getNarrator().playBattleTextSleep("You were healed for " + newHP + " health points!",3000);
 
     }
+    public void castSkill1(){
+        
+    }
 }
 
