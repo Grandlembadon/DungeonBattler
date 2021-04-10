@@ -114,7 +114,8 @@ public class Player {
     }
     public void castSkill1(Enemy enemy, ArrayList<Skill> skillList){
         if (this.getPlayerSkills().get(1).getSkillName() == skillList.get(0).getSkillName()) {
-            
+            this.getNarrator().playDialogueSleep();
+
         }
         int newHP = (enemy.getCurrentHP() - this.getPlayerSkills().get(1).getSkillDamage());
         enemy.setCurrentHP(newHP);
