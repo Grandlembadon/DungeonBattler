@@ -129,8 +129,9 @@ public class DungeonBattlerController {
             }
             SkeletonSoldier.enemyStrike(user, SkeletonSoldier);
             narrator.playDialogueSleep(33, 3000);
-
             narrator.playDialogueSleep(34, 3000);
+            narrator.playDialogueSleep(35,3000);
+            
 
             GameOver = true;
 
