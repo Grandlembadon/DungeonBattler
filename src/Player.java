@@ -119,7 +119,10 @@ public class Player {
         }else if (this.getPlayerSkills().get(1).getSkillName() == skillList.get(1).getSkillName()){
             this.getNarrator().playDialogueSleep(40,3000);
             this.getNarrator().playDialogueSleep(41,3000);
-        }else if ()
+        }else if (this.getPlayerSkills().get(1).getSkillName() == skillList.get(2).getSkillName()){
+            this.getNarrator().playDialogueSleep(42,3000);
+            this.getNarrator().playDialogueSleep(43,3000);
+        }
         int newHP = (enemy.getCurrentHP() - this.getPlayerSkills().get(1).getSkillDamage());
         enemy.setCurrentHP(newHP);
         this.getNarrator().playBattleTextSleep(enemy.getEnemyName() + " was damaged for " + newHP + " health points!",3000);
