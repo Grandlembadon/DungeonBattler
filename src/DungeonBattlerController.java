@@ -130,11 +130,11 @@ public class DungeonBattlerController {
             SkeletonSoldier.enemyStrike(user, SkeletonSoldier);
             narrator.playDialogueSleep(33, 3000);
             narrator.playDialogueSleep(34, 3000);
-            narrator.playDialogueSleep(35,3000);
+            narrator.playDialogueSleep(35, 3000);
             while (!validCommand) {
                 String response = scanner.next();
                 if (response.equalsIgnoreCase("Cast Class Skill 1")) {
-                    user.castFirstAid();
+                    user.castSkill1(SkeletonSoldier, skillList);
                     validCommand = true;
                 } else {
                     System.out.println("Please enter [Cast Class Skill 1]");
@@ -144,12 +144,13 @@ public class DungeonBattlerController {
                 }
 
 
-            GameOver = true;
+                GameOver = true;
+
+
+            }
 
 
         }
-
-
     }
 }
 
