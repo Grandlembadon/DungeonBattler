@@ -109,7 +109,7 @@ public class DungeonBattlerController {
                 }
             }
             narrator.playDialogueSleep(27, 3000);
-            SkeletonSoldier.castEnemySkill1(user, SkeletonSoldier, narrator);
+            SkeletonSoldier.castEnemySkill1(user);
             narrator.playDialogueSleep(28, 3000);
             narrator.playDialogueSleep(29, 3000);
             narrator.playDialogueSleep(30, 3000);
@@ -145,7 +145,7 @@ public class DungeonBattlerController {
             }
             narrator.playDialogueSleep(38,3000);
             SkeletonSoldier.castEnemySkill2(user);
-            
+            narrator.playDialogueSleep(39,3000);
 
 
 
