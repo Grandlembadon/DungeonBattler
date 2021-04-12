@@ -147,6 +147,10 @@ public class DungeonBattlerController {
             SkeletonSoldier.castEnemySkill2(user);
             narrator.playDialogueSleep(39,3000);
 
+            while (!battleOver){
+                
+            }
+
 
 
         }
