@@ -144,7 +144,8 @@ public class DungeonBattlerController {
                 }
             }
             narrator.playDialogueSleep(38,3000);
-            
+            SkeletonSoldier.e
+
 
 
         }
