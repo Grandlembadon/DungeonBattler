@@ -148,7 +148,7 @@ public class DungeonBattlerController {
             narrator.playDialogueSleep(39,3000);
 
             while (!battleOver){
-                
+
             }
 
 
