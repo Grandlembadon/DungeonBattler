@@ -50,7 +50,12 @@ public class Enemy extends Player {
         int newHP = (user.getCurrentHP() - this.getEnemySkills().get(1).getSkillDamage());
         user.setCurrentHP(newHP);
         if (this.enemyName.equalsIgnoreCase("SkeletonSoldier")) {
-            narrator.playDialogueSleep();
+            narrator.playDialogueSleep(19,3000);
+            narrator.playDialogueSleep(20,3000);
+        } else if (this.enemyName.equalsIgnoreCase("TheOldShadowKing")){
+            // add Shadow King dialogue
+        } else if (this.enemyName.equalsIgnoreCase("VeteranDungeoneer")){
+            // add Veteran dialogue
         }
     }
     public void setSkeletonSkills(ArrayList<Skill> skillList){
