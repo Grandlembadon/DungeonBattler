@@ -47,7 +47,7 @@ public class Enemy extends Player {
     }
 
     public void castEnemySkill2(Player user){
-        int newHP = (user.getCurrentHP() - this.getEnemySkills().get(0).getSkillDamage());
+        int newHP = (user.getCurrentHP() - this.getEnemySkills().get(1).getSkillDamage());
         user.setCurrentHP(newHP);
     }
     public void setSkeletonSkills(ArrayList<Skill> skillList){
