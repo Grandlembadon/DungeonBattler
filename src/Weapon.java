@@ -52,25 +52,10 @@ public class Weapon {
 
     }
 
-    public void strike(Player user, Enemy enemy,Narrator narrator) {
-        int newHP = (enemy.getCurrentHP() - user.getWeapon().damage);
-        enemy.setCurrentHP(newHP);
-        if (this.name.equalsIgnoreCase("Staff")){
-            narrator.playDialogueSleep(24,3000);
-            System.out.println("The enemy is hit for " + user.getWeapon().damage + " damage!");
-
-        } else if (this.name.equalsIgnoreCase("Sword")){
-            narrator.playDialogueSleep(25,3000);
-            System.out.println("The enemy is hit for " + user.getWeapon().damage + " damage!");
-
-        } else if (this.name.equalsIgnoreCase("Dagger")){
-            narrator.playDialogueSleep(26,3000);
-            System.out.println("The enemy is hit for " + user.getWeapon().damage + " damage!");
-
-        }
 
 
-    }
+
+
 
 
     @Override
