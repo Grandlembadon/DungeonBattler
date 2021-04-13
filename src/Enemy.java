@@ -25,10 +25,10 @@ public class Enemy extends Player {
         return enemyWeapon;
     }
 
-    public void enemyStrike(Player user) {
+    public void enemyStrike(Player user, Narrator narrator) {
         int newHP = (user.getCurrentHP() - this.getEnemyWeapon().damage);
         user.setCurrentHP(newHP);
-        this.narrator.playBattleTextSleep(user.getName() + " takes "
+        narrator.playBattleTextSleep(user.getName() + " takes "
                 + this.getEnemyWeapon().damage
                 + " damage!", 3000);
     }
