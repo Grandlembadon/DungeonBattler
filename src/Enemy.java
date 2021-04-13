@@ -28,7 +28,7 @@ public class Enemy extends Player {
     public void enemyStrike(Player user) {
         int newHP = (user.getCurrentHP() - this.getEnemyWeapon().damage);
         user.setCurrentHP(newHP);
-        System.out.println(user.getName() + " takes " + this.getEnemyWeapon().damage + "!");
+        System.out.println(user.getName() + " takes " + this.getEnemyWeapon().damage + " damage!");
 
 
     }
