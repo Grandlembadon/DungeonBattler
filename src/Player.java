@@ -112,7 +112,7 @@ public class Player {
         enemy.setCurrentHP(newHP);
         if (this.name.equalsIgnoreCase("Staff")) {
             this.getNarrator().playDialogueSleep(24, 3000);
-            System.out.println("The enemy is hit for " + this.getWeapon().damage + " damage!");
+            this.narrator.playBattleTextSleep("The enemy is hit for " + this.getWeapon().damage + " damage!",3000);
 
         } else if (this.name.equalsIgnoreCase("Sword")) {
             this.getNarrator().playDialogueSleep(25, 3000);
