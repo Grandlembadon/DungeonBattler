@@ -92,7 +92,7 @@ public class DungeonBattlerController {
 
 
             narrator.playDialogueSleep(17, 3000);
-            SkeletonSoldier.enemyStrike(user);
+            SkeletonSoldier.enemyStrike(user, narrator);
             narrator.playDialogueSleep(21, 3000);
             narrator.playDialogueSleep(22, 3000);
             narrator.playDialogueSleep(23, 3000);
@@ -127,7 +127,7 @@ public class DungeonBattlerController {
 
                 }
             }
-            SkeletonSoldier.enemyStrike(user);
+            SkeletonSoldier.enemyStrike(user, narrator);
             narrator.playDialogueSleep(33, 3000);
             narrator.playDialogueSleep(34, 3000);
             narrator.playDialogueSleep(35, 3000);
