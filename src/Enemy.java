@@ -34,6 +34,7 @@ public class Enemy extends Player {
     }
 
     public void castEnemySkill1(Player user) {
+        user.getNarrator().init();
         int newHP = (user.getCurrentHP() - this.getEnemySkills().get(0).getSkillDamage());
         user.setCurrentHP(newHP);
         if (this.enemyName.equalsIgnoreCase("SkeletonSoldier")) {
