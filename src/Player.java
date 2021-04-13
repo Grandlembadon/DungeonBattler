@@ -107,19 +107,19 @@ public class Player {
         this.narrator = narrator;
     }
 
-    public void strike(Enemy enemy, Narrator narrator) {
+    public void strike(Enemy enemy) {
         int newHP = (enemy.getCurrentHP() - this.getWeapon().damage);
         enemy.setCurrentHP(newHP);
         if (this.name.equalsIgnoreCase("Staff")) {
-            narrator.playDialogueSleep(24, 3000);
+            this.getNarrator().playDialogueSleep(24, 3000);
             System.out.println("The enemy is hit for " + this.getWeapon().damage + " damage!");
 
         } else if (this.name.equalsIgnoreCase("Sword")) {
-            narrator.playDialogueSleep(25, 3000);
+            this.getNarrator().playDialogueSleep(25, 3000);
             System.out.println("The enemy is hit for " + this.getWeapon().damage + " damage!");
 
         } else if (this.name.equalsIgnoreCase("Dagger")) {
-            narrator.playDialogueSleep(26, 3000);
+            this.getNarrator().playDialogueSleep(26, 3000);
             System.out.println("The enemy is hit for " + this.getWeapon().damage + " damage!");
 
         }
