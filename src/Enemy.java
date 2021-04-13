@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Enemy extends Player {
     private String enemyName;
     private int enemyHealth;
-    Narrator narrator;
+    private Narrator narrator;
     ArrayList<Skill> enemySkills;
     private Weapon enemyWeapon;
 
@@ -28,9 +28,9 @@ public class Enemy extends Player {
     public void enemyStrike(Player user) {
         int newHP = (user.getCurrentHP() - this.getEnemyWeapon().damage);
         user.setCurrentHP(newHP);
-        System.out.println(user.getName() + " takes " + this.getEnemyWeapon().damage + " damage!");
-
-
+        this.narrator.playBattleTextSleep(user.getName() + " takes "
+                + this.getEnemyWeapon().damage
+                + " damage!", 3000);
     }
 
     public void castEnemySkill1(Player user, Narrator narrator) {
@@ -46,21 +46,22 @@ public class Enemy extends Player {
 
     }
 
-    public void castEnemySkill2(Player user){
+    public void castEnemySkill2(Player user) {
         int newHP = (user.getCurrentHP() - this.getEnemySkills().get(1).getSkillDamage());
         user.setCurrentHP(newHP);
         if (this.enemyName.equalsIgnoreCase("SkeletonSoldier")) {
-            narrator.playDialogueSleep(19,3000);
-            narrator.playDialogueSleep(20,3000);
-        } else if (this.enemyName.equalsIgnoreCase("TheOldShadowKing")){
+            narrator.playDialogueSleep(19, 3000);
+            narrator.playDialogueSleep(20, 3000);
+        } else if (this.enemyName.equalsIgnoreCase("TheOldShadowKing")) {
             // add Shadow King dialogue
-        } else if (this.enemyName.equalsIgnoreCase("VeteranDungeoneer")){
+        } else if (this.enemyName.equalsIgnoreCase("VeteranDungeoneer")) {
             // add Veteran dialogue
         }
     }
-    public void setSkeletonSkills(ArrayList<Skill> skillList){
-            this.getEnemySkills().add(skillList.get(3));
-            this.getEnemySkills().add(skillList.get(4));
+
+    public void setSkeletonSkills(ArrayList<Skill> skillList) {
+        this.getEnemySkills().add(skillList.get(3));
+        this.getEnemySkills().add(skillList.get(4));
 
     }
 
