@@ -76,6 +76,6 @@ public class Weapon {
     @Override
     public String toString() {
         return "The " + name + " has " + damage + " damage and " +
-                critChancecritical chance.";
+                critChance + " critical chance.";
     }
 }
