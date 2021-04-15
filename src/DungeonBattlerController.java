@@ -105,7 +105,6 @@ public class DungeonBattlerController {
                     System.out.println("Please enter [Strike]");
                     return;
 
-
                 }
             }
             narrator.playDialogueSleep(27, 3000);
