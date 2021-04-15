@@ -36,6 +36,7 @@ public class Weapon {
                 String name = weaponInfo[3];
                 Weapon weapon = new Weapon(damage,critDamage,critChance,name);
                 weaponList.add(weapon);
+                weaponList.remove(3);
 
             }
 

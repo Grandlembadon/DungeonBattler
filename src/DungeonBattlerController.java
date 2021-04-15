@@ -39,6 +39,7 @@ public class DungeonBattlerController {
             ArrayList<Skill> skillList = Skill.createSkillList();
             ArrayList<Skill> playerSkills = new ArrayList();
 
+
             for (Weapon w : weaponList) {
                 System.out.println(w.toString());
             }
