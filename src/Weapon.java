@@ -57,7 +57,7 @@ public class Weapon {
         ArrayList<Weapon> enemyWeaponList = new ArrayList<>();
 
         try {
-            inputStream = new BufferedReader(new FileReader(Path.WEAPONS.path));
+            inputStream = new BufferedReader(new FileReader(Path.ENEMYWEAPONS.path));
 
             String weaponline;
 
@@ -93,7 +93,7 @@ public class Weapon {
 
     @Override
     public String toString() {
-        return "The " + name + " has " + damage + " damage and " +
-                critChance + " critical chance.";
+        return "The " + name + " has " + damage + " damage, " +
+                critChance + " critical chance and " + critDamage + " critical damage. ";
     }
 }
