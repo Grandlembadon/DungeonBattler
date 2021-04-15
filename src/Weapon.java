@@ -55,7 +55,7 @@ public class Weapon {
     public static ArrayList<Weapon> createEnemyWeaponList() {
 
         BufferedReader inputStream = null;
-        ArrayList<Weapon> weaponList = new ArrayList<>();
+        ArrayList<Weapon> enemyWeaponList = new ArrayList<>();
 
         try {
             inputStream = new BufferedReader(new FileReader(Path.WEAPONS.path));
@@ -69,8 +69,7 @@ public class Weapon {
                 int critChance = Integer.parseInt(weaponInfo[2]);
                 String name = weaponInfo[3];
                 Weapon weapon = new Weapon(damage,critDamage,critChance,name);
-                weaponList.add(weapon);
-                weaponList.remove(3);
+                enemyWeaponList.add(weapon);
 
             }
 
@@ -83,7 +82,7 @@ public class Weapon {
         }
 
 
-        return weaponList;
+        return enemyWeaponList;
 
     }
 
