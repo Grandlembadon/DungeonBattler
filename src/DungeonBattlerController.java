@@ -35,6 +35,7 @@ public class DungeonBattlerController {
 
 
             ArrayList<Weapon> weaponList = Weapon.createWeaponList();
+            ArrayList<Weapon> enemyWeaponList = Weapon.createEnemyWeaponList();
             ArrayList<Class> classList = Class.classList();
             ArrayList<Skill> skillList = Skill.createSkillList();
             ArrayList<Skill> playerSkills = new ArrayList();
@@ -85,7 +86,7 @@ public class DungeonBattlerController {
             boolean validCommand = false;
 
 
-            Enemy SkeletonSoldier = new Enemy("SkeletonSoldier", weaponList.get(3));
+            Enemy SkeletonSoldier = new Enemy("SkeletonSoldier", enemyWeaponList.get(0));
             ArrayList<Skill> EnemySkills = new ArrayList();
             SkeletonSoldier.setEnemySkills(EnemySkills);
             SkeletonSoldier.getEnemySkills().add(skillList.get(3));
