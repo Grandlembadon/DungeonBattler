@@ -10,7 +10,6 @@ public class Class {
     private int classSP;
     private String className;
 
-
     public Class(String classSkillName, int classHP, int classSP, String className) {
         this.classSkillName = classSkillName;
         this.classHP = classHP;
@@ -51,5 +50,37 @@ public class Class {
             e.printStackTrace();
         }
         return classList;
+    }
+
+    public String getClassSkillName() {
+        return classSkillName;
+    }
+
+    public void setClassSkillName(String classSkillName) {
+        this.classSkillName = classSkillName;
+    }
+
+    public int getClassHP() {
+        return classHP;
+    }
+
+    public void setClassHP(int classHP) {
+        this.classHP = classHP;
+    }
+
+    public int getClassSP() {
+        return classSP;
+    }
+
+    public void setClassSP(int classSP) {
+        this.classSP = classSP;
+    }
+
+    public String getClassName() {
+        return className;
+    }
+
+    public void setClassName(String className) {
+        this.className = className;
     }
 }
