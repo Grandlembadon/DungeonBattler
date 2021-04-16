@@ -5,14 +5,18 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Class {
-    String classSkillName;
-    int classHP;
-    String className;
+    private String classSkillName;
+    private int classHP;
+    private int classSP;
+    private String className;
 
-    public Class(String classSkillName, int classHP, String className) {
+
+    public Class(String classSkillName, int classHP, int classSP, String className) {
         this.classSkillName = classSkillName;
         this.classHP = classHP;
+        this.classSP = classSP;
         this.className = className;
+
     }
 
     public Class() {
