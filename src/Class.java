@@ -36,9 +36,10 @@ public class Class {
                 String [] classInfo = classline.split(",");
                 String classSkillName = classInfo[0];
                 int classHP = Integer.parseInt(classInfo[1]);
-                String className = classInfo[2];
+                int classSP = Integer.parseInt(classInfo[2]);
+                String className = classInfo[3];
 
-                Class myclass = new Class(classSkillName,classHP,className);
+                Class myclass = new Class(classSkillName,classHP, classSP,className);
                 classList.add(myclass);
 
             }

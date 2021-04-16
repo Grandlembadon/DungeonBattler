@@ -2,7 +2,8 @@ import java.util.ArrayList;
 
 public class Enemy extends Player {
     private String enemyName;
-    private int enemyHealth;
+    private int enemyHP;
+    private int enemySP;
     private Narrator narrator;
     ArrayList<Skill> enemySkills;
     private Weapon enemyWeapon;
