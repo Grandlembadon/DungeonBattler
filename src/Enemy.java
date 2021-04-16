@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
 public class Enemy extends Player {
-    private String enemyName;
     private int enemyHP;
     private int enemySP;
+    private String enemyName;
     private Narrator narrator;
     ArrayList<Skill> enemySkills;
     private Weapon enemyWeapon;
@@ -76,14 +76,6 @@ public class Enemy extends Player {
         this.enemyName = enemyName;
     }
 
-    public int getEnemyHealth() {
-        return enemyHealth;
-    }
-
-    public void setEnemyHealth(int enemyHealth) {
-        this.enemyHealth = enemyHealth;
-    }
-
     public Narrator getNarrator() {
         return narrator;
     }
@@ -102,5 +94,21 @@ public class Enemy extends Player {
 
     public void setEnemyWeapon(Weapon enemyWeapon) {
         this.enemyWeapon = enemyWeapon;
+    }
+
+    public int getEnemyHP() {
+        return enemyHP;
+    }
+
+    public void setEnemyHP(int enemyHP) {
+        this.enemyHP = enemyHP;
+    }
+
+    public int getEnemySP() {
+        return enemySP;
+    }
+
+    public void setEnemySP(int enemySP) {
+        this.enemySP = enemySP;
     }
 }
