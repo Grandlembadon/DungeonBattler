@@ -38,10 +38,10 @@ public class Enemy extends Player {
 
             while ((enemyInfo = inputStream.readLine()) != null) {
                 String [] skillInfo = enemyInfo.split(",");
-                String skillName = skillInfo[0];
-                int enemy = Integer.parseInt(skillInfo[1]);
-                int skillDamage = Integer.parseInt(skillInfo[2]);
-                Enemy enemy = new Enemy(skillName,skillCost,skillDamage);
+                int enemyHP = Integer.parseInt(skillInfo[0]);
+                int enemySP = Integer.parseInt(skillInfo[1]);
+                String enemyName = enemyInfo[2];
+                Enemy enemy = new Enemy(enemyHP,enemySP,skillDamage);
                 enemyList.add(enemy);
 
             }
