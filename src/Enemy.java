@@ -1,3 +1,7 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Enemy extends Player {
@@ -22,8 +26,41 @@ public class Enemy extends Player {
 
     }
 
-    public Weapon getEnemyWeapon() {
+    public Weapon createEnemyList() {
         return enemyWeapon;
+    }
+
+    public static ArrayList<Skill> createSkillList() {
+
+        BufferedReader inputStream = null;
+        ArrayList<Skill> skillList = new ArrayList<>();
+
+        try {
+            inputStream = new BufferedReader(new FileReader(Path.SKILLS.path));
+
+            String skillLine;
+
+            while ((skillLine = inputStream.readLine()) != null) {
+                String [] skillInfo = skillLine.split(",");
+                String skillName = skillInfo[0];
+                int skillCost = Integer.parseInt(skillInfo[1]);
+                int skillDamage = Integer.parseInt(skillInfo[2]);
+                Skill skill = new Skill(skillName,skillCost,skillDamage);
+                skillList.add(skill);
+
+            }
+
+        } catch (
+                FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (
+                IOException e) {
+            e.printStackTrace();
+        }
+
+
+        return skillList;
+
     }
 
     public void enemyStrike(Player user, Narrator narrator) {
@@ -65,7 +102,6 @@ public class Enemy extends Player {
     public void setSkeletonSkills(ArrayList<Skill> skillList) {
         this.getEnemySkills().add(skillList.get(3));
         this.getEnemySkills().add(skillList.get(4));
-
     }
 
     public String getEnemyName() {
