@@ -30,7 +30,7 @@ public class Enemy extends Player {
         return enemyWeapon;
     }
 
-    public static ArrayList<Skill> createSkillList() {
+    public static ArrayList<Enemy> createEnemyList() {
 
         BufferedReader inputStream = null;
         ArrayList<Skill> skillList = new ArrayList<>();
