@@ -26,10 +26,6 @@ public class Enemy extends Player {
 
     }
 
-    public Weapon createEnemyList() {
-        return enemyWeapon;
-    }
-
     public static ArrayList<Enemy> createEnemyList() {
 
         BufferedReader inputStream = null;
