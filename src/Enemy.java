@@ -32,6 +32,10 @@ public class Enemy extends Player {
         this.enemyName = enemyName;
     }
 
+    public Weapon getEnemyWeapon() {
+        return enemyWeapon;
+    }
+
     public static ArrayList<Enemy> createEnemyList() {
 
         BufferedReader inputStream = null;
@@ -46,7 +50,7 @@ public class Enemy extends Player {
                 String [] skillInfo = enemyInfo.split(",");
                 int enemyHP = Integer.parseInt(skillInfo[0]);
                 int enemySP = Integer.parseInt(skillInfo[1]);
-                String enemyName = enemyInfo[2];
+                String enemyName = skillInfo[2];
                 Enemy enemy = new Enemy(enemyHP,enemySP,enemyName);
                 enemyList.add(enemy);
 
@@ -61,7 +65,7 @@ public class Enemy extends Player {
         }
 
 
-        return skillList;
+        return enemyList;
 
     }
 
