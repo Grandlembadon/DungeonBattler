@@ -33,7 +33,7 @@ public class Enemy extends Player {
     public static ArrayList<Enemy> createEnemyList() {
 
         BufferedReader inputStream = null;
-        ArrayList<Skill> skillList = new ArrayList<>();
+        ArrayList<Enemy> enemyList = new ArrayList<>();
 
         try {
             inputStream = new BufferedReader(new FileReader(Path.SKILLS.path));
@@ -45,8 +45,8 @@ public class Enemy extends Player {
                 String skillName = skillInfo[0];
                 int skillCost = Integer.parseInt(skillInfo[1]);
                 int skillDamage = Integer.parseInt(skillInfo[2]);
-                Skill skill = new Skill(skillName,skillCost,skillDamage);
-                skillList.add(skill);
+                Enemy enemy = new Skill(skillName,skillCost,skillDamage);
+                enemyList.add(enemy);
 
             }
 
