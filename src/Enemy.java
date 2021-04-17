@@ -32,11 +32,11 @@ public class Enemy extends Player {
         ArrayList<Enemy> enemyList = new ArrayList<>();
 
         try {
-            inputStream = new BufferedReader(new FileReader(Path.SKILLS.path));
+            inputStream = new BufferedReader(new FileReader(Path.ENEMYINFO.path));
 
-            String skillLine;
+            String enemyInfo;
 
-            while ((skillLine = inputStream.readLine()) != null) {
+            while ((enemyInfo = inputStream.readLine()) != null) {
                 String [] skillInfo = skillLine.split(",");
                 String skillName = skillInfo[0];
                 int skillCost = Integer.parseInt(skillInfo[1]);
