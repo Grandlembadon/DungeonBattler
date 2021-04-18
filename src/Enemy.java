@@ -26,10 +26,11 @@ public class Enemy extends Player {
 
     }
 
-    public Enemy(int enemyHP, int enemySP, String enemyName) {
+    public Enemy(int enemyHP, int enemySP, String enemyName, Weapon enemyWeapon) {
         this.enemyHP = enemyHP;
         this.enemySP = enemySP;
         this.enemyName = enemyName;
+        this.enemyWeapon = enemyWeapon;
     }
 
     public Weapon getEnemyWeapon() {
