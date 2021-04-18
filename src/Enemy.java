@@ -33,6 +33,9 @@ public class Enemy extends Player {
         this.enemyWeapon = enemyWeapon;
     }
 
+    public Enemy(int enemyHP, int enemySP, String enemyName) {
+    }
+
     public Weapon getEnemyWeapon() {
         return enemyWeapon;
     }
