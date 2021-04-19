@@ -43,7 +43,7 @@ public class DungeonBattlerController {
 
 
             for (Weapon w : weaponList) {
-                System.out.println(w.toString());
+                narrator.playBattleTextSleep(w.toString() + System.lineSeparator(), 1000);
             }
             narrator.playDialogueSleep(9, 3000);
 
