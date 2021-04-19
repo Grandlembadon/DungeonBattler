@@ -55,6 +55,16 @@ public class Narrator {
 
 
     }
+
+    public void playDialogueSleepSpace(int dialogueIndex, int sleepTimeMs) {
+        String dialogueLine = this.dialogueList.get(dialogueIndex);
+        System.out.println(dialogueLine + System.lineSeparator());
+        try {
+            Thread.sleep(sleepTimeMs);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
     public void playBattleTextSleep(String battleText, int sleepTimeMs){
         System.out.println(battleText);
         try {
