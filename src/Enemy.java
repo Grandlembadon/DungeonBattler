@@ -34,6 +34,7 @@ public class Enemy extends Player {
     }
 
     public Enemy(int enemyHP, int enemySP, String enemyName) {
+        this.enemyHP = enemyHP;
     }
 
     public Weapon getEnemyWeapon() {
