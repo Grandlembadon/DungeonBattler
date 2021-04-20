@@ -85,7 +85,7 @@ public class Enemy extends Player {
     public void castEnemySkill1(Player user, Narrator narrator) {
         int newHP = (user.getCurrentHP() - this.getEnemySkills().get(0).getSkillDamage());
         user.setCurrentHP(newHP);
-        if (this.enemyName.equalsIgnoreCase("SkeletonSoldier")) {
+        if (this.enemyName.equalsIgnoreCase("Skeleton Soldier")) {
             narrator.playDialogueSleep(18, 3000);
             narrator.playBattleTextSleep(user.getName() + " takes " + this.getEnemySkills().get(0).getSkillDamage()
         + " damage! ", 3000);
