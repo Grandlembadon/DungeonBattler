@@ -114,11 +114,11 @@ public class Player {
             narrator.playDialogueSleep(24, 3000);
             narrator.playBattleTextSleep("The enemy is hit for " + this.getWeapon().damage + " damage!",3000);
 
-        } else if (this.name.equalsIgnoreCase("Sword")) {
+        } else if (this.weapon.name.equalsIgnoreCase("Sword")) {
             narrator.playDialogueSleep(25, 3000);
             narrator.playBattleTextSleep("The enemy is hit for " + this.getWeapon().damage + " damage!",3000);
 
-        } else if (this.name.equalsIgnoreCase("Dagger")) {
+        } else if (this.weapon.name.equalsIgnoreCase("Dagger")) {
             narrator.playDialogueSleep(26, 3000);
             narrator.playBattleTextSleep("The enemy is hit for " + this.getWeapon().damage + " damage!",3000);
 
