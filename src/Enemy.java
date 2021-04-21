@@ -49,13 +49,13 @@ public class Enemy extends Player {
         try {
             inputStream = new BufferedReader(new FileReader(Path.ENEMYINFO.path));
 
-            String enemyInfo;
+            String enemyType;
 
-            while ((enemyInfo = inputStream.readLine()) != null) {
-                String [] skillInfo = enemyInfo.split(",");
-                int enemyHP = Integer.parseInt(skillInfo[0]);
-                int enemySP = Integer.parseInt(skillInfo[1]);
-                String enemyName = skillInfo[2];
+            while ((enemyType = inputStream.readLine()) != null) {
+                String [] enemyInfo = enemyType.split(",");
+                int enemyHP = Integer.parseInt(enemyInfo[0]);
+                int enemySP = Integer.parseInt(enemyInfo[1]);
+                String enemyName = enemyInfo[2];
                 Enemy enemy = new Enemy(enemyHP,enemySP,enemyName);
                 enemyList.add(enemy);
 
