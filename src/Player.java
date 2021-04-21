@@ -108,7 +108,13 @@ public class Player {
     }
 
     public void strike(Enemy enemy, Narrator narrator) {
-        int newHP = (enemy.getCurrentHP() - this.getWeapon().damage);
+        if (this.weapon.name.equalsIgnoreCase("Dagger")){
+            int newHP = (enemy.getCurrentHP() - (this.getWeapon().damage * 2));
+            
+
+
+        }
+        int newHP = (enemy.getCurrentHP() - (this.getWeapon().damage * 2);
         enemy.setCurrentHP(newHP);
         if (this.weapon.name.equalsIgnoreCase("Staff")) {
             narrator.playDialogueSleep(24, 3000);
