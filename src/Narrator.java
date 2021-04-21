@@ -102,13 +102,13 @@ public class Narrator {
 
         return false;
     }
-    public void weaponChoice(ArrayList<Weapon> weaponlist, Player user) {
-        if (user.getWeapon() == weaponlist.get(0)){
+    public void weaponChoice(Player user) {
+        if (user.getWeapon().name.contains("Staff")){
             this.playDialogueSleep(10,3000);
 
-        } else if (user.getWeapon() == weaponlist.get(1)){
+        } else if (user.getWeapon() == weaponList.get(1)){
             this.playDialogueSleep(11,3000);
-        } else if (user.getWeapon() == weaponlist.get(2)){
+        } else if (user.getWeapon() == weaponList.get(2)){
             this.playDialogueSleep(12,3000);
         }
 

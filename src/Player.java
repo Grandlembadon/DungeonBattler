@@ -115,8 +115,6 @@ public class Player {
             int newHP = enemy.getCurrentHP() - this.getWeapon().damage;
             enemy.setCurrentHP(newHP);
         }
-        int newHP = (enemy.getCurrentHP() - (this.getWeapon().damage * 2);
-        enemy.setCurrentHP(newHP);
         if (this.weapon.name.equalsIgnoreCase("Staff")) {
             narrator.playDialogueSleep(24, 3000);
             narrator.playBattleTextSleep("The enemy is hit for " + this.getWeapon().damage + " damage!",3000);
