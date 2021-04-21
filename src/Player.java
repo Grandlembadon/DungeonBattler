@@ -110,9 +110,10 @@ public class Player {
     public void strike(Enemy enemy, Narrator narrator) {
         if (this.weapon.name.equalsIgnoreCase("Dagger")){
             int newHP = (enemy.getCurrentHP() - (this.getWeapon().damage * 2));
-            
-
-
+            enemy.setCurrentHP(newHP);
+        } else {
+            int newHP = enemy.getCurrentHP() - this.getWeapon().damage;
+            enemy.setCurrentHP(newHP);
         }
         int newHP = (enemy.getCurrentHP() - (this.getWeapon().damage * 2);
         enemy.setCurrentHP(newHP);
