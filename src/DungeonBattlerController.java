@@ -57,9 +57,8 @@ public class DungeonBattlerController {
                     return;
 
                 } else {
-                    isValid = true;
-                    narrator.weaponChoice(weaponList, user);
                     user.setWeapon(weaponList.get(chosenWeapon));
+                    narrator.weaponChoice(user);
                     user.setMyClass(classList.get(chosenClass));
                     user.setTotalHP(user.getMyClass().getClassHP());
                     user.setCurrentHP(user.getMyClass().getClassHP());
@@ -76,6 +75,7 @@ public class DungeonBattlerController {
                         user.getPlayerSkills().add(skillList.get(2));
                     }
                 }
+                isValid = true;
             }
             narrator.playDialogueSleep(13, 3000);
             narrator.playDialogueSleep(14, 3000);
