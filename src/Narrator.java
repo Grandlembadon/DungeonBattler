@@ -106,7 +106,7 @@ public class Narrator {
         if (user.getWeapon().name.contains("Staff")){
             this.playDialogueSleep(10,3000);
 
-        } else if (user.getWeapon() == weaponList.get(1)){
+        } else if (user.getWeapon().name.contains("Sword")){
             this.playDialogueSleep(11,3000);
         } else if (user.getWeapon() == weaponList.get(2)){
             this.playDialogueSleep(12,3000);
