@@ -120,6 +120,7 @@ public class DungeonBattlerController {
             narrator.playDialogueSleep(30, 3000);
             narrator.playDialogueSleep(31, 3000);
             narrator.playDialogueSleep(32, 3000);
+            validCommand = false;
             while (!validCommand) {
                 String response = scanner.next();
                 if (response.equalsIgnoreCase("Cast First Aid")) {
@@ -136,6 +137,7 @@ public class DungeonBattlerController {
             narrator.playDialogueSleep(33, 3000);
             narrator.playDialogueSleep(34, 3000);
             narrator.playDialogueSleep(35, 3000);
+            validCommand = false;
             while (!validCommand) {
                 String response = scanner.next();
                 if (response.equalsIgnoreCase("Cast Class Skill 1")) {
@@ -160,6 +162,7 @@ public class DungeonBattlerController {
 
         }
     }
+
 }
 
 
