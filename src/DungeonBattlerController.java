@@ -89,7 +89,7 @@ public class DungeonBattlerController {
 
 
 
-            Enemy SkeletonSoldier = new Enemy (enemyList.get(0).getEnemyHP(),enemyList.get(0).getEnemySP(),
+            Enemy SkeletonSoldier = new Enemy(enemyList.get(0).getEnemyHP(),enemyList.get(0).getEnemySP(),
                     enemyList.get(0).getEnemyName(),enemyWeaponList.get(0));
             ArrayList<Skill> EnemySkills = new ArrayList();
             SkeletonSoldier.setEnemySkills(EnemySkills);
