@@ -1,6 +1,6 @@
 Meteor Shower,1,5
 Mighty Rend,1,20
 Dance of Daggers,1,4
-Chilling Shard,1,8
+Chilling Shard,1,20
 Spears of the Damned,1,10
 First Aid,1,10
