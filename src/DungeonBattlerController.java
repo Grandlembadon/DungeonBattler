@@ -12,7 +12,6 @@ public class DungeonBattlerController {
     public void play() {
         Narrator narrator = new Narrator();
         Scanner scanner = new Scanner(System.in);
-        Scanner scanner2 = new Scanner(System.in);
         narrator.init();
 
         boolean GameOver = false;
@@ -123,7 +122,7 @@ public class DungeonBattlerController {
             narrator.playDialogueSleep(32, 3000);
             validCommand = false;
             while (!validCommand) {
-                String firstAidResponse = scanner2.next();
+                String firstAidResponse = scanner.;
                 if (firstAidResponse.equalsIgnoreCase("Cast First Aid")) {
                     user.castFirstAid();
                     validCommand = true;
