@@ -128,7 +128,6 @@ public class DungeonBattlerController {
                     validCommand = true;
                 } else {
                     System.out.println("Please enter [Cast First Aid]");
-                    
                 }
             }
             SkeletonSoldier.enemyStrike(user, narrator);
@@ -137,8 +136,8 @@ public class DungeonBattlerController {
             narrator.playDialogueSleep(35, 3000);
             validCommand = false;
             while (!validCommand) {
-                String response = scanner.next();
-                if (response.equalsIgnoreCase("Cast Class Skill 1")) {
+                String skillResponse = scanner.next();
+                if (skillResponse.equalsIgnoreCase("Cast Class Skill 1")) {
                     user.castSkill1(SkeletonSoldier, skillList);
                     validCommand = true;
                 } else {
