@@ -125,7 +125,7 @@ public class Player {
 
         } else if (this.weapon.name.equalsIgnoreCase("Dagger")) {
             narrator.playDialogueSleep(26, 3000);
-            narrator.playBattleTextSleep("The enemy is hit for " + this.getWeapon().damage + " damage!",3000);
+            narrator.playBattleTextSleep("The enemy is hit for " + (this.getWeapon().damage * 2) + " damage!",3000);
 
         }
     }
