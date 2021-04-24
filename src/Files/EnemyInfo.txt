@@ -1,2 +1,3 @@
 60,6,Skeleton Soldier
 120,12,Old Shadow King
+1000,100,Veteran Dungeoneer
