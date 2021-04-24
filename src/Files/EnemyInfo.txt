@@ -1,1 +1,2 @@
 60,6,Skeleton Soldier
+120,12,Old Shadow King
