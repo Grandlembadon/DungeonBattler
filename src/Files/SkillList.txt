@@ -6,4 +6,5 @@ Spears of the Damned,1,10
 Bolstering Incantation,1,5
 Inspiring Shanty,1,10
 Soul Siphon,1,20
+Spirit Lightning,1,45
 First Aid,1,10
