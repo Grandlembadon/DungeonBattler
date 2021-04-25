@@ -3,4 +3,6 @@ Mighty Rend,1,20
 Dance of Daggers,1,4
 Chilling Shard,1,20
 Spears of the Damned,1,10
+Bolstering Incantation,1,5
+
 First Aid,1,10
