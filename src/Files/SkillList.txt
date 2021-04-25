@@ -5,4 +5,5 @@ Chilling Shard,1,20
 Spears of the Damned,1,10
 Bolstering Incantation,1,5
 Inspiring Shanty,1,10
+Soul Siphon,1,20
 First Aid,1,10
