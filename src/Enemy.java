@@ -79,9 +79,15 @@ public class Enemy extends Player {
     public void enemyStrike(Player user, Narrator narrator) {
         int newHP = (user.getCurrentHP() - this.getEnemyWeapon().damage);
         user.setCurrentHP(newHP);
-        narrator.playBattleTextSleep(user.getName() + " takes "
-                + this.getEnemyWeapon().damage
-                + " damage!", 3000);
+        if (this.enemyName.equalsIgnoreCase("Skeleton Soldier")) {
+            narrator.playDialogueSleep(17, 3000);
+            narrator.playBattleTextSleep(user.getName() + " takes " + this.getEnemyWeapon().damage
+                    + " damage! ", 3000);
+        } else if (this.enemyName.equalsIgnoreCase("TheOldShadowKing")) {
+            //add Shadow King dialogue
+        } else if (this.enemyName.equalsIgnoreCase("VeteranDungeoneer")) {
+            //add Veteran dialogue
+        }
     }
 
     public void castEnemySkill1(Player user, Narrator narrator) {

@@ -97,7 +97,6 @@ public class DungeonBattlerController {
             SkeletonSoldier.getEnemySkills().add(skillList.get(4));
 
 
-            narrator.playDialogueSleep(17, 3000);
             SkeletonSoldier.enemyStrike(user, narrator);
             narrator.playDialogueSleep(21, 3000);
             narrator.playDialogueSleep(22, 3000);
