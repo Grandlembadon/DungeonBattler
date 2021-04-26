@@ -136,14 +136,13 @@ public class DungeonBattlerController {
             narrator.playDialogueSleep(35, 3000);
             validCommand = false;
             while (!validCommand) {
-                String skillResponse = scanner.nextLine();
-                if (skillResponse.equalsIgnoreCase("Cast Class Skill 1")) {
-                    user.castSkill1(SkeletonSoldier, skillList);
+                String skillResponse = scanner.next();
+                skillResponse += scanner.nextLine();
+                if (skillResponse.equalsIgnoreCase("Cast Skill 1")) {
+                    user.castSkill1(SkeletonSoldier,skillList);
                     validCommand = true;
-
                 } else {
-                    System.out.println("Please enter [Cast Class Skill 1]");
-
+                    System.out.println("Please enter [Cast Skill 1]");
                 }
             }
             narrator.playDialogueSleep(38,3000);
