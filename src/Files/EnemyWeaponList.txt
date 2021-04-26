@@ -2,3 +2,4 @@
 20,25,5,Rusted Great Sword
 18,22,8,Weathered Bow
 30,35,10,Scepter of the Spectre
+50,55,10,Blade of the Broken Dungeoneer
