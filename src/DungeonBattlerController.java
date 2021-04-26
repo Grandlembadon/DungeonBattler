@@ -125,7 +125,7 @@ public class DungeonBattlerController {
                 String firstAidResponse = scanner.next();
                 firstAidResponse += scanner.nextLine();
                 if (firstAidResponse.equalsIgnoreCase("Cast First Aid")) {
-                    user.castFirstAid();
+                    user.castFirstAid(narrator);
                     validCommand = true;
                 } else {
                     System.out.println("Please enter [Cast First Aid]");
