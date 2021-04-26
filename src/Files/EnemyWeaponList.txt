@@ -1,2 +1,3 @@
 15,18,2,Bone Axe
 20,25,5,Rusted Great Sword
+18,22,8,Weathered Bow
