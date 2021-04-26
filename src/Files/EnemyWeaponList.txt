@@ -1,1 +1,2 @@
-15,18,2,BoneAxe
+15,18,2,Bone Axe
+20,25,5,Rusted Great Sword
