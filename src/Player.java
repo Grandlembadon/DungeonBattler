@@ -130,19 +130,19 @@ public class Player {
         }
     }
     public void castFirstAid(Narrator narrator){
-        int newHP = (this.getCurrentHP() + this.getPlayerSkills().get(0).getSkillDamage());
+        int newHP = (this.getCurrentHP() + this.getPlayerSkills().get(9).getSkillDamage());
         this.setCurrentHP(newHP);
         narrator.playBattleTextSleep("You were healed for " + newHP + " health points!",3000);
 
     }
     public void castSkill1(Enemy enemy, ArrayList<Skill> skillList){
-        if (this.getPlayerSkills().get(1).getSkillName() == skillList.get(0).getSkillName()) {
+        if (this.getPlayerSkills().get(0).getSkillName() == skillList.get(0).getSkillName()) {
             this.getNarrator().playDialogueSleep(38,3000);
             this.getNarrator().playDialogueSleep(39,3000);
-        }else if (this.getPlayerSkills().get(1).getSkillName() == skillList.get(1).getSkillName()){
+        }else if (this.getPlayerSkills().get(0).getSkillName() == skillList.get(1).getSkillName()){
             this.getNarrator().playDialogueSleep(40,3000);
             this.getNarrator().playDialogueSleep(41,3000);
-        }else if (this.getPlayerSkills().get(1).getSkillName() == skillList.get(2).getSkillName()){
+        }else if (this.getPlayerSkills().get(0).getSkillName() == skillList.get(2).getSkillName()){
             this.getNarrator().playDialogueSleep(42,3000);
             this.getNarrator().playDialogueSleep(43,3000);
         }
