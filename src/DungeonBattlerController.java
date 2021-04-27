@@ -63,7 +63,7 @@ public class DungeonBattlerController {
                     user.setTotalHP(user.getMyClass().getClassHP());
                     user.setCurrentHP(user.getMyClass().getClassHP());
                     user.setPlayerSkills(playerSkills);
-                    user.getPlayerSkills().add(skillList.get(5));
+                    user.getPlayerSkills().add(skillList.get(9));
                     if (user.getMyClass().getClassName() == skillList.get(0).getSkillName()) {
                         user.getPlayerSkills().add(skillList.get(0));
 

@@ -130,7 +130,7 @@ public class Player {
         }
     }
     public void castFirstAid(Narrator narrator){
-        int newHP = (this.getCurrentHP() + this.getPlayerSkills().get(9).getSkillDamage());
+        int newHP = (this.getCurrentHP() + this.getPlayerSkills().get(1).getSkillDamage());
         this.setCurrentHP(newHP);
         narrator.playBattleTextSleep("You were healed for " + newHP + " health points!",3000);
 
