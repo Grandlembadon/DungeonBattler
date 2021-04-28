@@ -54,6 +54,7 @@ public class DungeonBattlerController {
                 user.setTotalHP(user.getMyClass().getClassHP());
                 user.setCurrentHP(user.getMyClass().getClassHP());
                 user.setPlayerSkills(playerSkills);
+                user.getPlayerSkills().add(skillList.get(0));
                 user.getPlayerSkills().add(skillList.get(9));
                 isValid = true;
 
