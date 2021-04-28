@@ -53,8 +53,13 @@ public class DungeonBattlerController {
                 String chosenWeapon = scanner.next();
                 String chosenClass = chosenWeapon;
                 if (chosenWeapon.contains("Staff")){
-                    System.out.println("Please enter valid choice.");
-                    return;
+                    user.setWeapon(weaponList.get(chosenWeapon));
+                    narrator.weaponChoice(user);
+                    user.setMyClass(classList.get(chosenClass));
+                    user.setTotalHP(user.getMyClass().getClassHP());
+                    user.setCurrentHP(user.getMyClass().getClassHP());
+                    user.setPlayerSkills(playerSkills);
+                    user.getPlayerSkills().add(skillList.get(9));
 
                 } else {
                     user.setWeapon(weaponList.get(chosenWeapon));
