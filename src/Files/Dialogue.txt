@@ -7,7 +7,7 @@ On second thought, you decide that you are not cut out for adventure. You turn a
 After an eternity of slowly shambling through the corridor, the passage seems to open up into an abandoned armory.
 You can sense that somewhere in the darkness an evil lurks. You decide to search for a weapon.
 After sifting through piles of bones and rusted wares, you come across a Staff, a Sword, and a Dagger.
-Choose your weapon. In this dungeon, your weapon will shape the way you do combat. (Enter 0 for Staff, 1 for Sword, or 2 for Dagger)
+Choose your weapon. In this dungeon, your weapon will shape the way you do combat. (Enter Staff, Sword, or Dagger)
 You have chosen the Staff! As you grab the heavy oaken staff, you can sense a well of mystical energy resonate within.
 You have chosen the Sword! You pick up the blade, it's heavy enough that you need both hands to give it a good swing.
 You have chosen the Dagger! The small blade is nimble and easier to pick up, but the blade is sharpened to a precise point.

@@ -59,6 +59,7 @@ public class DungeonBattlerController {
                     user.setCurrentHP(user.getMyClass().getClassHP());
                     user.setPlayerSkills(playerSkills);
                     user.getPlayerSkills().add(skillList.get(9));
+                    isValid = true;
 
                 } else if (chosenWeapon.contains("Sword")) {
                     user.setWeapon(weaponList.get(1));
@@ -68,17 +69,19 @@ public class DungeonBattlerController {
                     user.setCurrentHP(user.getMyClass().getClassHP());
                     user.setPlayerSkills(playerSkills);
                     user.getPlayerSkills().add(skillList.get(9));
+
+                    
                 } else if (chosenWeapon.contains("Dagger")) {
-                    user.setWeapon(weaponList.get(1));
+                    user.setWeapon(weaponList.get(2));
                     narrator.weaponChoice(user);
-                    user.setMyClass(classList.get(1));
+                    user.setMyClass(classList.get(2));
                     user.setTotalHP(user.getMyClass().getClassHP());
                     user.setCurrentHP(user.getMyClass().getClassHP());
                     user.setPlayerSkills(playerSkills);
                     user.getPlayerSkills().add(skillList.get(9));
                 } else {
                 narrator.playTextSleep("Please Enter a Valid Weapon!", 3000);
-                return;
+
             }
 
 
@@ -92,7 +95,7 @@ public class DungeonBattlerController {
                             skillList.get(2).getSkillName()) {
                         user.getPlayerSkills().add(skillList.get(2));
                     }
-                isValid = true;
+
                 }
 
 
