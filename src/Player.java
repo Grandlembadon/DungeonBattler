@@ -117,22 +117,22 @@ public class Player {
         }
         if (this.weapon.name.equalsIgnoreCase("Staff")) {
             narrator.playDialogueSleep(24, 3000);
-            narrator.playBattleTextSleep("The enemy is hit for " + this.getWeapon().damage + " damage!",3000);
+            narrator.playTextSleep("The enemy is hit for " + this.getWeapon().damage + " damage!",3000);
 
         } else if (this.weapon.name.equalsIgnoreCase("Sword")) {
             narrator.playDialogueSleep(25, 3000);
-            narrator.playBattleTextSleep("The enemy is hit for " + this.getWeapon().damage + " damage!",3000);
+            narrator.playTextSleep("The enemy is hit for " + this.getWeapon().damage + " damage!",3000);
 
         } else if (this.weapon.name.equalsIgnoreCase("Dagger")) {
             narrator.playDialogueSleep(26, 3000);
-            narrator.playBattleTextSleep("The enemy is hit for " + (this.getWeapon().damage * 2) + " damage!",3000);
+            narrator.playTextSleep("The enemy is hit for " + (this.getWeapon().damage * 2) + " damage!",3000);
 
         }
     }
     public void castFirstAid(Narrator narrator){
         int newHP = (this.getCurrentHP() + this.getPlayerSkills().get(1).getSkillDamage());
         this.setCurrentHP(newHP);
-        narrator.playBattleTextSleep("You were healed for " + newHP + " health points!",3000);
+        narrator.playTextSleep("You were healed for " + newHP + " health points!",3000);
 
     }
     public void castSkill1(Enemy enemy, ArrayList<Skill> skillList){
@@ -148,7 +148,7 @@ public class Player {
         }
         int newHP = (enemy.getCurrentHP() - this.getPlayerSkills().get(1).getSkillDamage());
         enemy.setCurrentHP(newHP);
-        this.getNarrator().playBattleTextSleep(enemy.getEnemyName() + " was damaged for " + newHP + " health points!",3000);
+        this.getNarrator().playTextSleep(enemy.getEnemyName() + " was damaged for " + newHP + " health points!",3000);
 
 
     }
