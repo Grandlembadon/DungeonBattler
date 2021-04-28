@@ -85,21 +85,7 @@ public class DungeonBattlerController {
 
             }
         }
-
-
-        if (user.getMyClass().getClassName() == skillList.get(0).getSkillName()) {
-            user.getPlayerSkills().add(skillList.get(0));
-
-        } else if (user.getMyClass().getClassName() ==
-                skillList.get(1).getSkillName()) {
-            user.getPlayerSkills().add(skillList.get(1));
-        } else if (user.getMyClass().getClassName() ==
-                skillList.get(2).getSkillName()) {
-            user.getPlayerSkills().add(skillList.get(2));
-        }
-
-
-
+        
         narrator.playDialogueSleep(13,3000);
         narrator.playDialogueSleep(14,3000);
         narrator.playDialogueSleep(15,2500);
