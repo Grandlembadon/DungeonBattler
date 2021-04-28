@@ -14,6 +14,13 @@ public class DungeonBattlerController {
         Scanner scanner = new Scanner(System.in);
         narrator.init();
 
+        ArrayList<Weapon> weaponList = Weapon.createWeaponList();
+        ArrayList<Weapon> enemyWeaponList = Weapon.createEnemyWeaponList();
+        ArrayList<Class> classList = Class.classList();
+        ArrayList<Skill> skillList = Skill.createSkillList();
+        ArrayList<Skill> playerSkills = new ArrayList();
+        ArrayList<Enemy> enemyList = Enemy.createEnemyList();
+
         boolean GameOver= false;
 
         while (!GameOver) {
@@ -34,14 +41,6 @@ public class DungeonBattlerController {
             narrator.playDialogueSleepSpace(8, 3000);
 
 
-            ArrayList<Weapon> weaponList = Weapon.createWeaponList();
-            ArrayList<Weapon> enemyWeaponList = Weapon.createEnemyWeaponList();
-            ArrayList<Class> classList = Class.classList();
-            ArrayList<Skill> skillList = Skill.createSkillList();
-            ArrayList<Skill> playerSkills = new ArrayList();
-            ArrayList<Enemy> enemyList = Enemy.createEnemyList();
-
-
             for (Weapon w : weaponList) {
                 narrator.playTextSleep(w.toString() + System.lineSeparator(), 1000);
             }
@@ -51,38 +50,41 @@ public class DungeonBattlerController {
 
             while (!isValid) {
                 String chosenWeapon = scanner.next();
-            if (chosenWeapon.contains("Staff")){
-                    user.setWeapon(weaponList.get(0));
-                    narrator.weaponChoice(user);
-                    user.setMyClass(classList.get(0));
-                    user.setTotalHP(user.getMyClass().getClassHP());
-                    user.setCurrentHP(user.getMyClass().getClassHP());
-                    user.setPlayerSkills(playerSkills);
-                    user.getPlayerSkills().add(skillList.get(9));
-                    isValid = true;
+            if (chosenWeapon.contains("Staff")) {
+                user.setWeapon(weaponList.get(0));
+                narrator.weaponChoice(user);
+                user.setMyClass(classList.get(0));
+                user.setTotalHP(user.getMyClass().getClassHP());
+                user.setCurrentHP(user.getMyClass().getClassHP());
+                user.setPlayerSkills(playerSkills);
+                user.getPlayerSkills().add(skillList.get(9));
+                isValid = true;
 
-                } else if (chosenWeapon.contains("Sword")) {
-                    user.setWeapon(weaponList.get(1));
-                    narrator.weaponChoice(user);
-                    user.setMyClass(classList.get(1));
-                    user.setTotalHP(user.getMyClass().getClassHP());
-                    user.setCurrentHP(user.getMyClass().getClassHP());
-                    user.setPlayerSkills(playerSkills);
-                    user.getPlayerSkills().add(skillList.get(9));
+            } else if (chosenWeapon.contains("Sword")) {
+                user.setWeapon(weaponList.get(1));
+                narrator.weaponChoice(user);
+                user.setMyClass(classList.get(1));
+                user.setTotalHP(user.getMyClass().getClassHP());
+                user.setCurrentHP(user.getMyClass().getClassHP());
+                user.setPlayerSkills(playerSkills);
+                user.getPlayerSkills().add(skillList.get(9));
+                isValid = true;
 
-                    
-                } else if (chosenWeapon.contains("Dagger")) {
-                    user.setWeapon(weaponList.get(2));
-                    narrator.weaponChoice(user);
-                    user.setMyClass(classList.get(2));
-                    user.setTotalHP(user.getMyClass().getClassHP());
-                    user.setCurrentHP(user.getMyClass().getClassHP());
-                    user.setPlayerSkills(playerSkills);
-                    user.getPlayerSkills().add(skillList.get(9));
-                } else {
+
+            } else if (chosenWeapon.contains("Dagger")) {
+                user.setWeapon(weaponList.get(2));
+                narrator.weaponChoice(user);
+                user.setMyClass(classList.get(2));
+                user.setTotalHP(user.getMyClass().getClassHP());
+                user.setCurrentHP(user.getMyClass().getClassHP());
+                user.setPlayerSkills(playerSkills);
+                user.getPlayerSkills().add(skillList.get(9));
+                isValid = true;
+            } else {
                 narrator.playTextSleep("Please Enter a Valid Weapon!", 3000);
 
             }
+        }
 
 
                     if (user.getMyClass().getClassName() == skillList.get(0).getSkillName()) {
@@ -180,7 +182,8 @@ public class DungeonBattlerController {
         }
     }
 
-}
+
+
 
 
 
