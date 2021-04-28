@@ -65,8 +65,8 @@ public class Narrator {
             e.printStackTrace();
         }
     }
-    public void playBattleTextSleep(String battleText, int sleepTimeMs){
-        System.out.println(battleText);
+    public void playTextSleep(String text, int sleepTimeMs){
+        System.out.println(text);
         try {
             Thread.sleep(sleepTimeMs);
         } catch (InterruptedException e) {

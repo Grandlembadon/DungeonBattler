@@ -43,7 +43,7 @@ public class DungeonBattlerController {
 
 
             for (Weapon w : weaponList) {
-                narrator.playBattleTextSleep(w.toString() + System.lineSeparator(), 1000);
+                narrator.playTextSleep(w.toString() + System.lineSeparator(), 1000);
             }
             narrator.playDialogueSleep(9, 3000);
 
@@ -51,7 +51,7 @@ public class DungeonBattlerController {
 
             while (!isValid) {
                 String chosenWeapon = scanner.next();
-                if (chosenWeapon.contains("Staff")){
+            if (chosenWeapon.contains("Staff")){
                     user.setWeapon(weaponList.get(0));
                     narrator.weaponChoice(user);
                     user.setMyClass(classList.get(0));
@@ -76,7 +76,10 @@ public class DungeonBattlerController {
                     user.setCurrentHP(user.getMyClass().getClassHP());
                     user.setPlayerSkills(playerSkills);
                     user.getPlayerSkills().add(skillList.get(9));
-                }
+                } else {
+                narrator.playTextSleep("Please Enter a Valid Weapon!", 3000);
+                return;
+            }
 
 
                     if (user.getMyClass().getClassName() == skillList.get(0).getSkillName()) {
@@ -175,7 +178,7 @@ public class DungeonBattlerController {
     }
 
 }
-        
+
 
 
 
