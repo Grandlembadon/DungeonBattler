@@ -60,7 +60,7 @@ public class DungeonBattlerController {
                     user.setPlayerSkills(playerSkills);
                     user.getPlayerSkills().add(skillList.get(9));
 
-                } else {
+                } else if (chosenWeapon.contains("Sword")) {
                     user.setWeapon(weaponList.get(chosenWeapon));
                     narrator.weaponChoice(user);
                     user.setMyClass(classList.get(chosenClass));
