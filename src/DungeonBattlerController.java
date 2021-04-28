@@ -76,6 +76,7 @@ public class DungeonBattlerController {
                     user.setCurrentHP(user.getMyClass().getClassHP());
                     user.setPlayerSkills(playerSkills);
                     user.getPlayerSkills().add(skillList.get(9));
+                }
 
 
                     if (user.getMyClass().getClassName() == skillList.get(0).getSkillName()) {
@@ -88,8 +89,9 @@ public class DungeonBattlerController {
                             skillList.get(2).getSkillName()) {
                         user.getPlayerSkills().add(skillList.get(2));
                     }
-                }
                 isValid = true;
+                }
+                
             }
             narrator.playDialogueSleep(13, 3000);
             narrator.playDialogueSleep(14, 3000);
