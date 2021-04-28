@@ -68,7 +68,16 @@ public class DungeonBattlerController {
                     user.setCurrentHP(user.getMyClass().getClassHP());
                     user.setPlayerSkills(playerSkills);
                     user.getPlayerSkills().add(skillList.get(9));
-                }else if ()
+                } else if (chosenWeapon.contains("Dagger")) {
+                    user.setWeapon(weaponList.get(1));
+                    narrator.weaponChoice(user);
+                    user.setMyClass(classList.get(1));
+                    user.setTotalHP(user.getMyClass().getClassHP());
+                    user.setCurrentHP(user.getMyClass().getClassHP());
+                    user.setPlayerSkills(playerSkills);
+                    user.getPlayerSkills().add(skillList.get(9));
+
+
                     if (user.getMyClass().getClassName() == skillList.get(0).getSkillName()) {
                         user.getPlayerSkills().add(skillList.get(0));
 
