@@ -139,7 +139,7 @@ public class Player {
         if (this.getWeapon().name.contains("Staff")){
             this.getNarrator().playDialogueSleep(38,3000);
             this.getNarrator().playDialogueSleep(39,3000);
-        }else if (this.getPlayerSkills().get(0).getSkillName() == skillList.get(1).getSkillName()){
+        }else if (this.getWeapon().name.contains("Sword")){
             this.getNarrator().playDialogueSleep(40,3000);
             this.getNarrator().playDialogueSleep(41,3000);
         }else if (this.getPlayerSkills().get(0).getSkillName() == skillList.get(2).getSkillName()){
