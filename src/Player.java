@@ -137,8 +137,8 @@ public class Player {
     }
     public void castSkill1(Enemy enemy, Narrator narrator){
         if (this.getWeapon().name.contains("Staff")){
-            this.getNarrator().playDialogueSleep(38,3000);
-            this.getNarrator().playDialogueSleep(39,3000);
+            narrator.playDialogueSleep(38,3000);
+            narrator.playDialogueSleep(39,3000);
         }else if (this.getWeapon().name.contains("Sword")){
             this.getNarrator().playDialogueSleep(40,3000);
             this.getNarrator().playDialogueSleep(41,3000);
