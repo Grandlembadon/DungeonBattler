@@ -156,7 +156,7 @@ public class DungeonBattlerController {
         String skillResponse = scanner.next();
         skillResponse += scanner.nextLine();
         if (skillResponse.equalsIgnoreCase("Cast Skill 1")) {
-            user.castSkill1(SkeletonSoldier, skillList);
+            user.castSkill1(SkeletonSoldier, narrator);
             validCommand = true;
         } else {
             System.out.println("Please enter [Cast Skill 1]");

@@ -33,7 +33,7 @@ We'll try using your Class Skill on our next turn, but first let's heal some of 
 You can use the SKILL command to cast First Aid. (Enter "Cast First Aid")
 Excellent! Remember, if your HP reaches zero, your journey ends here and your bones will rest here for eternity.
 Now we will show this skeleton your true power. This time, you will cast your main damaging skill.
-Each weapon will give you a different first skill. Why not see what you can do? (Enter "Cast Class Skill")
+Each weapon will give you a different first skill. Why not see what you can do? (Enter "Cast Skill 1")
 "I see you have a bit of power, well allow me to show you why i'm the keeper of this armory."
 Now I leave the fight in your hands, finish this pile of bones and seek your glory!
 Your oaken staff rises into the air and erupts in a purple flame. From the wide arching tip a portal appears.

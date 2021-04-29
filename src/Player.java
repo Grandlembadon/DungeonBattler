@@ -135,7 +135,7 @@ public class Player {
         narrator.playTextSleep("You were healed for " + newHP + " health points!",3000);
 
     }
-    public void castSkill1(Enemy enemy, ArrayList<Skill> skillList){
+    public void castSkill1(Enemy enemy, Narrator narrator){
         if (this.getWeapon().name.contains("Staff")){
             this.getNarrator().playDialogueSleep(38,3000);
             this.getNarrator().playDialogueSleep(39,3000);
