@@ -136,7 +136,7 @@ public class Player {
 
     }
     public void castSkill1(Enemy enemy, ArrayList<Skill> skillList){
-        if (this.getPlayerSkills().get(0).getSkillName() == skillList.get(0).getSkillName()) {
+        if (this.getWeapon().name.contains("Staff")){
             this.getNarrator().playDialogueSleep(38,3000);
             this.getNarrator().playDialogueSleep(39,3000);
         }else if (this.getPlayerSkills().get(0).getSkillName() == skillList.get(1).getSkillName()){
