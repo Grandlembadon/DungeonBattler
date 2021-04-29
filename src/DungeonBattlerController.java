@@ -58,7 +58,7 @@ public class DungeonBattlerController {
                 user.getPlayerSkills().add(skillList.get(9));
                 isValid = true;
 
-            } else if (chosenWeapon.contains("Sword")) {
+            } else if (chosenWeapon.equalsIgnoreCase("Sword")) {
                 user.setWeapon(weaponList.get(1));
                 narrator.weaponChoice(user);
                 user.setMyClass(classList.get(1));
@@ -70,7 +70,7 @@ public class DungeonBattlerController {
                 isValid = true;
 
 
-            } else if (chosenWeapon.contains("Dagger")) {
+            } else if (chosenWeapon.equalsIgnoreCase("Dagger")) {
                 user.setWeapon(weaponList.get(2));
                 narrator.weaponChoice(user);
                 user.setMyClass(classList.get(2));
