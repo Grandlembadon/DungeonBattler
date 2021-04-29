@@ -148,7 +148,7 @@ public class Player {
         }
         int newHP = (enemy.getCurrentHP() - this.getPlayerSkills().get(0).getSkillDamage());
         enemy.setCurrentHP(newHP);
-        this.getNarrator().playTextSleep(enemy.getEnemyName() + " was damaged for " + newHP + " health points!",3000);
+       narrator.playTextSleep(enemy.getEnemyName() + " was damaged for " + newHP + " health points!",3000);
 
 
     }
