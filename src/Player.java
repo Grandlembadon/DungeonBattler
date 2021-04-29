@@ -141,10 +141,10 @@ public class Player {
             narrator.playDialogueSleep(39,3000);
         }else if (this.getWeapon().name.contains("Sword")){
             narrator.playDialogueSleep(40,3000);
-            this.getNarrator().playDialogueSleep(41,3000);
+            narrator.playDialogueSleep(41,3000);
         }else if (this.getWeapon().name.contains("Dagger")){
-            this.getNarrator().playDialogueSleep(42,3000);
-            this.getNarrator().playDialogueSleep(43,3000);
+            narrator.playDialogueSleep(42,3000);
+            narrator.playDialogueSleep(43,3000);
         }
         int newHP = (enemy.getCurrentHP() - this.getPlayerSkills().get(0).getSkillDamage());
         enemy.setCurrentHP(newHP);
