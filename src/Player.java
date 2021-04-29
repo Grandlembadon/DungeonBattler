@@ -140,7 +140,7 @@ public class Player {
             narrator.playDialogueSleep(38,3000);
             narrator.playDialogueSleep(39,3000);
         }else if (this.getWeapon().name.contains("Sword")){
-            this.getNarrator().playDialogueSleep(40,3000);
+            narrator.playDialogueSleep(40,3000);
             this.getNarrator().playDialogueSleep(41,3000);
         }else if (this.getWeapon().name.contains("Dagger")){
             this.getNarrator().playDialogueSleep(42,3000);
