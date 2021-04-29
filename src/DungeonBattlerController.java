@@ -47,7 +47,7 @@ public class DungeonBattlerController {
 
         while (!isValid) {
             String chosenWeapon = scanner.next();
-            if (chosenWeapon.contains("Staff")) {
+            if (chosenWeapon.equalsIgnoreCase("Staff")) {
                 user.setWeapon(weaponList.get(0));
                 narrator.weaponChoice(user);
                 user.setMyClass(classList.get(0));
