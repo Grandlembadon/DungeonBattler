@@ -75,7 +75,7 @@ public class Narrator {
     }
 
     public void welcomePlayer(String userName) {
-        System.out.println("Welcome, " + userName + ", and may your quest prove victorious.");
+        this.playTextSleep("Welcome, " + userName + ", and may your quest prove victorious.", 3000);
     }
 
     public boolean promptEnter() {
