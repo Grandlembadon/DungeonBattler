@@ -162,8 +162,8 @@ public class DungeonBattlerController {
             System.out.println("Please enter [Cast Skill 1]");
         }
     }
+        narrator.playDialogueSleep(36,3000);
         SkeletonSoldier.castEnemySkill2(user);
-        
     }
 }
 
