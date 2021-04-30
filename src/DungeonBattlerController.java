@@ -121,7 +121,6 @@ public class DungeonBattlerController {
             validCommand = true;
         } else {
             System.out.println("Please enter [Strike]");
-            return;
 
         }
     }
