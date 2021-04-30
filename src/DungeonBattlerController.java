@@ -135,8 +135,7 @@ public class DungeonBattlerController {
         while(!validCommand)
 
     {
-        String firstAidResponse = scanner.next();
-        firstAidResponse += scanner.nextLine();
+        String firstAidResponse = scanner.nextLine();
         if (firstAidResponse.equalsIgnoreCase("Cast First Aid")) {
             user.castFirstAid(narrator);
             validCommand = true;
@@ -152,8 +151,7 @@ public class DungeonBattlerController {
         while(!validCommand)
 
     {
-        String skillResponse = scanner.next();
-        skillResponse += scanner.nextLine();
+        String skillResponse = scanner.nextLine();
         if (skillResponse.equalsIgnoreCase("Cast Skill 1")) {
             user.castSkill1(SkeletonSoldier, narrator);
             validCommand = true;
