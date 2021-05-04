@@ -188,6 +188,7 @@ public class DungeonBattlerController {
         narrator.playDialogueSleep(63,3000);
         narrator.playDialogueSleep(64,3000);
         narrator.playDialogueSleep(65,3000);
+        narrator.playDialogueSleep(66,3000);
 
 
     }
