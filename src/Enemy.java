@@ -27,14 +27,14 @@ public class Enemy extends Player {
     }
 
     public Enemy(int enemyHP, int enemySP, String enemyName, Weapon enemyWeapon) {
-        this.enemyHP = enemyHP;
+        this.enemyMaxHP = enemyHP;
         this.enemySP = enemySP;
         this.enemyName = enemyName;
         this.enemyWeapon = enemyWeapon;
     }
 
     public Enemy(int enemyHP, int enemySP, String enemyName) {
-        this.enemyHP = enemyHP;
+        this.enemyMaxHP = enemyHP;
         this.enemySP = enemySP;
         this.enemyName = enemyName;
     }
@@ -152,11 +152,11 @@ public class Enemy extends Player {
     }
 
     public int getEnemyHP() {
-        return enemyHP;
+        return enemyMaxHP;
     }
 
     public void setEnemyHP(int enemyHP) {
-        this.enemyHP = enemyHP;
+        this.enemyMaxHP = enemyHP;
     }
 
     public int getEnemySP() {
