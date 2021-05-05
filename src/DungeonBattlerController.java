@@ -1,3 +1,4 @@
+import com.sun.tools.corba.se.idl.toJavaPortable.Skeleton;
 import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
 
 import java.io.BufferedReader;
@@ -161,7 +162,7 @@ public class DungeonBattlerController {
     }
         narrator.playDialogueSleep(37,3000);
 
-        while (!battleOver){
+        while (user.getCurrentHP() == user.getTotalHP() || SkeletonSoldier.getEnemySP){
             narrator.playDialogueSleep(36,3000);
             SkeletonSoldier.castEnemySkill2(user, narrator);
 
@@ -196,6 +197,7 @@ public class DungeonBattlerController {
         narrator.playDialogueSleep(72,3000);
         narrator.playDialogueSleep(73,3000);
         narrator.playDialogueSleep(74,3000);
+        narrator.playDialogueSleep(75,3000);
         narrator.playDialogueSleep(75,3000);
 
 

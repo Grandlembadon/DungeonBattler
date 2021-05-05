@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Enemy extends Player {
-    private int enemyHP;
+    private int enemyMaxHP;
     private int enemySP;
     private String enemyName;
     private Narrator narrator;
