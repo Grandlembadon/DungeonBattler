@@ -162,7 +162,7 @@ public class DungeonBattlerController {
     }
         narrator.playDialogueSleep(37,3000);
 
-        while (user.getCurrentHP() == user.getTotalHP() || SkeletonSoldier.getEnemySP){
+        while (user.getCurrentHP() == user.getTotalHP() || SkeletonSoldier.getEnemyHP() == SkeletonSoldier.get3){
             narrator.playDialogueSleep(36,3000);
             SkeletonSoldier.castEnemySkill2(user, narrator);
 
