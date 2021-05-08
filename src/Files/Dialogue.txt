@@ -82,6 +82,8 @@ A cackling mass of force descends upon you and shocks you to your core.
 You have bested the Spectre! Do you wish to loot it's tattered raiments? (Enter y/n)
 You loot the Spectre of the hall and find some gold pieces, a Potion of Ghostly Evasion, and a mysterious pendant.
 The pendant houses a beautiful crystal. You look deeply into the crystal and there seems to be swirling fire within.
+Now that the hall is cleansed of the ghastly spectre, you begin to survey your surroundings for your next step.
+
 
 
 
