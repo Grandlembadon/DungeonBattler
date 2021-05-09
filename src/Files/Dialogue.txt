@@ -86,7 +86,7 @@ Now that the hall is cleansed of the ghastly spectre, you begin to survey your s
 You can feel the air pulling you in from the corner of the great hall.
 As you approach the corner of the hall you notice there is a statue of a cloaked figure with endless sleeves on it's robes.
 The draft of air is coming from underneath the statue. You notice some marks on the ground where the statue must have been moved.
-
+Do you wish to move the statue? (Enter Yes or No)
 
 
 
