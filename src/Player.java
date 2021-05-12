@@ -11,6 +11,7 @@ public class Player {
     private int currentSP;
     private String name;
     private Narrator narrator;
+    private boolean alive = true;
 
     public Player(String name) {
         this.name = name;
