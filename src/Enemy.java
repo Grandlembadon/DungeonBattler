@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 public class Enemy extends Player {
     private int enemyMaxHP;
+    private int enemyCurrentHP;
     private int enemySP;
     private String enemyName;
     private Narrator narrator;

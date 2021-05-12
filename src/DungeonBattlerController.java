@@ -162,7 +162,7 @@ public class DungeonBattlerController {
     }
         narrator.playDialogueSleep(37,3000);
 
-        while (user.getCurrentHP() == user.getTotalHP() || SkeletonSoldier.getEnemySP){
+        while (user.getCurrentHP() == user.getTotalHP() || SkeletonSoldier.getEnemyHP() == SkeletonSoldier.get3){
             narrator.playDialogueSleep(36,3000);
             SkeletonSoldier.castEnemySkill2(user, narrator);
 
@@ -210,7 +210,32 @@ public class DungeonBattlerController {
         narrator.playDialogueSleep(85,3000);
         narrator.playDialogueSleep(86,3000);
         narrator.playDialogueSleep(87,3000);
+<<<<<<< HEAD
         narrator.playDialogueSleep(87,3000);
+=======
+        narrator.playDialogueSleep(88,3000);
+        narrator.playDialogueSleep(89,3000);
+        narrator.playDialogueSleep(90,3000);
+        narrator.playDialogueSleep(91,3000);
+        narrator.playDialogueSleep(92,3000);
+        narrator.playDialogueSleep(93,3000);
+        narrator.playDialogueSleep(94,3000);
+        narrator.playDialogueSleep(95,3000);
+        narrator.playDialogueSleep(96,3000);
+        narrator.playDialogueSleep(97,3000);
+        narrator.playDialogueSleep(98,3000);
+        narrator.playDialogueSleep(99,3000);
+        narrator.playDialogueSleep(100,3000);
+        narrator.playDialogueSleep(101,3000);
+        narrator.playDialogueSleep(103,3000);
+        narrator.playDialogueSleep(104,3000);
+        narrator.playDialogueSleep(105,3000);
+        narrator.playDialogueSleep(106,3000);
+        narrator.playDialogueSleep(107,3000);
+        narrator.playDialogueSleep(108,3000);
+
+
+>>>>>>> 1fd50615eae88e7d6b22ef31611419a9e672f4b6
 
 
 
