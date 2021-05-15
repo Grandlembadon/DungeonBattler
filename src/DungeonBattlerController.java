@@ -1,11 +1,4 @@
-import com.sun.tools.corba.se.idl.toJavaPortable.Skeleton;
-import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -132,13 +125,10 @@ public class DungeonBattlerController {
         narrator.playDialogueSleep(30,3000);
         narrator.playDialogueSleep(31,3000);
         narrator.playDialogueSleep(32,3000);
-
+        String firstAidResponse = scanner.nextLine();
         validCommand = false;
 
-
     while (!validCommand){
-
-        String firstAidResponse = scanner.next();
         if (firstAidResponse.equalsIgnoreCase("Cast First Aid")) {
             user.castFirstAid(narrator);
             validCommand = true;
