@@ -132,10 +132,12 @@ public class DungeonBattlerController {
         narrator.playDialogueSleep(30,3000);
         narrator.playDialogueSleep(31,3000);
         narrator.playDialogueSleep(32,3000);
-    validCommand =false;
-        while(!validCommand)
 
-    {
+        validCommand = false;
+
+
+    while (!validCommand){
+
         String firstAidResponse = scanner.nextLine();
         if (firstAidResponse.equalsIgnoreCase("Cast First Aid")) {
             user.castFirstAid(narrator);
@@ -148,7 +150,7 @@ public class DungeonBattlerController {
         narrator.playDialogueSleep(33,3000);
         narrator.playDialogueSleep(34,3000);
         narrator.playDialogueSleep(35,3000);
-    validCommand =false;
+    validCommand = false;
         while(!validCommand)
 
     {
@@ -162,50 +164,17 @@ public class DungeonBattlerController {
     }
         narrator.playDialogueSleep(37,3000);
 
-        while (user.alive){
+     //   while (user.alive){
             narrator.playDialogueSleep(36,3000);
             SkeletonSoldier.castEnemySkill2(user, narrator);
 
         }
-        narrator.playDialogueSleep(44,3000);
-        narrator.playDialogueSleep(45,3000);
-        narrator.playDialogueSleep(46,3000);
-        narrator.playDialogueSleep(47,3000);
-        narrator.playDialogueSleep(48,3000);
-        narrator.playDialogueSleep(49,3000);
-        narrator.playDialogueSleep(50,3000);
-        narrator.playDialogueSleep(51,3000);
-        narrator.playDialogueSleep(52,3000);
-        narrator.playDialogueSleep(53,3000);
-        narrator.playDialogueSleep(54,3000);
-        narrator.playDialogueSleep(55,3000);
-        narrator.playDialogueSleep(56,3000);
-        narrator.playDialogueSleep(57,3000);
-        narrator.playDialogueSleep(58,3000);
-        narrator.playDialogueSleep(59,3000);
-        narrator.playDialogueSleep(60,3000);
-        narrator.playDialogueSleep(61,3000);
-        narrator.playDialogueSleep(62,3000);
-        narrator.playDialogueSleep(63,3000);
-        narrator.playDialogueSleep(64,3000);
-        narrator.playDialogueSleep(65,3000);
-        narrator.playDialogueSleep(66,3000);
-        narrator.playDialogueSleep(67,3000);
-        narrator.playDialogueSleep(68,3000);
-        narrator.playDialogueSleep(69,3000);
-        narrator.playDialogueSleep(71,3000);
-        narrator.playDialogueSleep(72,3000);
-        narrator.playDialogueSleep(73,3000);
-        narrator.playDialogueSleep(74,3000);
-        narrator.playDialogueSleep(75,3000);
-        narrator.playDialogueSleep(76,3000);
-        narrator.playDialogueSleep(77,3000);
-        narrator.playDialogueSleep(78,3000);
-        narrator.playDialogueSleep(79,3000);
-        narrator.playDialogueSleep(80,3000);
+
 
     }
-}
+
+
+
 
 
 
