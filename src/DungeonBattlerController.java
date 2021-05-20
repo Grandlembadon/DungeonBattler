@@ -124,8 +124,6 @@ public class DungeonBattlerController {
         narrator.playDialogueSleep(29,3000);
         narrator.playDialogueSleep(30,3000);
         narrator.playDialogueSleep(31,3000);
-        narrator.playDialogueSleep(32,3000);
-        String firstAidResponse = scanner.nextLine();
         validCommand = false;
 
     while (!validCommand){
@@ -160,26 +158,7 @@ public class DungeonBattlerController {
             narrator.playDialogueSleep(36,3000);
             SkeletonSoldier.castEnemySkill2(user, narrator);
         narrator.playDialogueSleep(37,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
-        narrator.playDialogueSleep(38,3000);
+
 
         }
 
