@@ -127,8 +127,11 @@ public class DungeonBattlerController {
         validCommand = false;
 
     while (!validCommand){
-        String firstAidResponse = scanner.nextLine();
+
+        Scanner scanner2 = new Scanner(System.in);
         narrator.playDialogueSleep(32,3000);
+        String firstAidResponse = scanner2.nextLine();
+
         if (firstAidResponse.equalsIgnoreCase("Cast First Aid")) {
             user.castFirstAid(narrator);
             validCommand = true;
