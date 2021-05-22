@@ -147,7 +147,8 @@ public class DungeonBattlerController {
         while(!validCommand)
 
     {
-        String skillResponse = scanner.nextLine();
+        Scanner scanner3 = new Scanner(System.in);
+        String skillResponse = scanner3.nextLine();
         if (skillResponse.equalsIgnoreCase("Cast Skill 1")) {
             user.castSkill1(SkeletonSoldier, narrator);
             validCommand = true;
