@@ -6,7 +6,7 @@ public class DungeonBattlerController {
     public void play() {
         boolean gameOver = false;
 
-        while (gameOver) {
+        while (!gameOver) {
 
 
             Narrator narrator = new Narrator();
@@ -160,12 +160,14 @@ public class DungeonBattlerController {
             SkeletonSoldier.castEnemySkill2(user, narrator);
             narrator.playDialogueSleep(37, 3000);
 
-            gameOver = true;
+            
+
 
         }
 
 
     }
+
 }
 
 
