@@ -1,4 +1,6 @@
 
+import com.sun.tools.corba.se.idl.toJavaPortable.Skeleton;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -159,17 +161,9 @@ public class DungeonBattlerController {
             }
             SkeletonSoldier.castEnemySkill2(user, narrator);
             narrator.playDialogueSleep(37, 3000);
-            narrator.playDialogueSleep(37, 3000);
-            narrator.playDialogueSleep(37, 3000);
-            narrator.playDialogueSleep(37, 3000);
-            narrator.playDialogueSleep(37, 3000);
-            narrator.playDialogueSleep(37, 3000);
-            narrator.playDialogueSleep(37, 3000);
-            narrator.playDialogueSleep(37, 3000);
-            narrator.playDialogueSleep(37, 3000);
 
 
-
+            while (user.getCurrentHP() != 0 || SkeletonSoldier.getEnemyHP())
 
         }
 
