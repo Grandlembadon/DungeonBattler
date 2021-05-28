@@ -128,6 +128,7 @@ public class Enemy extends Player {
     }
     public void enemyAI(Player user){
         if (user.getCurrentHP())
+            if (user.getCurrentHP())
 
     }
 
