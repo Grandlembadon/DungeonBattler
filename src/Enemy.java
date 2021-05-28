@@ -126,6 +126,9 @@ public class Enemy extends Player {
         this.getEnemySkills().add(skillList.get(3));
         this.getEnemySkills().add(skillList.get(4));
     }
+    public void enemyAI(){
+        
+    }
 
     public String getEnemyName() {
         return enemyName;
