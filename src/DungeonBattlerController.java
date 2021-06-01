@@ -93,7 +93,6 @@ public class DungeonBattlerController {
             narrator.playDialogueSleep(16, 3000);
 
 
-            boolean battleOver = true;
             boolean validCommand = false;
 
 
@@ -174,8 +173,10 @@ public class DungeonBattlerController {
             narrator.playDialogueSleep(37, 3000);
             narrator.playDialogueSleep(37, 3000);
 
+            boolean battleOver = false;
 
-            while (user.getCurrentHP() != 0 || SkeletonSoldier.getEnemyHP() != 0){
+
+            while (battleOver = false){
 
             }
 
