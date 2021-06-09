@@ -129,7 +129,7 @@ public class Enemy extends Player {
         } else if (this.enemyName.equalsIgnoreCase("VeteranDungeoneer")) {
             //add Veteran dialogue
         }
-        this.se
+        this.setCoolDown1(true);
 
     }
 
