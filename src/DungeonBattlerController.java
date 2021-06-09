@@ -162,7 +162,8 @@ public class DungeonBattlerController {
             boolean battleOver = false;
 
 
-            while (battleOver = false){
+            while (battleOver != true){
+                
 
             }
 
