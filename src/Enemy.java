@@ -12,6 +12,7 @@ public class Enemy extends Player {
     private Narrator narrator;
     ArrayList<Skill> enemySkills;
     private Weapon enemyWeapon;
+    private boolean coolDown = false;
 
     public Enemy(Narrator narrator) {
         this.narrator = narrator;
@@ -127,7 +128,7 @@ public class Enemy extends Player {
         this.getEnemySkills().add(skillList.get(4));
     }
     public void enemyAI(Player user){
-        if (user.getCurrentHP())
+        if (user.getCurrentHP() > 0)
             if (user.getCurrentHP())
 
     }

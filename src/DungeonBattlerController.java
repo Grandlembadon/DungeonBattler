@@ -163,7 +163,7 @@ public class DungeonBattlerController {
 
 
             while (battleOver != true){
-                
+
 
             }
 
