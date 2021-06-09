@@ -31,9 +31,6 @@ public class Enemy extends Player {
         this.enemyCurrentHP = enemyCurrentHP;
     }
 
-    public boolean isCoolDown1() {
-        return coolDown1;
-    }
 
     public void setCoolDown1(boolean coolDown) {
         this.coolDown1 = coolDown;
@@ -155,7 +152,7 @@ public class Enemy extends Player {
     }
     public void enemyAI(Player user){
         if (user.getCurrentHP() > 0)
-            if (user.getCurrentHP())
+            if (this.getCo
 
     }
 
