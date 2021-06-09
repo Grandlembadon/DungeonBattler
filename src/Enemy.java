@@ -14,6 +14,31 @@ public class Enemy extends Player {
     private Weapon enemyWeapon;
     private boolean coolDown = false;
 
+
+    public int getEnemyMaxHP() {
+        return enemyMaxHP;
+    }
+
+    public void setEnemyMaxHP(int enemyMaxHP) {
+        this.enemyMaxHP = enemyMaxHP;
+    }
+
+    public int getEnemyCurrentHP() {
+        return enemyCurrentHP;
+    }
+
+    public void setEnemyCurrentHP(int enemyCurrentHP) {
+        this.enemyCurrentHP = enemyCurrentHP;
+    }
+
+    public boolean isCoolDown() {
+        return coolDown;
+    }
+
+    public void setCoolDown(boolean coolDown) {
+        this.coolDown = coolDown;
+    }
+
     public Enemy(Narrator narrator) {
         this.narrator = narrator;
     }
