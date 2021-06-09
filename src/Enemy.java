@@ -12,7 +12,7 @@ public class Enemy extends Player {
     private Narrator narrator;
     ArrayList<Skill> enemySkills;
     private Weapon enemyWeapon;
-    private boolean coolDown = false;
+    private boolean coolDown1 = false;
 
 
     public int getEnemyMaxHP() {
@@ -31,12 +31,12 @@ public class Enemy extends Player {
         this.enemyCurrentHP = enemyCurrentHP;
     }
 
-    public boolean isCoolDown() {
-        return coolDown;
+    public boolean isCoolDown1() {
+        return coolDown1;
     }
 
-    public void setCoolDown(boolean coolDown) {
-        this.coolDown = coolDown;
+    public void setCoolDown1(boolean coolDown) {
+        this.coolDown1 = coolDown;
     }
 
     public Enemy(Narrator narrator) {
@@ -129,6 +129,7 @@ public class Enemy extends Player {
         } else if (this.enemyName.equalsIgnoreCase("VeteranDungeoneer")) {
             //add Veteran dialogue
         }
+        this.se
 
     }
 
