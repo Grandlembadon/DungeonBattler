@@ -13,6 +13,7 @@ public class Enemy extends Player {
     ArrayList<Skill> enemySkills;
     private Weapon enemyWeapon;
     private boolean coolDown1 = false;
+    private boolean coolDown2 = false;
 
 
     public int getEnemyMaxHP() {
@@ -31,6 +32,9 @@ public class Enemy extends Player {
         this.enemyCurrentHP = enemyCurrentHP;
     }
 
+    public boolean getCoolDown1() {
+        return coolDown1;
+    }
 
     public void setCoolDown1(boolean coolDown) {
         this.coolDown1 = coolDown;
@@ -152,7 +156,7 @@ public class Enemy extends Player {
     }
     public void enemyAI(Player user){
         if (user.getCurrentHP() > 0)
-            if (this.getCo
+            if (this.getCoolDown1() == true
 
     }
 
