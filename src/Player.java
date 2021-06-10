@@ -155,5 +155,9 @@ public class Player {
 
 
     }
+    public void turnPrompt(Enemy enemy, Narrator narrator){
+
+
+    }
 }
 
