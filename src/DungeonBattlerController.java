@@ -161,6 +161,7 @@ public class DungeonBattlerController {
             }
             narrator.playDialogueSleep(36, 3000);
             SkeletonSoldier.castEnemySkill2(user, narrator);
+            SkeletonSoldier.setCoolDown2(true);
             boolean battleOver = false;
 
 
