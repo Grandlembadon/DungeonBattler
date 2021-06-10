@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Player {
     private Item[] inventory;
@@ -155,7 +156,17 @@ public class Player {
 
 
     }
-    public void turnPrompt(Enemy enemy, Narrator narrator){
+    public void turnPrompt(Enemy enemy, Narrator narrator,boolean validCommand){
+        while (!validCommand) {
+            String response = scanner.next();
+            if (response.equalsIgnoreCase("strike")) {
+                user.strike(SkeletonSoldier, narrator);
+                validCommand = true;
+            } else {
+                System.out.println("Please enter [Strike]");
+
+            }
+        }
 
 
     }
