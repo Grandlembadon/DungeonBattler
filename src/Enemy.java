@@ -32,17 +32,14 @@ public class Enemy extends Player {
         this.enemyCurrentHP = enemyCurrentHP;
     }
 
-    public boolean getCoolDown1() {
+    public boolean isCoolDown1() {
         return coolDown1;
     }
 
     public void setCoolDown1(boolean coolDown) {
         this.coolDown1 = coolDown;
     }
-
-    public boolean isCoolDown1() {
-        return coolDown1;
-    }
+    
 
     public boolean isCoolDown2() {
         return coolDown2;
