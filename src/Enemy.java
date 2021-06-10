@@ -169,7 +169,7 @@ public class Enemy extends Player {
                 this.castEnemySkill1(user,narrator);
 
             }else if(this.isCoolDown2() == false){
-                
+                this.castEnemySkill2(user,narrator);
             }
 
         }
