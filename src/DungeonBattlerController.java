@@ -125,7 +125,7 @@ public class DungeonBattlerController {
             narrator.playDialogueSleep(27, 3000);
             narrator.playDialogueSleep(28, 3000);
             SkeletonSoldier.castEnemySkill1(user, narrator);
-            SkeletonSoldier.setCoolDown(true);
+            SkeletonSoldier.setCoolDown1(true);
             narrator.playDialogueSleep(29, 3000);
             narrator.playDialogueSleep(30, 3000);
             narrator.playDialogueSleep(31, 3000);
@@ -159,6 +159,7 @@ public class DungeonBattlerController {
                     System.out.println("Please enter [Cast Skill 1]");
                 }
             }
+            narrator.playDialogueSleep(36, 3000);
             SkeletonSoldier.castEnemySkill2(user, narrator);
             boolean battleOver = false;
 
