@@ -154,10 +154,13 @@ public class Enemy extends Player {
         this.getEnemySkills().add(skillList.get(3));
         this.getEnemySkills().add(skillList.get(4));
     }
-    public void enemyAI(Player user){
-        if (user.getCurrentHP() > 0)
-            if (this.getCoolDown1() == true
+    public void enemyAI(Player user) {
+        if (user.getCurrentHP() > 0) {
+            if (this.getCoolDown1() == true) {
 
+            }
+
+        }
     }
 
     public String getEnemyName() {
