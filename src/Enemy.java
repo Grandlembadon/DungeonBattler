@@ -170,6 +170,8 @@ public class Enemy extends Player {
 
             }else if(this.isCoolDown2() == false){
                 this.castEnemySkill2(user,narrator);
+            } else {
+                this.enemyStrike(user,narrator);
             }
 
         }
