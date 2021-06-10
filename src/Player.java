@@ -156,14 +156,15 @@ public class Player {
 
 
     }
-    public void turnPrompt(Enemy enemy, Narrator narrator,boolean validCommand){
+    public void turnPrompt(Enemy enemy, Narrator narrator,boolean validCommand, Scanner scanner){
         while (!validCommand) {
             String response = scanner.next();
             if (response.equalsIgnoreCase("strike")) {
-                user.strike(SkeletonSoldier, narrator);
+                this.strike(enemy, narrator);
                 validCommand = true;
-            } else {
-                System.out.println("Please enter [Strike]");
+            } else if (response.equalsIgnoreCase("skill")) {
+                narrator.playTextSleep("Which Skill?",3000);
+                narrator.playTextSleep("");
 
             }
         }
