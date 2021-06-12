@@ -167,6 +167,10 @@ public class Player {
                 this.getPlayerSkills();
 
                 String response2 = scanner2.next();
+
+                if (response2.equalsIgnoreCase(this.getPlayerSkills()){
+
+                }
             }
         }
 
