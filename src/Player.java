@@ -164,7 +164,7 @@ public class Player {
                 validCommand = true;
             } else if (response.equalsIgnoreCase("skill")) {
                 narrator.playTextSleep("Which Skill?",3000);
-                narrator.playTextSleep("");
+                narrator.playTextSleep(this.getPlayerSkills());
 
             }
         }
