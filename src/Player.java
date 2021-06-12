@@ -166,9 +166,7 @@ public class Player {
                 narrator.playTextSleep("Which Skill?",3000);
                 this.getPlayerSkills();
 
-                
-
-
+                String response2 = scanner2.next();
             }
         }
 
