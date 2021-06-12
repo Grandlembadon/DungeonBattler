@@ -156,7 +156,7 @@ public class Player {
 
 
     }
-    public void turnPrompt(Enemy enemy, Narrator narrator,boolean validCommand, Scanner scanner){
+    public void turnPrompt(Enemy enemy, Narrator narrator,boolean validCommand, Scanner scanner, Scanner scanner2){
         while (!validCommand) {
             String response = scanner.next();
             if (response.equalsIgnoreCase("strike")) {
@@ -165,6 +165,9 @@ public class Player {
             } else if (response.equalsIgnoreCase("skill")) {
                 narrator.playTextSleep("Which Skill?",3000);
                 this.getPlayerSkills();
+
+                
+
 
             }
         }
