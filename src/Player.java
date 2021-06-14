@@ -170,7 +170,11 @@ public class Player {
 
                 if (response2.equalsIgnoreCase(this.getPlayerSkills().get(0).getSkillName())){
                     this.castSkill1(enemy,narrator);
+                    validCommand = true;
 
+                } else if (response2.equalsIgnoreCase(this.getPlayerSkills().get(1).getSkillName())){
+                    this.castFirstAid(narrator);
+                    validCommand = true;
                 }
             }
         }
