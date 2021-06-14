@@ -176,7 +176,7 @@ public class Player {
                     this.castFirstAid(narrator);
                     validCommand = true;
                 }
-            }
+            } else if (response.equalsIgnoreCase())
         }
 
 

@@ -35,6 +35,7 @@ Excellent! Remember, if your HP reaches zero, your journey ends here and your bo
 Now we will show this skeleton your true power. This time, you will cast your main damaging skill.
 Each weapon will give you a different first skill. Why not see what you can do? (Enter "Cast Skill 1")
 "I see you have a bit of power, well allow me to show you why i'm the keeper of this armory."
+Sometimes, an enemy will prepare an all out attack. In these times, we can use DEFEND to reduce incoming damage by half.
 Now I leave the fight in your hands, finish this pile of bones and seek your glory!
 Your oaken staff rises into the air and erupts in a purple flame. From the wide arching tip a portal appears.
 The portal conjures forth an assault of purple asteroids, searing the enemy with molten flame.
