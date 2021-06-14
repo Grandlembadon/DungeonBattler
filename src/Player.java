@@ -134,9 +134,7 @@ public class Player {
     }
     public void defend(Narrator narrator, boolean isDefending){
         isDefending = true;
-
-
-
+        narrator.playTextSleep(this.getName() + "takes a defensive stance!", 3000);
     }
     public void castFirstAid(Narrator narrator){
         int newHP = (this.getCurrentHP() + this.getPlayerSkills().get(1).getSkillDamage());
