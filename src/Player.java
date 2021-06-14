@@ -168,7 +168,7 @@ public class Player {
 
                 String response2 = scanner2.next();
 
-                if (response2.equalsIgnoreCase(this.getPlayerSkills().get())){
+                if (response2.equalsIgnoreCase(this.getPlayerSkills().get(0).getSkillName())){
 
                 }
             }
