@@ -13,6 +13,7 @@ public class Player {
     private String name;
     private Narrator narrator;
     private boolean alive = true;
+    private boolean isDefending = false;
 
     public Player(String name) {
         this.name = name;
@@ -131,8 +132,10 @@ public class Player {
 
         }
     }
-    public void defend(Narrator narrator, Enemy enemy){
-        
+    public void defend(Narrator narrator, boolean isDefending){
+        isDefending = true;
+
+
 
     }
     public void castFirstAid(Narrator narrator){
