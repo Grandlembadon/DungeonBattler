@@ -139,14 +139,14 @@ public class Player {
     }
     public void castSkill1(Enemy enemy, Narrator narrator){
         if (this.getWeapon().name.contains("Staff")){
-            narrator.playDialogueSleep(38,3000);
-            narrator.playDialogueSleep(39,3000);
-        }else if (this.getWeapon().name.contains("Sword")){
-            narrator.playDialogueSleep(40,3000);
             narrator.playDialogueSleep(41,3000);
-        }else if (this.getWeapon().name.contains("Dagger")){
             narrator.playDialogueSleep(42,3000);
+        }else if (this.getWeapon().name.contains("Sword")){
             narrator.playDialogueSleep(43,3000);
+            narrator.playDialogueSleep(44,3000);
+        }else if (this.getWeapon().name.contains("Dagger")){
+            narrator.playDialogueSleep(45,3000);
+            narrator.playDialogueSleep(46,3000);
         }
         int newHP = (enemy.getCurrentHP() - this.getPlayerSkills().get(0).getSkillDamage());
         enemy.setCurrentHP(newHP);
