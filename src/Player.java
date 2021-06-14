@@ -131,6 +131,10 @@ public class Player {
 
         }
     }
+    public void defend(Narrator narrator, Enemy enemy){
+        
+
+    }
     public void castFirstAid(Narrator narrator){
         int newHP = (this.getCurrentHP() + this.getPlayerSkills().get(1).getSkillDamage());
         this.setCurrentHP(newHP);
@@ -176,7 +180,9 @@ public class Player {
                     this.castFirstAid(narrator);
                     validCommand = true;
                 }
-            } else if (response.equalsIgnoreCase())
+            } else if (response.equalsIgnoreCase("defend")){
+
+            }
         }
 
 
