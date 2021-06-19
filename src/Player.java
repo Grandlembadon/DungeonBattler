@@ -183,6 +183,7 @@ public class Player {
                 }
             } else if (response.equalsIgnoreCase("defend")){
                 this.defend(narrator,isDefending);
+                validCommand = true;
 
             }
         }
