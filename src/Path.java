@@ -4,7 +4,8 @@ public enum Path {
     CLASSES("src/Files/ClassInfo.txt"),
     SKILLS("src/Files/SKillLIst.txt"),
     ENEMYWEAPONS("src/Files/EnemyWeaponList.txt"),
-    ENEMYINFO("src/Files/EnemyInfo.txt");
+    ENEMYINFO("src/Files/EnemyInfo.txt"),
+    ITEMLIST("src/Files/ItemList.txt");
     String path;
 
     Path(String path) {
