@@ -2,7 +2,13 @@ public class Item {
     private String itemName;
     private int quantity;
 
+    public int getQuantity() {
+        return quantity;
+    }
 
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
 
     public Item(String itemName, int itemQuantity) {
         this.itemName = itemName;
