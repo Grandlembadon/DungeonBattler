@@ -182,6 +182,7 @@ public class Player {
                     validCommand = true;
                 }
             } else if (response.equalsIgnoreCase("defend")){
+                this.defend(narrator,isDefending);
 
             }
         }
