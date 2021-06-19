@@ -18,15 +18,7 @@ public class Player {
     public Player(String name) {
         this.name = name;
     }
-
-    public Item[] getInventory() {
-        return inventory;
-    }
-
-    public void setInventory(Item[] inventory) {
-        this.inventory = inventory;
-    }
-
+    
     public Weapon getWeapon() {
         return weapon;
     }
