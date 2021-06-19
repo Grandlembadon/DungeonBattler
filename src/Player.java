@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Player {
-    private Item[] inventory;
     private Weapon weapon;
     private ArrayList<Skill> playerSkills;
+    private ArrayList<Item> inventory;
     private Class myClass;
     private int totalHP;
     private int totalSP;
@@ -136,6 +136,7 @@ public class Player {
         isDefending = true;
         narrator.playTextSleep(this.getName() + "takes a defensive stance!", 3000);
     }
+    public void useItem(Narrator narrator, ArrayList<> )
     public void castFirstAid(Narrator narrator){
         int newHP = (this.getCurrentHP() + this.getPlayerSkills().get(1).getSkillDamage());
         this.setCurrentHP(newHP);
@@ -185,7 +186,7 @@ public class Player {
                 this.defend(narrator,isDefending);
                 validCommand = true;
 
-            }
+            } else if (response.equalsIgnoreCase())
         }
 
 
