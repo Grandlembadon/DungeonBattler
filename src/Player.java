@@ -153,7 +153,7 @@ public class Player {
         narrator.playTextSleep(this.getName() + "takes a defensive stance!", 3000);
     }
     public void useItem(Narrator narrator, ArrayList<Item> inventory){
-        
+
     }
     public void castFirstAid(Narrator narrator){
         int newHP = (this.getCurrentHP() + this.getPlayerSkills().get(1).getSkillDamage());

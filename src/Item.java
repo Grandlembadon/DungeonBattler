@@ -1,5 +1,7 @@
 public class Item {
-    String itemName;
+    private String itemName;
+    private int quantity;
+
 
 
     public Item(String itemName, int itemQuantity) {
