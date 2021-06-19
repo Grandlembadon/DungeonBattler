@@ -18,9 +18,33 @@ public class Player {
     public Player(String name) {
         this.name = name;
     }
-    
+
     public Weapon getWeapon() {
         return weapon;
+    }
+
+    public ArrayList<Item> getInventory() {
+        return inventory;
+    }
+
+    public void setInventory(ArrayList<Item> inventory) {
+        this.inventory = inventory;
+    }
+
+    public boolean isAlive() {
+        return alive;
+    }
+
+    public void setAlive(boolean alive) {
+        this.alive = alive;
+    }
+
+    public boolean isDefending() {
+        return isDefending;
+    }
+
+    public void setDefending(boolean defending) {
+        isDefending = defending;
     }
 
     public void setWeapon(Weapon weapon) {
