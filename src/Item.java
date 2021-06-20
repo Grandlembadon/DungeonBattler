@@ -25,7 +25,8 @@ public class Item {
         this.itemName = itemName;
     }
 
-    public void useItem(){
+    public void useItem(Narrator narrator){
+        
 
 
     }
