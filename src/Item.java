@@ -26,7 +26,8 @@ public class Item {
     }
 
     public void useItem(Narrator narrator){
-        
+        int newQuantity = this.getQuantity() - 1;
+        this.setQuantity(newQuantity);
 
 
     }
