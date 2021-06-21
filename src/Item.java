@@ -49,7 +49,7 @@ public class Item {
         ArrayList<Item> itemList = new ArrayList<>();
 
         try {
-            inputStream = new BufferedReader(new FileReader(Path.SKILLS.path));
+            inputStream = new BufferedReader(new FileReader(Path.ITEMLIST.path));
 
             String skillLine;
 
