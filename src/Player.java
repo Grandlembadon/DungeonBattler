@@ -204,7 +204,9 @@ public class Player {
                 this.defend(narrator,isDefending);
                 validCommand = true;
 
-            } else if (response.equalsIgnoreCase())
+            } else if (response.equalsIgnoreCase("item")){
+                this.useItem(narrator,inventory);
+            }
         }
 
 
