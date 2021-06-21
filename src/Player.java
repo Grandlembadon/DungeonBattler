@@ -206,6 +206,7 @@ public class Player {
 
             } else if (response.equalsIgnoreCase("item")){
                 this.useItem(narrator,inventory);
+                validCommand = true;
             }
         }
 
