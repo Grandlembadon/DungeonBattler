@@ -51,10 +51,10 @@ public class Item {
         try {
             inputStream = new BufferedReader(new FileReader(Path.ITEMLIST.path));
 
-            String skillLine;
+            String itemLine;
 
-            while ((skillLine = inputStream.readLine()) != null) {
-                String [] skillInfo = skillLine.split(",");
+            while ((itemLine = inputStream.readLine()) != null) {
+                String [] itemInfo = itemLine;
                 String skillName = skillInfo[0];
                 int skillCost = Integer.parseInt(skillInfo[1]);
                 int skillDamage = Integer.parseInt(skillInfo[2]);
