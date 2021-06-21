@@ -43,10 +43,10 @@ public class Item {
     public void sellItem(){
 
     }
-    public static ArrayList<Skill> createSkillList() {
+    public static ArrayList<Item> createItemList() {
 
         BufferedReader inputStream = null;
-        ArrayList<Skill> skillList = new ArrayList<>();
+        ArrayList<Item> itemList = new ArrayList<>();
 
         try {
             inputStream = new BufferedReader(new FileReader(Path.SKILLS.path));
@@ -59,7 +59,7 @@ public class Item {
                 int skillCost = Integer.parseInt(skillInfo[1]);
                 int skillDamage = Integer.parseInt(skillInfo[2]);
                 Skill skill = new Skill(skillName,skillCost,skillDamage);
-                skillList.add(skill);
+                itemList.add(skill);
 
             }
 
