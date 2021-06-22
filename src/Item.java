@@ -23,6 +23,11 @@ public class Item {
 
     }
 
+    public Item(String itemName) {
+        this.itemName = itemName;
+    }
+    
+
     public String getItemName() {
         return itemName;
     }
@@ -46,7 +51,7 @@ public class Item {
     public static ArrayList<Item> createItemList() {
 
         BufferedReader inputStream = null;
-        ArrayList<String> itemList = new ArrayList<>();
+        ArrayList<Item> itemList = new ArrayList<>();
 
         try {
             inputStream = new BufferedReader(new FileReader(Path.ITEMLIST.path));
