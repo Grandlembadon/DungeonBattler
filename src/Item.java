@@ -54,12 +54,11 @@ public class Item {
             String itemLine;
 
             while ((itemLine = inputStream.readLine()) != null) {
-                String [] itemInfo = itemLine;
-                String skillName = skillInfo[0];
-                int skillCost = Integer.parseInt(skillInfo[1]);
-                int skillDamage = Integer.parseInt(skillInfo[2]);
-                Skill skill = new Skill(skillName,skillCost,skillDamage);
-                itemList.add(skill);
+                itemLine = itemLine.trim();
+
+                if ((itemLine.length() != 0)) {
+                    dialogueList.add(dialogueLine);
+                }
 
             }
 
