@@ -46,7 +46,7 @@ public class Item {
     public static ArrayList<Item> createItemList() {
 
         BufferedReader inputStream = null;
-        ArrayList<Item> itemList = new ArrayList<>();
+        ArrayList<String> itemList = new ArrayList<>();
 
         try {
             inputStream = new BufferedReader(new FileReader(Path.ITEMLIST.path));
@@ -57,7 +57,7 @@ public class Item {
                 itemLine = itemLine.trim();
 
                 if ((itemLine.length() != 0)) {
-                    dialogueList.add(dialogueLine);
+                    itemList.add(itemLine);
                 }
 
             }
