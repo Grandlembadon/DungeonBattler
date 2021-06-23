@@ -26,7 +26,7 @@ public class Item {
     public Item(String itemName) {
         this.itemName = itemName;
     }
-    
+
 
     public String getItemName() {
         return itemName;
@@ -56,14 +56,10 @@ public class Item {
         try {
             inputStream = new BufferedReader(new FileReader(Path.ITEMLIST.path));
 
-            String itemLine;
+            String itemname;
 
-            while ((itemLine = inputStream.readLine()) != null) {
-                itemLine = itemLine.trim();
-
-                if ((itemLine.length() != 0)) {
-                    itemList.add(itemLine);
-                }
+            while ((itemname = inputStream.readLine()) != null) {
+                
 
             }
 
@@ -76,7 +72,7 @@ public class Item {
         }
 
 
-        return skillList;
+        return itemList;
 
     }
 
