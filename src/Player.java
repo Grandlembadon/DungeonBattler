@@ -156,6 +156,10 @@ public class Player {
         //create a useItem method later
 
     }
+    public void checkStatus(Narrator narrator){
+        narrator.playTextSleep((this.getName() + " currently has " + this.getCurrentHP() + " Health Points " +
+                " and " + this.getCurrentSP() + " Skill Points."), 3000);
+    }
 
 
     public void castFirstAid(Narrator narrator){
