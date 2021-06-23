@@ -21,6 +21,7 @@ public class DungeonBattlerController {
             ArrayList<Skill> skillList = Skill.createSkillList();
             ArrayList<Skill> playerSkills = new ArrayList();
             ArrayList<Enemy> enemyList = Enemy.createEnemyList();
+            ArrayList<Item> itemList = Item.createItemList();
 
 
             narrator.playDialogueSleep(0, 3000);
