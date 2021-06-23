@@ -60,6 +60,7 @@ public class Item {
 
             while ((itemname = inputStream.readLine()) != null) {
                 Item item = new Item(itemname);
+                itemList.add(item);
 
 
 
