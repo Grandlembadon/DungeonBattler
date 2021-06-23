@@ -166,6 +166,7 @@ public class DungeonBattlerController {
             boolean battleOver = false;
             narrator.playDialogueSleep(37, 3000);
             narrator.playDialogueSleep(37, 3000);
+
             narrator.playDialogueSleep(37, 3000);
 
 
