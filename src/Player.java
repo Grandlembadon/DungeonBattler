@@ -153,8 +153,11 @@ public class Player {
         narrator.playTextSleep(this.getName() + "takes a defensive stance!", 3000);
     }
     public void useItem(Narrator narrator, ArrayList<Item> inventory){
+        //create a useItem method later
 
     }
+
+
     public void castFirstAid(Narrator narrator){
         int newHP = (this.getCurrentHP() + this.getPlayerSkills().get(1).getSkillDamage());
         this.setCurrentHP(newHP);
@@ -180,6 +183,7 @@ public class Player {
 
 
     }
+
     public void turnPrompt(Enemy enemy, Narrator narrator,boolean validCommand, Scanner scanner, Scanner scanner2){
         while (!validCommand) {
             String response = scanner.next();
@@ -208,7 +212,7 @@ public class Player {
                 this.useItem(narrator,inventory);
                 validCommand = true;
             } else if (response.equalsIgnoreCase("status")){
-                
+
             }
         }
 
