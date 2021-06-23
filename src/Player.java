@@ -216,7 +216,11 @@ public class Player {
                 this.useItem(narrator,inventory);
                 validCommand = true;
             } else if (response.equalsIgnoreCase("status")){
+                this.checkStatus(narrator);
+                validCommand = true;
 
+            }else {
+                narrator.playTextSleep("Please enter a valid Action.", 3000);
             }
         }
 
