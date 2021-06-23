@@ -59,6 +59,7 @@ public class Item {
             String itemname;
 
             while ((itemname = inputStream.readLine()) != null) {
+                Item item = new Item(itemname);
 
 
 
