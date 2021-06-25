@@ -37,7 +37,7 @@ Each weapon will give you a different first skill. Why not see what you can do? 
 "I see you have a bit of power, well allow me to show you why i'm the keeper of this armory."
 Sometimes, an enemy will prepare an all out attack. In these times, we can use DEFEND to reduce incoming damage by half.
 We will discuss the ITEM command when the time comes...
-Finally, if you wish to check your current Health Points and Spirit Points, you can use the STATUS command.
+Finally, if you wish to check your current Health Points and Skill Points, you can use the STATUS command.
 Now I leave the fight in your hands, finish this pile of bones and seek your glory!
 Your oaken staff rises into the air and erupts in a purple flame. From the wide arching tip a portal appears.
 The portal conjures forth an assault of purple asteroids, searing the enemy with molten flame.
