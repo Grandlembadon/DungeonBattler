@@ -166,14 +166,8 @@ public class DungeonBattlerController {
             boolean battleOver = false;
             narrator.playDialogueSleep(37, 3000);
             narrator.playDialogueSleep(37, 3000);
-<<<<<<< HEAD
-=======
+            narrator.playDialogueSleep(37, 3000);
 
-            narrator.playDialogueSleep(37, 3000);
-            narrator.playDialogueSleep(37, 3000);
-            narrator.playDialogueSleep(37, 3000);
->>>>>>> 549d8c32bced0c58ed8a70527ff8499b9bfdeea6
-            narrator.playDialogueSleep(37, 3000);
 
 
             while (user.getCurrentHP() > 0 || SkeletonSoldier.getEnemyCurrentHP() > 0){
