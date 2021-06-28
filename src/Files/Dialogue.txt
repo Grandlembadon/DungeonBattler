@@ -30,7 +30,7 @@ Excellent! A fine first strike. Each of the Command Actions takes up your turn i
 This time, it looks like the skeleton casted a spell using one of his skills. It did a bit more damage than his normal attack.
 Just like the skeleton, you have a skill to use. When you picked up your weapon, you also inherited some of the power of the dungeoneer before you.
 We'll try using your Class Skill on our next turn, but first let's heal some of the damage the skeleton did. Every dungeoneer has the First Aid ability.
-You can use the SKILL command to cast First Aid. (Enter "Cast First Aid")
+You can use the SKILL command to cast First Aid. (Enter "Skill", then "First Aid")
 Excellent! Remember, if your HP reaches zero, your journey ends here and your bones will rest here for eternity.
 Now we will show this skeleton your true power. This time, you will cast your main damaging skill.
 Each weapon will give you a different first skill. Why not see what you can do? (Enter "Cast Skill 1")
