@@ -91,7 +91,7 @@ public class DungeonBattlerController {
             narrator.playDialogueSleep(13, 3000);
             narrator.playDialogueSleep(14, 3000);
             narrator.playDialogueSleep(15, 2500);
-            narrator.playDialogueSleep(16, 3000);
+            narrator.playDialogueSleep(16, 3000); //Battle Start
 
 
             boolean validCommand = false;
@@ -101,13 +101,8 @@ public class DungeonBattlerController {
                     enemyList.get(0).getEnemyName(), enemyWeaponList.get(0));
             ArrayList<Skill> EnemySkills = new ArrayList();
             SkeletonSoldier.setEnemySkills(EnemySkills);
-            SkeletonSoldier.getEnemySkills().
-
-                    add(skillList.get(3));
-            SkeletonSoldier.getEnemySkills().
-
-                    add(skillList.get(4));
-
+            SkeletonSoldier.getEnemySkills().add(skillList.get(3));
+            SkeletonSoldier.getEnemySkills().add(skillList.get(4));
 
             SkeletonSoldier.enemyStrike(user, narrator);
             narrator.playDialogueSleep(21, 3000);
