@@ -142,7 +142,7 @@ public class DungeonBattlerController {
                     }
 
                 } else {
-                    System.out.println("Please enter [Cast First Aid]");
+                    System.out.println("Please enter a valid command");
                 }
             }
             SkeletonSoldier.enemyStrike(user, narrator);
