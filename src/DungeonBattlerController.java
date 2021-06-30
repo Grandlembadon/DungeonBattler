@@ -134,7 +134,7 @@ public class DungeonBattlerController {
 
                 if (firstAidResponse.equalsIgnoreCase("skill")) {
                     narrator.playTextSleep("Which Skill?", 3000);
-                    String firstAidResponse2 = scanner2.next();
+                    String firstAidResponse2 = scanner3.next();
                     if (firstAidResponse2.equalsIgnoreCase("first aid")) {
                         user.castFirstAid(narrator);
                         validCommand = true;
