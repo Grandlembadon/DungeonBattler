@@ -174,7 +174,7 @@ public class DungeonBattlerController {
 
 
             while (user.getCurrentHP() > 0 || SkeletonSoldier.getEnemyCurrentHP() > 0){
-                user.turnPrompt(SkeletonSoldier,narrator,);
+                user.turnPrompt(SkeletonSoldier,narrator,scanner,scanner);
 
 
 
