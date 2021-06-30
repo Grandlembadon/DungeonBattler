@@ -128,6 +128,7 @@ public class DungeonBattlerController {
             while (!validCommand) {
 
                 Scanner scanner2 = new Scanner(System.in);
+                Scanner scanner3 = new Scanner(System.in);
                 narrator.playDialogueSleep(32, 3000);
                 String firstAidResponse = scanner2.nextLine();
 
