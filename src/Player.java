@@ -188,7 +188,8 @@ public class Player {
 
     }
 
-    public void turnPrompt(Enemy enemy, Narrator narrator,boolean validCommand, Scanner scanner, Scanner scanner2){
+    public void turnPrompt(Enemy enemy, Narrator narrator, Scanner scanner, Scanner scanner2){
+        boolean validCommand = true;
         while (!validCommand) {
             String response = scanner.next();
             if (response.equalsIgnoreCase("strike")) {
