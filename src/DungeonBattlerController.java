@@ -165,16 +165,11 @@ public class DungeonBattlerController {
             SkeletonSoldier.setCoolDown2(true);
             boolean battleOver = false;
             narrator.playDialogueSleep(37, 3000);
-            narrator.playDialogueSleep(37, 3000);
-            narrator.playDialogueSleep(37, 3000);
-            narrator.playDialogueSleep(37, 3000);
-            narrator.playDialogueSleep(37, 3000);
-
-
 
 
             while (user.getCurrentHP() > 0 || SkeletonSoldier.getEnemyCurrentHP() > 0){
                 user.turnPrompt(SkeletonSoldier,narrator,scanner,scanner);
+                SkeletonSoldier.enemyAI(user);
 
 
 
