@@ -1,6 +1,4 @@
 
-import com.sun.tools.corba.se.idl.toJavaPortable.Skeleton;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -134,9 +132,9 @@ public class DungeonBattlerController {
                 String firstAidResponse = scanner2.nextLine();
 
                 if (firstAidResponse.equalsIgnoreCase("skill")) {
-                    narrator.playTextSleep("Which Skill?",3000);
+                    narrator.playTextSleep("Which Skill?", 3000);
                     String firstAidResponse2 = scanner2.next();
-                    if (firstAidResponse2.equalsIgnoreCase("first aid"){
+                    if (firstAidResponse2.equalsIgnoreCase("first aid")) {
                         user.castFirstAid(narrator);
                         validCommand = true;
                     }
@@ -149,7 +147,7 @@ public class DungeonBattlerController {
             narrator.playDialogueSleep(33, 3000);
             narrator.playDialogueSleep(34, 3000);
             narrator.playDialogueSleep(35, 3000);
-            validCommand = false;
+            validCommand = true;
             while (!validCommand) {
                 Scanner scanner3 = new Scanner(System.in);
                 String skillResponse = scanner3.nextLine();
@@ -167,12 +165,9 @@ public class DungeonBattlerController {
             narrator.playDialogueSleep(37, 3000);
 
 
-            while (user.getCurrentHP() > 0 || SkeletonSoldier.getEnemyCurrentHP() > 0){
-                user.turnPrompt(SkeletonSoldier,narrator,scanner,scanner);
+            while (user.getCurrentHP() > 0 || SkeletonSoldier.getEnemyCurrentHP() > 0) {
+                user.turnPrompt(SkeletonSoldier, narrator, scanner, scanner);
                 SkeletonSoldier.enemyAI(user);
-
-
-
 
             }
 
