@@ -134,7 +134,7 @@ public class DungeonBattlerController {
 
                 if (firstAidResponse.equalsIgnoreCase("skill")) {
                     narrator.playTextSleep("Which Skill?", 3000);
-                    String firstAidResponse2 = scanner3.next();
+                    String firstAidResponse2 = scanner3.nextLine();
                     if (firstAidResponse2.equalsIgnoreCase("first aid")) {
                         user.castFirstAid(narrator);
                         validCommand = true;
@@ -152,7 +152,7 @@ public class DungeonBattlerController {
             while (!validCommand) {
                 Scanner scanner3 = new Scanner(System.in);
                 String skillResponse = scanner3.nextLine();
-                if (skillResponse.equalsIgnoreCase("Cast Skill 1")) {
+                if (skillResponse.equalsIgnoreCase("Cast Skill 1")) {//next bug on dbz
                     user.castSkill1(SkeletonSoldier, narrator);
                     validCommand = true;
                 } else {
@@ -164,7 +164,7 @@ public class DungeonBattlerController {
             SkeletonSoldier.setCoolDown2(true);
             boolean battleOver = false;
             narrator.playDialogueSleep(37, 3000);
-            
+
 
 
             while (user.getCurrentHP() > 0 || SkeletonSoldier.getEnemyCurrentHP() > 0) {
