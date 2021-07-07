@@ -152,7 +152,7 @@ public class DungeonBattlerController {
             while (!validCommand) {
                 Scanner scanner3 = new Scanner(System.in);
                 String skillResponse = scanner3.nextLine();
-                if (skillResponse.equalsIgnoreCase("Cast Skill 1")) {//next bug on dbz
+                if (skillResponse.equalsIgnoreCase("Cast Skill 1")) {
                     user.castSkill1(SkeletonSoldier, narrator);
                     validCommand = true;
                 } else {
@@ -164,7 +164,8 @@ public class DungeonBattlerController {
             SkeletonSoldier.setCoolDown2(true);
             boolean battleOver = false;
             narrator.playDialogueSleep(37, 3000);
-            
+            narrator.playDialogueSleep(37, 3000);
+
 
 
 
