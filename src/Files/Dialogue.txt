@@ -91,7 +91,7 @@ As you approach the corner of the hall you notice there is a statue of a cloaked
 The draft of air is coming from underneath the statue. You notice some marks on the ground where the statue must have been moved.
 Do you wish to move the statue? (Enter Yes or No)
 You decide to move the statue. At first it seems that it won't budge, but if you push with all your might it starts to shift.
-
+Beneath the statue was a secret hatch. You open the hatch and see a ladder descending even deeper into the Dungeon.
 
 
 
