@@ -97,7 +97,8 @@ Bones of various monsters and humans litter the ground. Hand carved runes of anc
 Something seems off about this. As if sensing your distrust, the runes around the entrance flicker slightly and reveal a
 faint sheen of a magical veil in front of the entrance. Perhaps the remains of the dead and the field are linked?
 What should you do?
-(You Can: 1.Enter the Magical Veil. 2.Inspect the Runes. 3.Strike the Magical Veil. 4.Use the 
+(You Can: 1.Enter the Magical Veil. 2.Inspect the Runes. 3.Strike the Magical Veil. 4.Use the remains of a skeleton to
+make a puppet friend.)
 
 
 
