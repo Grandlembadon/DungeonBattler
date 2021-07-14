@@ -94,7 +94,8 @@ You decide to move the statue. At first it seems that it won't budge, but if you
 Beneath the statue was a secret hatch. You open the hatch and see a ladder descending even deeper into the Dungeon.
 You reach the bottom of the ladder and feel dirt beneath your feet. Before you is a long cave with candles lighting the walls.
 Bones of various monsters and humans litter the ground. Hand carved runes of ancient dark magic surround the cave entrance.
-Something seems off about this. As if sensing your distrust, the runes around the entrance flicker slightly and reveal a 
+Something seems off about this. As if sensing your distrust, the runes around the entrance flicker slightly and reveal a
+faint sheen of a magical veil in front of the entrance. Perhaps the remains of the dead and the field are linked?
 
 
 
