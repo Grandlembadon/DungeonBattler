@@ -93,7 +93,7 @@ Do you wish to move the statue? (Enter Yes or No)
 You decide to move the statue. At first it seems that it won't budge, but if you push with all your might it starts to shift.
 Beneath the statue was a secret hatch. You open the hatch and see a ladder descending even deeper into the Dungeon.
 You reach the bottom of the ladder and feel dirt beneath your feet. Before you is a long cave with candles lighting the walls.
-
+Bones of various monsters and humans litter the ground. Hand carved runes of ancient dark magic surround the cave entrance.
 
 
 
