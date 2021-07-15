@@ -100,7 +100,7 @@ What should you do?
 (You Can: 1.Enter the Magical Veil. 2.Inspect the Runes. 3.Strike the Magical Veil. 4.Use the remains of a skeleton to
 make a puppet friend.)
 You puff out your chest and flash yourself a confident look in the reflection of the Veil, and charge forth.
-
+With double the force of your push, you are shot backwards into the pile of remains and take 5 damage.
 
 
 
