@@ -101,7 +101,9 @@ What should you do?
 make a puppet friend.)
 You puff out your chest and flash yourself a confident look in the reflection of the Veil, and charge forth.
 With double the force of your push, you are shot backwards into the pile of remains and take 5 damage.
-You take a step back form the Veil itself and take a closer look at the runes.
+You take a step back form the Veil itself and take a closer look at the runes. There are two on either side and one above the entrance.
+
+
 
 
 
