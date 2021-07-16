@@ -105,11 +105,7 @@ You take a step back form the Veil itself and take a closer look at the runes. T
 The top rune and the right rune have a faint glow about them, and a splatter of blood in the middle.
 You deduce that with some blood on the left rune, you can perhaps break the Veil.
 Will you try? (Enter Yes or No)
-ou are shot backwards into the pile of remains and take 5 damage.
-You take a step back form the Veil itself and take a closer look at the runes. There are two on either side and one above the entrance.
-The top rune and the right rune have a faint glow about them, and a splatter of blood in the middle.
-You deduce that with some blood on the left rune, you can perhaps break the Veil.
-Will you try? (Enter Yes or No)
+
 
 
 
