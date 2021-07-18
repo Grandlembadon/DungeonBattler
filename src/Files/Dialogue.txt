@@ -106,9 +106,6 @@ The top rune and the right rune have a faint glow about them, and a splatter of 
 You deduce that with some blood on the left rune, you can perhaps break the Veil.
 Will you try? (Enter Yes or No)
 
-right rune have a faint glow about them, and a splatter of blood in the middle.
-You deduce that with some blood on the left rune, you can perhaps break the Veil.
-Will you try? (Enter Yes or No)
 
 
 

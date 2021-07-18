@@ -18,6 +18,15 @@ public class Player {
 
     public Player(String name) {
         this.name = name;
+
+    }
+
+    public boolean isBerserking() {
+        return isBerserking;
+    }
+
+    public void setBerserking(boolean berserking) {
+        isBerserking = berserking;
     }
 
     public Weapon getWeapon() {
