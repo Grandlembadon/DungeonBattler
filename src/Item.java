@@ -40,13 +40,6 @@ public class Item {
         int newQuantity = this.getQuantity() - 1;
         this.setQuantity(newQuantity);
 
-
-    }
-    public void discardItem(){
-
-    }
-    public void sellItem(){
-
     }
     public static ArrayList<Item> createItemList() {
 
