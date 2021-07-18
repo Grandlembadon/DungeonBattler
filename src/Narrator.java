@@ -32,9 +32,7 @@ public class Narrator {
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        
     }
 
     public void playDialogue(int dialogueIndex) {
