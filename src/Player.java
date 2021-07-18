@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Player {
+    private boolean isBerserking = false;
     private Weapon weapon;
     private ArrayList<Skill> playerSkills;
     private ArrayList<Item> inventory;
