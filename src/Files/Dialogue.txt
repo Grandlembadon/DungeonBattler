@@ -120,7 +120,9 @@ You really have no idea what to do here, and it's getting lonely in the dungeon.
 So, you decide to construct a little puppet friend out of the remains of the nearby warriors.
 Now that you have a puppet friend, you feel more confident in the other options.
 You enter a crudely dug tunnel. Torches litter the walls but their light burns dim.
-The tunnel opens up into a large hallowed out section of the cave. 
+The tunnel opens up into a large hallowed out section of the cave.
+The path ascends slightly and as you cautiously creep forward, a sense of dread fills the air.
+
 
 
 
