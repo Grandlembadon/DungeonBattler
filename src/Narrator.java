@@ -43,6 +43,12 @@ public class Narrator {
 
     }
 
+    public void playDialogue(int dialogueIndex) {
+        String dialogueLine = this.dialogueList.get(dialogueIndex);
+        System.out.println(dialogueLine);
+
+    }
+
     public void playDialogueSleep(int dialogueIndex, int sleepTimeMs) {
         String dialogueLine = this.dialogueList.get(dialogueIndex);
         System.out.println(dialogueLine);
