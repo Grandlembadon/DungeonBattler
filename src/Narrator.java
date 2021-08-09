@@ -42,7 +42,14 @@ public class Narrator {
         System.out.println(dialogueLine);
 
     }
-    
+
+
+    public void playDialogue(int dialogueIndex) {
+        String dialogueLine = this.dialogueList.get(dialogueIndex);
+        System.out.println(dialogueLine);
+
+    }
+
 
 
 
