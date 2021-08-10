@@ -42,7 +42,7 @@ public class Narrator {
         System.out.println(dialogueLine);
 
     }
-    
+
 
 
 
