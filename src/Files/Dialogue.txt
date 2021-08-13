@@ -137,9 +137,7 @@ The shadow slowly raises from the corpse and begins to approach you. "Fear not, 
 Out of the darkness he approaches, a tall mountain man. Although he says not to fear, his gaze is cold and emotionless.
 "I'm just like you. A fellow dungeoneer. I've been down here for a long time, I can tell your journey is just beginning."
 The weathered dungeoneer stops a couple feet away from you and sit down on a large boulder.
-his gaze is cold and emotionless.
-"I'm just like you. A fellow dungeoneer. I've been down here for a long time, I can tell your journey is just beginning."
-The weathered dungeoneer stops a couple feet away from you and sit down on a large boulder. 
+
 
 
 
