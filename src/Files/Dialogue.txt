@@ -157,6 +157,16 @@ Option 1: Fight the strange man. A sneak attack may be our only chance against a
 Option 2: Give Mr. B the amulet. He seems to need it more than you do.
 Option 3: Tell Mr. B that you ate some bad cave bugs earlier and you don't feel so well. And attempt to flee the way you came.
 
+f loot. An amulet of sorts."
+Your mind quickly flashes to the amulet resting quietly in your bag.
+Mr. Balthazar's gaze flashes for only an instant, but his calm expression remains. "I used to be a soldier from the neighboring town, until a great warlock decimated the town and it's people."
+"I lost too much that day. And that warlock is going to pay back every drop of blood that he spilled. The town sage spoke of an amulet of great power, somewhere in this dungeon."
+You decide to remain silent for now and simply listen to the story. A small bead of sweat trickles down your neck, but you give no sign of the amulet.
+What do you wish to do?
+Option 1: Fight the strange man. A sneak attack may be our only chance against a more advanced warrior like this.
+Option 2: Give Mr. B the amulet. He seems to need it more than you do.
+Option 3: Tell Mr. B that you ate some bad cave bugs earlier and you don't feel so well. And attempt to flee the way you came.
+
 
 
 
