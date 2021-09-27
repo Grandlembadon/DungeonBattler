@@ -158,8 +158,6 @@ Option 2: Give Mr. B the amulet. He seems to need it more than you do.
 Option 3: Tell Mr. B that you ate some bad cave bugs earlier and you don't feel so well. And attempt to flee the way you came.
 
 
-Option 2: Give Mr. B the amulet. He seems to need it more than you do.
-Option 3: Tell Mr. B that you ate some bad cave bugs earlier and you don't feel so well. And attempt to flee the way you came.
 
 
 
