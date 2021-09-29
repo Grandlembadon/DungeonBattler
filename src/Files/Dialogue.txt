@@ -153,7 +153,7 @@ Mr. Balthazar's gaze flashes for only an instant, but his calm expression remain
 "I lost too much that day. And that warlock is going to pay back every drop of blood that he spilled. The town sage spoke of an amulet of great power, somewhere in this dungeon."
 You decide to remain silent for now and simply listen to the story. A small bead of sweat trickles down your neck, but you give no sign of the amulet.
 What do you wish to do?
-Option 1: Fight the strange man. A sneak attack may be our only chance against a more advanced warrior like this.
+Option 1: Fight the strange man. A sneak attack may be your only chance against a more advanced warrior like this.
 Option 2: Give Mr. B the amulet. He seems to need it more than you do.
 Option 3: Tell Mr. B that you ate some bad cave bugs earlier and you don't feel so well. And attempt to flee the way you came.
 You decide that it's best to fight. As your stance shifts ever so slightly for battle, Mr. B. notices instantly.
@@ -164,6 +164,10 @@ Mr. B shudders as he grows into a battle stature. He brandishes a massive axe li
 You reach into your pack and find the amulet. You cautiously hand it over to Mr. Balthazar.
 "Ah... You don't know how long i've been searching... How long i've been down here..."
 Mr. Balthazar breaks down to his knees. His weapons clatter and make a cold echo through the cave.
+"With this I can finally avenge my homeland. Thank you. If you don't mind, why don't we leave this dungeon together?"
+
+
+
 
 
 
